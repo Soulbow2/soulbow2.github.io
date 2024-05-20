@@ -1263,7 +1263,7 @@ wqueen.style.background="forestgreen";
 wrook.style.background="forestgreen";
 wknight.style.background="forestgreen";
 wbishop.style.background="forestgreen";}
-else if (bbishop.style.background==="black") {
+else if (bknight.style.background==="black") {
 bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
 bqueen.style.background="forestgreen";
