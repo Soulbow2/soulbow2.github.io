@@ -380,7 +380,7 @@ bbishop.style.background="forestgreen";}
 else if (element.style.background==="plum") {
 element.setattribute(src, blank.png);}}
 
-function wpawn() {
+function funcwpawn() {
 if (wking.style.background==="black") {
 wpawn.style.background="black";
 wking.style.background="forestgreen";
@@ -450,7 +450,7 @@ else if (wpawn.style.background==="forestgreen") {
 wpawn.style.background="black";}
 else {wpawn.style.background="forestgreen";}}
 
-function wking() {
+function funcwking() {
 if (wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
 wking.style.background="black";
@@ -520,7 +520,7 @@ else if (wking.style.background==="forestgreen") {
 wking.style.background="black";}
 else {wking.style.background="forestgreen";}}
 
-function wqueen() {
+function funcwqueen() {
 if (wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
 wking.style.background="forestgreen";
@@ -590,7 +590,7 @@ else if (wqueen.style.background==="forestgreen") {
 wqueen.style.background="black";}
 else {wqueen.style.background="black";}}
 
-function wrook() {
+function funcwrook() {
 if (wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
 wking.style.background="forestgreen";
@@ -660,7 +660,7 @@ else if (wrook.style.background==="forestgreen") {
 wrook.style.background="black";}
 else {wrook.style.background="forestgreen";}}
 
-function wknight() {
+function funcwknight() {
 if (wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
 wking.style.background="forestgreen";
@@ -730,7 +730,7 @@ else if (wknight.style.background==="forestgreen") {
 wknight.style.background="black";}
 else {wknight.style.background="forestgreen";}}
 
-function wbishop() {
+function funcwbishop() {
 if (wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
 wking.style.background="forestgreen";
@@ -800,7 +800,7 @@ else if (wbishop.style.background==="forestgreen") {
 wbishop.style.background="black";}
 else {wbishop.style.background="forestgreen";}}
 
-function bpawn() {
+function funcbpawn() {
 if (bking.style.background==="black") {
 bpawn.style.background="black";
 bking.style.background="forestgreen";
@@ -870,7 +870,7 @@ else if (bpawn.style.background==="forestgreen") {
 bpawn.style.background="black";}
 else {bpawn.style.background="forestgreen";}}
 
-function bking() {
+function funcbking() {
 if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
 bking.style.background="black";
@@ -940,7 +940,7 @@ else if (bking.style.background==="forestgreen") {
 bking.style.background="black";}
 else {bking.style.background="forestgreen";}}
 
-function bqueen() {
+function funcbqueen() {
 if (bpawn.style.background=="black") {
 bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
@@ -1010,7 +1010,7 @@ else if (bqueen.style.background==="forestgreen") {
 bqueen.style.background="black";}
 else {bqueen.style.background="forestgreen";}}
 
-function brook() {
+function funcbrook() {
 if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
@@ -1074,7 +1074,7 @@ else if (brook.style.background==="forestgreen") {
 brook.style.background="black";}
 else {brook.style.background="forestgreen";}}
 
-function fbknight() {
+function funcbknight() {
 if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
