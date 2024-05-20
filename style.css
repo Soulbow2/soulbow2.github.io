@@ -1,0 +1,12 @@
+body {
+  background: linear-gradient(90deg, gold, darkcyan, cyan, silver);
+  color: gold;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;}
+table{height: 370px; width: 370px;}
+main {height: 40px; width: 40px; background: darkcyan;}
+section {height: 40px; width: 40px; background: plum;}
+footer {height: 40px; width: 40px; background: forestgreen;}
