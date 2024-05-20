@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta https-equiv="x-ua-compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button onclick="boardSet();" id="btnReset" style="background: black; color: white; border-radius: 45px 45px 45px 45px;">press</button>
+<table><tr>
+<td><main onclick="selectTile(this)" id="tile1"></main></td>
+<td><section onclick="selectTile(this)" id="tile2"></section></td>
+<td><main onclick="selectTile(this)" id="tile3"></main></td>
+<td><section onclick="selectTile(this)" id="tile4"></section></td>
+<td><main onclick="selectTile(this)" id="tile5"></main></td>
+<td><section onclick="selectTile(this)" id="tile6"></section></td>
+<td><main onclick="selectTile(this)" id="tile7"></main></td>
+<td><section onclick="selectTile(this)" id="tile8"></section></td>
+</tr><tr>
+<td><section onclick="selectTile(this)" id="tile9"></section></td>
+<td><main onclick="selectTile(this)" id="tile10"></main></td>
+<td><section onclick="selectTile(this)" id="tile11"></section></td>
+<td><main onclick="selectTile(this)" id="tile12"></main></td>
+<td><section onclick="selectTile(this)" id="tile13"></section></td>
+<td><main onclick="selectTile(this)" id="tile14"></main></td>
+<td><section onclick="selectTile(this)" id="tile15"></section></td>
+<td><main onclick="selectTile(this)" id="tile16"></main></td>
+</tr><tr>
+<td><main onclick="selectTile(this)" id="tile17"></main></td>
+<td><section onclick="selectTile(this)" id="tile18"></section></td>
+<td><main onclick="selectTile(this)" id="tile19"></main></td>
+<td><section onclick="selectTile(this)" id="tile20"></section></td>
+<td><main onclick="selectTile(this)" id="tile21"></main></td>
+<td><section onclick="selectTile(this)" id="tile22"></section></td>
+<td><main onclick="selectTile(this)" id="tile23"></main></td>
+<td><section onclick="selectTile(this)" id="tile24"></section></td>
+</tr><tr>
+<td><section onclick="selectTile(this)" id="tile25"></section></td>
+<td><main onclick="selectTile(this)" id="tile26"></main></td>
+<td><section onclick="selectTile(this)" id="tile27"></section></td>
+<td><main onclick="selectTile(this)" id="tile28"></main></td>
+<td><section onclick="selectTile(this)" id="tile29"></section></td>
+<td><main onclick="selectTile(this)" id="tile30"></main></td>
+<td><section onclick="selectTile(this)" id="tile31"></section></td>
+<td><main onclick="selectTile(this)" id="tile32"></main></td>
+</tr>
+<tr>
+<td><main onclick="selectTile(this)" id="tile33"></main></td>
+<td><section onclick="selectTile(this)" id="tile34"></section></td>
+<td><main onclick="selectTile(this)" id="tile35"></main></td>
+<td><section onclick="selectTile(this)" id="tile36"></section></td>
+<td><main onclick="selectTile(this)" id="tile37"></main></td>
+<td><section onclick="selectTile(this)" id="tile38"></section></td>
+<td><main onclick="selectTile(this)" id="tile39"></main></td>
+<td><section onclick="selectTile(this)" id="tile40"></section></td>
+</tr><tr>
+<td><section onclick="selectTile(this)" id="tile41"></section></td>
+<td><main onclick="selectTile(this)" id="tile42"></main></td>
+<td><section onclick="selectTile(this)" id="tile43"></section></td>
+<td><main onclick="selectTile(this)" id="tile44"></main></td>
+<td><section onclick="selectTile(this)" id="tile45"></section></td>
+<td><main onclick="selectTile(this)" id="tile46"></main></td>
+<td><section onclick="selectTile(this)" id="tile47"></section></td>
+<td><main onclick="selectTile(this)" id="tile48"></main></td>
+</tr><tr>
+<td><main onclick="selectTile(this)" id="tile49"></main></td>
+<td><section onclick="selectTile(this)" id="tile50"></section></td>
+<td><main onclick="selectTile(this)" id="tile51"></main></td>
+<td><section onclick="selectTile(this)" id="tile52"></section></td>
+<td><main onclick="selectTile(this)" id="tile53"></main></td>
+<td><section onclick="selectTile(this)" id="tile54"></section></td>
+<td><main onclick="selectTile(this)" id="tile55"></main></td>
+<td><section onclick="selectTile(this)" id="tile56"></section></td>
+</tr><tr>
+<td><section onclick="selectTile(this)" id="tile57"></section></td>
+<td><main onclick="selectTile(this)" id="tile58"></main></td>
+<td><section onclick="selectTile(this)" id="tile59"></section></td>
+<td><main onclick="selectTile(this)" id="tile60"></main></td>
+<td><section onclick="selectTile(this)" id="tile61"></section></td>
+<td><main onclick="selectTile(this)" id="tile62"></main></td>
+<td><section onclick="selectTile(this)" id="tile63"></section></td>
+<td><main onclick="selectTile(this)" id="tile64"></main></td>
+</tr></table>
+<table><tr>
+<td><footer id="Wking"></footer></td>
+<td><footer id="wQueen"></footer></td>
+<td><footer id="wrook"></footer></td>
+<td><footer id="wbishop"></footer></td>
+<td><footer id="wknight"></footer></td>
+</tr><tr>
+<td><footer id="bking"></footer></td>
+<td><footer id="bQueen"></footer></td>
+<td><footer id="brook"></footer></td>
+<td><footer id="bbishop"></footer></td>
+<td><footer id="bknight"></footer></td>
+</tr></table>
+<br><button id="button" onclick="color()" style="background: red; padding: 10px 10px 10px 10px">Tap Here to Select Colour</button><br><br><button id="kingButtonPurple" onclick="kingPurple()" style="background: grey">Activate and Move Reds King</button>
+<br><button id="kingButtonOrange" onclick="kingOrange()" style="background: grey">Activate and Move Blacks King</button> 
+<br><p>Crafted By <span style="font-family: cursive">Dylan Smith</span></p><button onclick="reset()" class="btn btn-danger">Reset</button>
+<br><br><a href="/chess/chess.html"><button class="btn btn-secondary">Chess</button></a>
+<br><br><a href="/tac/tac.html"><button class="btn btn-secondary">TicTacToe</button></a>
+<br><br><a href="/index.html"><button class="btn btn-secondary">Home</button></a>
+<script src="/checkers/checkers.js"></script>
+</body></html>
