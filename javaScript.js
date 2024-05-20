@@ -559,7 +559,7 @@ bqueen.style.background="forestgreen";
 brook.style.background="forestgreen";
 bknight.style.background="forestgreen";
 bbishop.style.background="forestgreen";}
-else if (wrook.style.background==="forestgreen") {
+else if (wrook.style.background==="black") {
 wpawn.style.background="forestgreen";
 wking.style.background="forestgreen";
 wqueen.style.background="black";
