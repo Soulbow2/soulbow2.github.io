@@ -534,7 +534,7 @@ bqueen.style.background="forestgreen";
 brook.style.background="forestgreen";
 bknight.style.background="forestgreen";
 bbishop.style.background="forestgreen";}
-else if (king.style.background==="black") {
+else if (wking.style.background==="black") {
 wpawn.style.background="forestgreen";
 wking.style.background="forestgreen";
 wqueen.style.background="black";
