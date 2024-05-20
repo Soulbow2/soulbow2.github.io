@@ -813,7 +813,7 @@ bqueen.style.background="forestgreen";
 brook.style.background="forestgreen";
 bknight.style.background="forestgreen";
 bbishop.style.background="forestgreen";}
-else if (wbishop.style.background==="black") {
+else if (wknight.style.background==="black") {
 wpawn.style.background="forestgreen";
 wking.style.background="forestgreen";
 wqueen.style.background="forestgreen";
