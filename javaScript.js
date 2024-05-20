@@ -588,7 +588,7 @@ bknight.style.background="forestgreen";
 bbishop.style.background="forestgreen";}
 else if (wqueen.style.background==="forestgreen") {
 wqueen.style.background="black";}
-else {wqueen.style.background="black";}}
+else {wqueen.style.background="forestgreen";}}
 
 function funcwrook() {
 if (wpawn.style.background==="black") {
@@ -941,7 +941,7 @@ bking.style.background="black";}
 else {bking.style.background="forestgreen";}}
 
 function funcbqueen() {
-if (bpawn.style.background=="black") {
+if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
 bqueen.style.background="black";
