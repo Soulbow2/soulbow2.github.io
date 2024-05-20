@@ -954,7 +954,7 @@ wqueen.style.background="forestgreen";
 wrook.style.background="forestgreen";
 wknight.style.background="forestgreen";
 wbishop.style.background="forestgreen";}
-else if (king.style.background==="black") {
+else if (bking.style.background==="black") {
 bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
 bqueen.style.background="black";
