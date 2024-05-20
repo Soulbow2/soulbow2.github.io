@@ -63,18 +63,6 @@ const tile61=document.getElementById("tile61");
 const tile62=document.getElementById("tile62");
 const tile63=document.getElementById("tile63");
 const tile64=document.getElementById("tile64");
-const wpawn=document.getElementById("wpawn");
-const wking=document.getElementById("wking");
-const wqueen=document.getElementById("wqueen");
-const wrook=document.getElementById("wrook");
-const wknight=document.getElementById("wknight");
-const wbishop=document.getElementById("wbishop");
-const bpawn=document.getElementById("bpawn");
-const bking=document.getElementById("bking");
-const bqueen=document.getElementById("bqueen");
-const brook=document.getElementById("brook");
-const bknight=document.getElementById("bknight");
-const bbishop=document.getElementById("bbishop");
 const one=document.getElementById("one");
 const two=document.getElementById("two");
 const three=document.getElementById("three");
@@ -1215,15 +1203,3 @@ bbishop.style.background="black";}
 else {bbishop.style.background="forestgreen";}}
 
 btnReset.addEventListener("click", boardSet);
-pwawn.addEventListener("click", wpawn);
-wking.addEventListener("click", wking);
-wqueen.addEventListener("click", wqueen);
-wrook.addEventListener("click", wrook);
-wknight.addEventListener("click", wknight);
-wbishop.addEventListener("click", wbishop);
-bpawn.addEventListener("click", bpawn);
-bking.addEventListener("click", bking);
-bqueen.addEventListener("click", bqueen);
-brook.addEventListener("click", brook);
-bknight.addEventListener("click", bknight);
-bbishop.addEventListener("click", bbishop);
