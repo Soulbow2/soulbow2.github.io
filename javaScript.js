@@ -606,7 +606,7 @@ bqueen.style.background="forestgreen";
 brook.style.background="forestgreen";
 bknight.style.background="forestgreen";
 bbishop.style.background="forestgreen";}
-else {wqueen.style.background="black";}}
+else {wqueen.style.background="forestgreen";}}
 
 function funcwrook() {
 if (wpawn.style.background==="black") {
