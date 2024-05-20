@@ -1144,7 +1144,7 @@ else if (bknight.style.background==="forestgreen") {
 bknight.style.background="black";}
 else {bknight.style.background="forestgreen";}}
 
-function bbishop() {
+function funcbbishop() {
 if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
