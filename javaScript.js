@@ -158,79 +158,36 @@ tile62.setattribute(src, wbishop.png);
 tile63.setattribute(src, wknight.png);
 tile64.setattribute(src, wrook.png);}
 
-function notation() {
-if (one.style.background==="forestgreen") {
-one.style.background="red";
+function notation(element) {
+if (one.style.background==="red") {
+one.style.background="forestgreen";
+element.style.background="red";}
+else if (two.style.background==="red") {
 two.style.background="forestgreen";
+element.style.background="red";}
+else if (three.style.background==="red") {
 three.style.background="forestgreen";
+element.style.background="red";}
+else if (four.style.background==="red") {
 four.style.background="forestgreen";
+element.style.background="red";}
+else if (five.style.background==="red") {
 five.style.background="forestgreen";
+element.style.background="red";}
+else if (six.style.background==="red") {
 six.style.background="forestgreen";
+element.style.background="red";}
+else if (seven.style.background==="red") {
 seven.style.background="forestgreen";
-eight.style.background="forestgreen";}
-else if (two.style.background==="forestgreen") {
-two.style.background="red";
-one.style.background="forestgreen";
-three.style.background="forestgreen";
-four.style.background="forestgreen";
-five.style.background="forestgreen";
-six.style.background="forestgreen";
-seven.style.background="forestgreen";
-eight.style.background="forestgreen";}
-else if (three.style.background==="forestgreen") {
-three.style.background="red";
-one.style.background="forestgreen";
-two.style.background="forestgreen";
-four.style.background="forestgreen";
-five.style.background="forestgreen";
-six.style.background="forestgreen";
-seven.style.background="forestgreen";
-eight.style.background="forestgreen";}
-else if (four.style.background==="forestgreen") {
-four.style.background="red";
-one.style.background="forestgreen";
-two.style.background="forestgreen";
-three.style.background="forestgreen";
-five.style.background="forestgreen";
-six.style.background="forestgreen";
-seven.style.background="forestgreen";
-eight.style.background="forestgreen";}
-else if (five.style.background==="forestgreen") {
-five.style.background="red";
-one.style.background="forestgreen";
-two.style.background="forestgreen";
-three.style.background="forestgreen";
-four.style.background="forestgreen";
-six.style.background="forestgreen";
-seven.style.background="forestgreen";
-eight.style.background="forestgreen";}
-else if (six.style.background==="forestgreen") {
-six.style.background="red";
-one.style.background="forestgreen";
-two.style.background="forestgreen";
-three.style.background="forestgreen";
-four.style.background="forestgreen";
-five.style.background="forestgreen";
-seven.style.background="forestgreen";
-eight.style.background="forestgreen";}
-else if (seven.style.background==="forestgreen") {
-seven.style.background="red";
-one.style.background="forestgreen";
-two.style.background="forestgreen";
-three.style.background="forestgreen";
-four.style.background="forestgreen";
-five.style.background="forestgreen";
-six.style.background="forestgreen";
-eight.style.background="forestgreen";}
-else if (eight.style.background==="forestgreen") {
-eight.style.background="red";
-one.style.background="forestgreen";
-two.style.background="forestgreen";
-three.style.background="forestgreen";
-four.style.background="forestgreen";
-five.style.background="forestgreen";
-six.style.background="forestgreen";
-seven.style.background="forestgreen";}
+element.style.background="red";}
+else if (eight.style.background==="red") {
+eight.style.background="forestgreen";
+element.style.background="red";}
+else if (element.style.background==="forestgreen") {
+element.style.background="red";}
+else if (element.style.background==="red") {
+element.style.background="forestgreen";}
+
 else if (aone.style.background==="forestgreen") {
 aone.style.background="red";
 btwo.style.background="forestgreen";
