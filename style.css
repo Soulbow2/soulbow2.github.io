@@ -10,5 +10,5 @@ table{height: 370px; width: 370px;}
 main {height: 40px; width: 40px; background: forestgreen;}
 section {height: 40px; width: 40px; background: darkcyan;}
 footer {height: 40px; width: 40px; background: forestgreen;}
-p {font-size: 10px; color: gold; margin-top: 13px; text-align: center;}
-
+p {font-size: 30px; color: gold; text-align: center;}
+h5 {font-size: 10px; colour: silver; text-align: center;}
