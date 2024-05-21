@@ -600,7 +600,7 @@ bqueen.style.background="black";
 brook.style.background="forestgreen";}
 else if (bknight.style.background==="black") {
 bqueen.style.background="black";
-bknight.style.background="forestgreen";
+bknight.style.background="forestgreen";}
 else if (bbishop.style.background==="black") {
 bqueen.style.background="black";
 bbishop.style.background="forestgreen";}
