@@ -589,7 +589,7 @@ wbishop.style.background="forestgreen";}
 else {bking.style.background="forestgreen";}}
 
 function funcbqueen() {
-if (bpawn.style.background=="black") {
+if (bpawn.style.background==="black") {
 bqueen.style.background="black";
 bpawn.style.background="forestgreen";}
 else if (bking.style.background==="black") {
