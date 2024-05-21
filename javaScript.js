@@ -187,79 +187,30 @@ else if (element.style.background==="forestgreen") {
 element.style.background="red";}
 else if (element.style.background==="red") {
 element.style.background="forestgreen";}
-
-else if (aone.style.background==="forestgreen") {
-aone.style.background="red";
+else if (aone.style.background==="red") {
+aone.style.background="forestgreen";
+element.style.background='red';}
+else if (btwo.style.background==="red") {
 btwo.style.background="forestgreen";
+element.style.background='red';}
+else if (cthree.style.background==="red") {
 cthree.style.background="forestgreen";
+element.style.background='red';}
+else if (dfour.style.background==="red") {
 dfour.style.background="forestgreen";
+element.style.background='red';}
+else if (efive.style.background==="red") {
 efive.style.background="forestgreen";
+element.style.background='red';}
+else if (fsix.style.background==="red") {
 fsix.style.background="forestgreen";
+element.style.background='red';}
+else if (gseven.style.background==="red") {
 gseven.style.background="forestgreen";
-height.style.background="forestgreen";}
-else if (btwo.style.background==="forestgreen") {
-btwo.style.background="red";
-aone.style.background="forestgreen";
-cthree.style.background="forestgreen";
-dfour.style.background="forestgreen";
-efive.style.background="forestgreen";
-fsix.style.background="forestgreen";
-gseven.style.background="forestgreen";
-height.style.background="forestgreen";}
-else if (cthree.style.background==="forestgreen") {
-cthree.style.background="red";
-aone.style.background="forestgreen";
-btwo.style.background="forestgreen";
-dfour.style.background="forestgreen";
-efive.style.background="forestgreen";
-fsix.style.background="forestgreen";
-gseven.style.background="forestgreen";
-height.style.background="forestgreen";}
-else if (dfour.style.background==="forestgreen") {
-dfour.style.background="red";
-aone.style.background="forestgreen";
-btwo.style.background="forestgreen";
-cthree.style.background="forestgreen";
-efive.style.background="forestgreen";
-fsix.style.background="forestgreen";
-gseven.style.background="forestgreen";
-height.style.background="forestgreen";}
-else if (efive.style.background==="forestgreen") {
-efive.style.background="red";
-aone.style.background="forestgreen";
-btwo.style.background="forestgreen";
-cthree.style.background="forestgreen";
-dfour.style.background="forestgreen";
-fsix.style.background="forestgreen";
-gseven.style.background="forestgreen";
-height.style.background="forestgreen";}
-else if (fsix.style.background==="forestgreen") {
-fsix.style.background="red";
-aone.style.background="forestgreen";
-btwo.style.background="forestgreen";
-cthree.style.background="forestgreen";
-dfour.style.background="forestgreen";
-efive.style.background="forestgreen";
-gseven.style.background="forestgreen";
-height.style.background="forestgreen";}
-else if (gseven.style.background==="forestgreen") {
-gseven.style.background="red";
-aone.style.background="forestgreen";
-btwo.style.background="forestgreen";
-cthree.style.background="forestgreen";
-dfour.style.background="forestgreen";
-efive.style.background="forestgreen";
-fsix.style.background="forestgreen";
-height.style.background="forestgreen";}
-else if (height.style.background==="forestgreen") {
-height.style.background="red";
-aone.style.background="forestgreen";
-btwo.style.background="forestgreen";
-cthree.style.background="forestgreen";
-dfour.style.background="forestgreen";
-efive.style.background="forestgreen";
-fsix.style.background="forestgreen";
-gseven.style.background="forestgreen";}}
+element.style.background='red';}
+else if (height.style.background==="red") {
+height.style.background="forestgreen";
+element.style.background='red';}}
 
 function selectTile(element) {
 if (element.style.background==="darkcyan" && wpawn.style.background==="black") {
