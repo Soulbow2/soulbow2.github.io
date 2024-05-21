@@ -188,7 +188,7 @@ element.style.background="red";}
 else if (element.style.background==="red") {
 element.style.background="forestgreen";}}
 
-function notation2() 
+function notation2() {
 if (aone.style.background==="red") {
 aone.style.background="forestgreen";
 element.style.background='red';}
@@ -212,7 +212,7 @@ gseven.style.background="forestgreen";
 element.style.background='red';}
 else if (height.style.background==="red") {
 height.style.background="forestgreen";
-element.style.background='red';
+element.style.background='red';}
 else if (element.style.background==="forestgreen") {
 element.style.background="red";}
 else if (element.style.background==="red") {
