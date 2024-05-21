@@ -159,7 +159,9 @@ tile63.setattribute(src, wknight.png);
 tile64.setattribute(src, wrook.png);}
 
 function notation(element) {
-if (one.style.background==="red") {
+if(element.style.background==="red") {
+element.style.background="red";}
+else if (one.style.background==="red") {
 one.style.background="forestgreen";
 element.style.background="red";}
 else if (two.style.background==="red") {
@@ -184,12 +186,12 @@ else if (eight.style.background==="red") {
 eight.style.background="forestgreen";
 element.style.background="red";}
 else if (element.style.background==="forestgreen") {
-element.style.background="red";}
-else if (element.style.background==="red") {
-element.style.background="forestgreen";}}
+element.style.background="red";}}
 
 function notation2(element) {
-if (aone.style.background==="red") {
+if(element.style.background==="red") {
+element.style.background="red";}
+else if (aone.style.background==="red") {
 aone.style.background="forestgreen";
 element.style.background='red';}
 else if (btwo.style.background==="red") {
@@ -214,9 +216,7 @@ else if (height.style.background==="red") {
 height.style.background="forestgreen";
 element.style.background='red';}
 else if (element.style.background==="forestgreen") {
-element.style.background="red";}
-else if (element.style.background==="red") {
-element.style.background="forestgreen";}}
+element.style.background="red";}}
 
 function selectTile(element) {
 if (element.style.background==="darkcyan" && wpawn.style.background==="black") {
