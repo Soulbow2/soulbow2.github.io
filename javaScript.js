@@ -188,7 +188,7 @@ element.style.background="red";}
 else if (element.style.background==="red") {
 element.style.background="forestgreen";}}
 
-function notation2() {
+function notation2(element) {
 if (aone.style.background==="red") {
 aone.style.background="forestgreen";
 element.style.background='red';}
