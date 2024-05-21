@@ -160,7 +160,7 @@ tile64.setattribute(src, wrook.png);}
 
 function notation(element) {
 if(element.style.background==="red") {
-element.style.background="red";}
+element.style.background="forestgreen";}
 else if (one.style.background==="red") {
 one.style.background="forestgreen";
 element.style.background="red";}
@@ -189,7 +189,7 @@ else {element.style.background="red";}}
 
 function notation2(element) {
 if(element.style.background==="red") {
-element.style.background="red";}
+element.style.background="forestgreen";}
 else if (aone.style.background==="red") {
 aone.style.background="forestgreen";
 element.style.background='red';}
