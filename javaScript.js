@@ -217,9 +217,10 @@ element.style.background='red';}
 else {element.style.background="red";}}
 
 function selectTile(element) {
-if (element.innerHTML==="White Pawn") {
-wpawn.style.background="black";
-element.innerHTML="";}
+if (element.innerHTML==="White Pawn" && wpawn.style.background==="black") {
+wpawn.style.background="forestgreen";
+element.innerHTML="wpawn";
+element.setattribute(src, wpawn.png);}
 else if (element.style.background==="darkcyan" && wpawn.style.background==="black") {
 element.setattribute(src, wpawn.png);
 wpawn.style.background="forestgreen";}
