@@ -182,7 +182,7 @@ seven.style.background="forestgreen";
 element.style.background="red";}
 else if (eight.style.background==="red") {
 eight.style.background="forestgreen";
-element.style.background="red";
+element.style.background="red";}
 else if (element.style.background==="forestgreen") {
 element.style.background="red";}
 else if (element.style.background==="red") {
