@@ -185,8 +185,7 @@ element.style.background="red";}
 else if (eight.style.background==="red") {
 eight.style.background="forestgreen";
 element.style.background="red";}
-else if (element.style.background==="forestgreen") {
-element.style.background="red";}}
+else {element.style.background="red";}}
 
 function notation2(element) {
 if(element.style.background==="red") {
@@ -215,8 +214,7 @@ element.style.background='red';}
 else if (height.style.background==="red") {
 height.style.background="forestgreen";
 element.style.background='red';}
-else if (element.style.background==="forestgreen") {
-element.style.background="red";}}
+else {element.style.background="red";}}
 
 function selectTile(element) {
 if (element.style.background==="darkcyan" && wpawn.style.background==="black") {
