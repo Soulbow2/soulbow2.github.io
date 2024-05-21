@@ -7,8 +7,8 @@ body {
   align-items: center;
   font-family: arial;}
 table{height: 370px; width: 370px;}
-main {height: 40px; width: 40px; background: darkcyan;}
-section {height: 40px; width: 40px; background: plum;}
+main {height: 40px; width: 40px; background: forestgreen;}
+section {height: 40px; width: 40px; background: darkcyan;}
 footer {height: 40px; width: 40px; background: forestgreen;}
 p {font-size: 10px; color: red;}
-header {height: 40px; width: 40px; background: forestgreen;}
+
