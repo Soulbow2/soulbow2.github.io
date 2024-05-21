@@ -539,69 +539,19 @@ else {wbishop.style.background="forestgreen";}}
 function funcbpawn() {
 if (bking.style.background==="black") {
 bpawn.style.background="black";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bking.style.background="forestgreen";}
 else if (bqueen.style.background==="black") {
 bpawn.style.background="black";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bqueen.style.background="forestgreen";}
 else if (brook.style.background==="black") {
 bpawn.style.background="black";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+brook.style.background="forestgreen";}
 else if (bknight.style.background==="black") {
 bpawn.style.background="black";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bknight.style.background="forestgreen";}
 else if (bbishop.style.background==="black") {
 bpawn.style.background="black";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bbishop.style.background="forestgreen";}
 else if (bpawn.style.background==="forestgreen") {
 bpawn.style.background="black";
 wpawn.style.background="forestgreen";
@@ -614,70 +564,20 @@ else {bpawn.style.background="forestgreen";}}
 
 function funcbking() {
 if (bpawn.style.background==="black") {
-bpawn.style.background="forestgreen";
 bking.style.background="black";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bpawn.style.background="forestgreen";}
 else if (bqueen.style.background==="black") {
-bpawn.style.background="forestgreen";
 bking.style.background="black";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bqueen.style.background="forestgreen";}
 else if (brook.style.background==="black") {
-bpawn.style.background="forestgreen";
 bking.style.background="black";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+brook.style.background="forestgreen";}
 else if (bknight.style.background==="black") {
-bpawn.style.background="forestgreen";
 bking.style.background="black";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bknight.style.background="forestgreen";}
 else if (bbishop.style.background==="black") {
-bpawn.style.background="forestgreen";
 bking.style.background="black";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bbishop.style.background="forestgreen";}
 else if (bking.style.background==="forestgreen") {
 bking.style.background="black";
 wpawn.style.background="forestgreen";
@@ -690,70 +590,20 @@ else {bking.style.background="forestgreen";}}
 
 function funcbqueen() {
 if (bpawn.style.background=="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
 bqueen.style.background="black";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bpawn.style.background="forestgreen";}
 else if (bking.style.background==="black") {
-bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
-bqueen.style.background="black";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bqueen.style.background="black";}
 else if (brook.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
 bqueen.style.background="black";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+brook.style.background="forestgreen";}
 else if (bknight.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
 bqueen.style.background="black";
-brook.style.background="forestgreen";
 bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
 else if (bbishop.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
 bqueen.style.background="black";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bbishop.style.background="forestgreen";}
 else if (bqueen.style.background==="forestgreen") {
 bqueen.style.background="black";
 wpawn.style.background="forestgreen";
@@ -767,62 +617,18 @@ else {bqueen.style.background="forestgreen";}}
 function funcbrook() {
 if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="black";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+brook.style.background="black";}
 else if (bking.style.background==="black") {
-bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="black";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+brook.style.background="black";}
 else if (bqueen.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
 bqueen.style.background="forestgreen";
-brook.style.background="black";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+brook.style.background="black";}
 else if (bknight.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
 brook.style.background="black";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bknight.style.background="forestgreen";}
 else if (bbishop.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
 brook.style.background="black";
-bknight.style.background="forestgreen";
 bbishop.style.background="forestgreen";}
 else if (brook.style.background==="forestgreen") {
 brook.style.background="black";
@@ -837,69 +643,19 @@ else {brook.style.background="forestgreen";}}
 function funcbknight() {
 if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="black";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bknight.style.background="black";}
 else if (bking.style.background==="black") {
-bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="black";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bknight.style.background="black";}
 else if (bqueen.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
 bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="black";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bknight.style.background="black";}
 else if (brook.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
 bknight.style.background="black";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+brook.style.background="forestgreen";}
 else if (bbishop.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
 bknight.style.background="black";
-bbishop.style.background="forestgreen";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bbishop.style.background="forestgreen";}
 else if (bknight.style.background==="forestgreen") {
 bknight.style.background="black";
 wpawn.style.background="forestgreen";
@@ -913,69 +669,19 @@ else {bknight.style.background="forestgreen";}}
 function funcbbishop() {
 if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="black";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bbishop.style.background="black";}
 else if (bking.style.background==="black") {
-bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="black";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bbishop.style.background="black";}
 else if (bqueen.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
 bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="black";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bbishop.style.background="black";}
 else if (brook.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
 brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="black";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bbishop.style.background="black";}
 else if (bknight.style.background==="black") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
 bknight.style.background="forestgreen";
-bbishop.style.background="black";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bbishop.style.background="black";}
 else if (bbishop.style.background==="forestgreen") {
 bbishop.style.background="black";
 wpawn.style.background="forestgreen";
