@@ -160,7 +160,7 @@ tile64.setattribute(src, wrook.png);}
 
 function notation() {
 if (one.style.background==="forestgreen") {
-one.style.background="red"
+one.style.background="red";
 two.style.background="forestgreen";
 three.style.background="forestgreen";
 four.style.background="forestgreen";
@@ -169,7 +169,7 @@ six.style.background="forestgreen";
 seven.style.background="forestgreen";
 eight.style.background="forestgreen";}
 else if (two.style.background==="forestgreen") {
-two.style.background="red"
+two.style.background="red";
 one.style.background="forestgreen";
 three.style.background="forestgreen";
 four.style.background="forestgreen";
@@ -178,7 +178,7 @@ six.style.background="forestgreen";
 seven.style.background="forestgreen";
 eight.style.background="forestgreen";}
 else if (three.style.background==="forestgreen") {
-three.style.background="red"
+three.style.background="red";
 one.style.background="forestgreen";
 two.style.background="forestgreen";
 four.style.background="forestgreen";
@@ -187,7 +187,7 @@ six.style.background="forestgreen";
 seven.style.background="forestgreen";
 eight.style.background="forestgreen";}
 else if (four.style.background==="forestgreen") {
-four.style.background="red"
+four.style.background="red";
 one.style.background="forestgreen";
 two.style.background="forestgreen";
 three.style.background="forestgreen";
@@ -196,7 +196,7 @@ six.style.background="forestgreen";
 seven.style.background="forestgreen";
 eight.style.background="forestgreen";}
 else if (five.style.background==="forestgreen") {
-five.style.background="red"
+five.style.background="red";
 one.style.background="forestgreen";
 two.style.background="forestgreen";
 three.style.background="forestgreen";
@@ -205,7 +205,7 @@ six.style.background="forestgreen";
 seven.style.background="forestgreen";
 eight.style.background="forestgreen";}
 else if (six.style.background==="forestgreen") {
-six.style.background="red"
+six.style.background="red";
 one.style.background="forestgreen";
 two.style.background="forestgreen";
 three.style.background="forestgreen";
@@ -214,7 +214,7 @@ five.style.background="forestgreen";
 seven.style.background="forestgreen";
 eight.style.background="forestgreen";}
 else if (seven.style.background==="forestgreen") {
-seven.style.background="red"
+seven.style.background="red";
 one.style.background="forestgreen";
 two.style.background="forestgreen";
 three.style.background="forestgreen";
@@ -223,7 +223,7 @@ five.style.background="forestgreen";
 six.style.background="forestgreen";
 eight.style.background="forestgreen";}
 else if (eight.style.background==="forestgreen") {
-eight.style.background="red"
+eight.style.background="red";
 one.style.background="forestgreen";
 two.style.background="forestgreen";
 three.style.background="forestgreen";
@@ -232,7 +232,7 @@ five.style.background="forestgreen";
 six.style.background="forestgreen";
 seven.style.background="forestgreen";}
 else if (aone.style.background==="forestgreen") {
-aone.style.background="red"
+aone.style.background="red";
 btwo.style.background="forestgreen";
 cthree.style.background="forestgreen";
 dfour.style.background="forestgreen";
@@ -241,7 +241,7 @@ fsix.style.background="forestgreen";
 gseven.style.background="forestgreen";
 height.style.background="forestgreen";}
 else if (btwo.style.background==="forestgreen") {
-btwo.style.background="red"
+btwo.style.background="red";
 aone.style.background="forestgreen";
 cthree.style.background="forestgreen";
 dfour.style.background="forestgreen";
@@ -250,7 +250,7 @@ fsix.style.background="forestgreen";
 gseven.style.background="forestgreen";
 height.style.background="forestgreen";}
 else if (cthree.style.background==="forestgreen") {
-cthree.style.background="red"
+cthree.style.background="red";
 aone.style.background="forestgreen";
 btwo.style.background="forestgreen";
 dfour.style.background="forestgreen";
@@ -259,7 +259,7 @@ fsix.style.background="forestgreen";
 gseven.style.background="forestgreen";
 height.style.background="forestgreen";}
 else if (dfour.style.background==="forestgreen") {
-dfour.style.background="red"
+dfour.style.background="red";
 aone.style.background="forestgreen";
 btwo.style.background="forestgreen";
 cthree.style.background="forestgreen";
@@ -268,7 +268,7 @@ fsix.style.background="forestgreen";
 gseven.style.background="forestgreen";
 height.style.background="forestgreen";}
 else if (efive.style.background==="forestgreen") {
-efive.style.background="red"
+efive.style.background="red";
 aone.style.background="forestgreen";
 btwo.style.background="forestgreen";
 cthree.style.background="forestgreen";
@@ -277,7 +277,7 @@ fsix.style.background="forestgreen";
 gseven.style.background="forestgreen";
 height.style.background="forestgreen";}
 else if (fsix.style.background==="forestgreen") {
-fsix.style.background="red"
+fsix.style.background="red";
 aone.style.background="forestgreen";
 btwo.style.background="forestgreen";
 cthree.style.background="forestgreen";
@@ -286,7 +286,7 @@ efive.style.background="forestgreen";
 gseven.style.background="forestgreen";
 height.style.background="forestgreen";}
 else if (gseven.style.background==="forestgreen") {
-gseven.style.background="red"
+gseven.style.background="red";
 aone.style.background="forestgreen";
 btwo.style.background="forestgreen";
 cthree.style.background="forestgreen";
@@ -295,7 +295,7 @@ efive.style.background="forestgreen";
 fsix.style.background="forestgreen";
 height.style.background="forestgreen";}
 else if (height.style.background==="forestgreen") {
-height.style.background="red"
+height.style.background="red";
 aone.style.background="forestgreen";
 btwo.style.background="forestgreen";
 cthree.style.background="forestgreen";
