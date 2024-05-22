@@ -535,7 +535,7 @@ wking.style.background="forestgreen";
 element.innerHTML="White king";}
 else if (element.innerHTML==="White Pawn" && wqueen.style.background==="black") {
 wqueen.style.background="forestgreen";
-element.innerHTML="White queen";}
+element.innerHTML="White Queen";}
 else if (element.innerHTML==="White Pawn" && wrook.style.background==="black") {
 wrook.style.background="forestgreen";
 element.innerHTML="White rook";}
