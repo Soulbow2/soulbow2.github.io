@@ -219,212 +219,177 @@ else {element.style.background="red";}}
 function selectTile(element) {
 if (element.innerHTML==="White Bishop" && wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
-element.innerHTML="wpawn";
-element.setattribute("src", "wpawn.png");}
+element.innerHTML="wpawn";}
 else if (element.innerHTML==="White Bishop" && wking.style.background==="black") {
 wking.style.background="forestgreen";
 element.innerHTML="wking";
-element.setattribute("src", "wking.png");}
 else if (element.innerHTML==="White Bishop" && wqueen.style.background==="black") {
 wqueen.style.background="forestgreen";
-element.innerHTML="wqueen";
-element.setattribute("src", "wqueen.png");}
+element.innerHTML="wqueen";}
 else if (element.innerHTML==="White Bishop" && wrook.style.background==="black") {
 wrook.style.background="forestgreen";
-element.innerHTML="wrook";
-element.setattribute("src", "wrook.png");}
+element.innerHTML="wrook";}
 else if (element.innerHTML==="White Bishop" && wbishop.style.background==="black") {
 wbishop.style.background="forestgreen";
-element.innerHTML="wbishop";
-element.setattribute("src", "wbishop.png");}
+element.innerHTML="wbishop";}
 else if (element.innerHTML==="White Bishop" && wknight.style.background==="black") {
 wknight.style.background="forestgreen";
-element.innerHTML="wknight";
-element.setattribute("src", "wknight.png");}
+element.innerHTML="wknight";}
 else if (element.innerHTML==="White Knight" && wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
-element.innerHTML="wpawn";
-element.setattribute("src", "wpawn.png");}
+element.innerHTML="wpawn";}
 else if (element.innerHTML==="White Knight" && wking.style.background==="black") {
 wking.style.background="forestgreen";
-element.innerHTML="wking";
-element.setattribute("src", "wking.png");}
+element.innerHTML="wking";}
 else if (element.innerHTML==="White Knight" && wqueen.style.background==="black") {
 wqueen.style.background="forestgreen";
-element.innerHTML="wqueen";
-element.setattribute("src", "wqueen.png");}
+element.innerHTML="wqueen";}
 else if (element.innerHTML==="White Knight" && wrook.style.background==="black") {
 wrook.style.background="forestgreen";
-element.innerHTML="wrook";
-element.setattribute("src", "wrook.png");}
+element.innerHTML="wrook";}
 else if (element.innerHTML==="White Knight" && wbishop.style.background==="black") {
 wbishop.style.background="forestgreen";
-element.innerHTML="wbishop";
-element.setattribute("src", "wbishop.png");}
+element.innerHTML="wbishop";}
 else if (element.innerHTML==="White Knight" && wknight.style.background==="black") {
 wknight.style.background="forestgreen";
-element.innerHTML="wknight";
-element.setattribute("src", "wknight.png");}
+element.innerHTML="wknight";}
 else if (element.innerHTML==="White Rook" && wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
-element.innerHTML="wpawn";
-element.setattribute("src", "wpawn.png");}
+element.innerHTML="wpawn";}
 else if (element.innerHTML==="White Rook" && wking.style.background==="black") {
 wking.style.background="forestgreen";
-element.innerHTML="wking";
-element.setattribute("src", "wking.png");}
+element.innerHTML="wking";}
 else if (element.innerHTML==="White Rook" && wqueen.style.background==="black") {
 wqueen.style.background="forestgreen";
-element.innerHTML="wqueen";
-element.setattribute("src", "wqueen.png");}
+element.innerHTML="wqueen";}
 else if (element.innerHTML==="White Rook" && wrook.style.background==="black") {
 wrook.style.background="forestgreen";
-element.innerHTML="wrook";
-element.setattribute("src", "wrook.png");}
+element.innerHTML="wrook";}
 else if (element.innerHTML==="White Rook" && wbishop.style.background==="black") {
 wbishop.style.background="forestgreen";
-element.innerHTML="wbishop";
-element.setattribute("src", "wbishop.png");}
+element.innerHTML="wbishop";}
 else if (element.innerHTML==="White Rook" && wknight.style.background==="black") {
 wknight.style.background="forestgreen";
-element.innerHTML="wknight";
-element.setattribute("src", "wknight.png");}
+element.innerHTML="wknight";}
 else if (element.innerHTML==="White Queen" && wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
-element.innerHTML="wpawn";
-element.setattribute("src", "wpawn.png");}
+element.innerHTML="wpawn";}
 else if (element.innerHTML==="White Queen" && wking.style.background==="black") {
 wking.style.background="forestgreen";
-element.innerHTML="wking";
-element.setattribute("src", "wking.png");}
+element.innerHTML="wking";}
 else if (element.innerHTML==="White Queen" && wqueen.style.background==="black") {
 wqueen.style.background="forestgreen";
-element.innerHTML="wqueen";
-element.setattribute("src", "wqueen.png");}
+element.innerHTML="wqueen";}
 else if (element.innerHTML==="White Queen" && wrook.style.background==="black") {
 wrook.style.background="forestgreen";
-element.innerHTML="wrook";
-element.setattribute("src", "wrook.png");}
+element.innerHTML="wrook";}
 else if (element.innerHTML==="White Queen" && wbishop.style.background==="black") {
 wbishop.style.background="forestgreen";
-element.innerHTML="wbishop";
-element.setattribute("src", "wbishop.png");}
+element.innerHTML="wbishop";}
 else if (element.innerHTML==="White Queen" && wknight.style.background==="black") {
 wknight.style.background="forestgreen";
-element.innerHTML="wknight";
-element.setattribute("src", "wknight.png");}
+element.innerHTML="wknight";}
 else if (element.innerHTML==="White King" && wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
-element.innerHTML="wpawn";
-element.setattribute("src", "wpawn.png");}
+element.innerHTML="wpawn";}
 else if (element.innerHTML==="White King" && wking.style.background==="black") {
 wking.style.background="forestgreen";
-element.innerHTML="wking";
-element.setattribute("src", "wking.png");}
+element.innerHTML="wking";}
 else if (element.innerHTML==="White King" && wqueen.style.background==="black") {
 wqueen.style.background="forestgreen";
-element.innerHTML="wqueen";
-element.setattribute("src", "wqueen.png");}
+element.innerHTML="wqueen";}
 else if (element.innerHTML==="White King" && wrook.style.background==="black") {
 wrook.style.background="forestgreen";
-element.innerHTML="wrook";
-element.setattribute("src", "wrook.png");}
+element.innerHTML="wrook";}
 else if (element.innerHTML==="White King" && wbishop.style.background==="black") {
 wbishop.style.background="forestgreen";
-element.innerHTML="wbishop";
-element.setattribute("src", "wbishop.png");}
+element.innerHTML="wbishop";}
 else if (element.innerHTML==="White King" && wknight.style.background==="black") {
 wknight.style.background="forestgreen";
-element.innerHTML="wknight";
-element.setattribute("src", "wknight.png");}
+element.innerHTML="wknight";}
 else if (element.innerHTML==="White Pawn" && wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
-element.innerHTML="wpawn";
-element.setattribute("src", "wpawn.png");}
+element.innerHTML="wpawn";}
 else if (element.innerHTML==="White Pawn" && wking.style.background==="black") {
 wking.style.background="forestgreen";
-element.innerHTML="wking";
-element.setattribute("src", "wking.png");}
+element.innerHTML="wking";}
 else if (element.innerHTML==="White Pawn" && wqueen.style.background==="black") {
 wqueen.style.background="forestgreen";
-element.innerHTML="wqueen";
-element.setattribute("src", "wqueen.png");}
+element.innerHTML="wqueen";}
 else if (element.innerHTML==="White Pawn" && wrook.style.background==="black") {
 wrook.style.background="forestgreen";
-element.innerHTML="wrook";
-element.setattribute("src", "wrook.png");}
+element.innerHTML="wrook";}
 else if (element.innerHTML==="White Pawn" && wbishop.style.background==="black") {
 wbishop.style.background="forestgreen";
-element.innerHTML="wbishop";
-element.setattribute("src", "wbishop.png");}
+element.innerHTML="wbishop";}
 else if (element.innerHTML==="White Pawn" && wknight.style.background==="black") {
 wknight.style.background="forestgreen";
-element.innerHTML="wknight";
-element.setattribute("src", "wknight.png");}
+element.innerHTML="wknight";}
   
 else if (element.style.background==="darkcyan" && wpawn.style.background==="black") {
-element.setattribute("src", "wpawn.png");
 wpawn.style.background="forestgreen";
-element.innerHTML="White Pawm";}
+element.innerHTML="White Pawn";}
 
   
 else if (element.style.background==="darkcyan" && wking.style.background==="black") {
-element.setattribute(src, wking.png);
-wking.style.background="forestgreen";}
+wking.style.background="forestgreen";
+element.innerHTML="White King";}
 else if (element.style.background==="darkcyan" && wqueen.style.background==="black") {
-element.setattribute(src, wqueen.png);
-wqueen.style.background="forestgreen";}
+wqueen.style.background="forestgreen";
+element.innerHTML="White Queen";}
 else if (element.style.background==="darkcyan" && wrook.style.background==="black") {
-element.setattribute(src, wrook.png);
-wrook.style.background="forestgreen";}
+wrook.style.background="forestgreen";
+element.innerHTML="White Rook";}
 else if (element.style.background==="darkcyan" && wknight.style.background==="black") {
-element.setattribute(src, wknight.png);
-wknight.style.background="forestgreen";}
+wknight.style.background="forestgreen";
+element.innerHTML="White Knigt";}
 else if (element.style.background==="darkcyan" && wbishop.style.background==="black") {
-element.setattribute(src, wbishop.png);
-wbishop.style.background="forestgreen";}
+wbishop.style.background="forestgreen";
+element.innerHTML="White Bishop";}
 else if (element.style.background==="darkcyan" && bpawn.style.background==="black") {
-element.setattribute(src, bpawn.png);
-bpawn.style.background="forestgreen";}
+bpawn.style.background="forestgreen";
+element.innerHTML="White Pawn"}
 else if (element.style.background==="darkcyan" && bking.style.background==="black") {
-element.setattribute(src, bking.png);
-bking.style.background="forestgreen";}
+bking.style.background="forestgreen";
+element.innerHTML="Black King";}
 else if (element.style.background==="darkcyan" && bqueen.style.background==="black") {
-element.setattribute(src, bqueen.png);
-bqueen.style.background="forestgreen";}
+bqueen.style.background="forestgreen";
+element.innerHTML="Black Queen;"}
 else if (element.style.background==="darkcyan" && brook.style.background==="black") {
-elementbrook.setattribute(src, brook.png);}
+brook.style.background="forestgreen";
+element.innerHTML="Black Rook";}
 else if (element.style.background==="darkcyan" && bknight.style.background==="black") {
-element.setattribute(src, bknight.png);
-bknight.style.background="forestgreen";}
+bknight.style.background="forestgreen";
+element.innerHTML="Black Knight";}
 else if (element.style.background==="darkcyan" && bbishop.style.background==="black") {
-element.setattribute(src, bbishop.png);
-bbishop.style.background="forestgreen";}
+bbishop.style.background="forestgreen";
+element.innerHTML="Black Bishop';}
 
   
 else if (element.style.background==="darkcyan" && element.innerHTML==="White Pawn") {
-element.setattribute("src", "blank.png");
 wpawn.style.background="black";}
-
 else if (element.style.background==="darkcyan" && element.innerHTML==="White King") {
-element.setattribute("src", "blank.png");
 wking.style.background="black";}
-
 else if (element.style.background==="darkcyan" && element.innerHTML==="White Queen") {
-element.setattribute("src", "blank.png");
 wqueen.style.background="black";}
-
 else if (element.style.background==="darkcyan" && element.innerHTML==="White Rook") {
-element.setattribute("src", "blank.png");
 wrook.style.background="black";}
-
 else if (element.style.background==="darkcyan" && element.innerHTML==="White Knight") {
-element.setattribute("src", "blank.png");
 wknight.style.background="black";}
-
 else if (element.style.background==="darkcyan" && element.innerHTML==="White Bishop") {
-element.setattribute("src", "blank.png");
-wbishop.style.background="black";}
+wbishop.style.background="black";
+else if (element.style.background==="darkcyan" && element.innerHTML==="Black Pawn") {
+bpawn.style.background="black";}
+else if (element.style.background==="darkcyan" && element.innerHTML==="Black King") {
+bking.style.background="black";}
+else if (element.style.background==="darkcyan" && element.innerHTML==="Black Queen") {
+bqueen.style.background="black";}
+else if (element.style.background==="darkcyan" && element.innerHTML==="Black Rook") {
+brook.style.background="black";}
+else if (element.style.background==="darkcyan" && element.innerHTML==="Black Knight") {
+bknight.style.background="black";}
+else if (element.style.background==="darkcyan" && element.innerHTML==="Black Bishop") {
+bbishop.style.background="black";}
   
 else if (element.style.background==="plum" && wpawn.style.background==="black") {
 element.setattribute(src, wpawn.png);
@@ -462,7 +427,32 @@ else if (element.style.background==="plum" && bbishop.style.background==="black"
 element.setattribute(src, bbishop.png);
 bbishop.style.background="forestgreen";}
 else if (element.style.background==="plum") {
-element.setattribute(src, blank.png);}}
+element.setattribute(src, blank.png);}
+
+else if (element.style.background==="plum" && element.innerHTML==="White Pawn") {
+wpawn.style.background="black";}
+else if (element.style.background==="plum" && element.innerHTML==="White King") {
+wking.style.background="black";}
+else if (element.style.background==="plum" && element.innerHTML==="White Queen") {
+wqueen.style.background="black";}
+else if (element.style.background==="plum" && element.innerHTML==="White Rook") {
+wrook.style.background="black";}
+else if (element.style.background==="plum" && element.innerHTML==="White Knight") {
+wknight.style.background="black";}
+else if (element.style.background==="plum" && element.innerHTML==="White Bishop") {
+wbishop.style.background="black";
+else if (element.style.background==="plum" && element.innerHTML==="Black Pawn") {
+bpawn.style.background="black";}
+else if (element.style.background==="plum" && element.innerHTML==="Black King") {
+bking.style.background="black";}
+else if (element.style.background==="plum" && element.innerHTML==="Black Queen") {
+bqueen.style.background="black";}
+else if (element.style.background==="plum" && element.innerHTML==="Black Rook") {
+brook.style.background="black";}
+else if (element.style.background==="plum" && element.innerHTML==="Black Knight") {
+bknight.style.background="black";}
+else if (element.style.background==="plum" && element.innerHTML==="Black Bishop") {
+bbishop.style.background="black";}}
 
 function funcwpawn() {
 if (wking.style.background==="black") {
