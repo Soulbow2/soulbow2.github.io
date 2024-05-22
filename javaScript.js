@@ -220,7 +220,27 @@ function selectTile(element) {
 if (element.innerHTML==="White Pawn" && wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
 element.innerHTML="wpawn";
-element.setattribute(src, wpawn.png);}
+element.setattribute("src", "wpawn.png");}
+else if (element.innerHTML==="White Pawn" && wking.style.background==="black") {
+wking.style.background="forestgreen";
+element.innerHTML="wking";
+element.setattribute("src", "wking.png");}
+else if (element.innerHTML==="White Pawn" && wqueen.style.background==="black") {
+wqueen.style.background="forestgreen";
+element.innerHTML="wqueen";
+element.setattribute("src", "wqueen.png");}
+else if (element.innerHTML==="White Pawn" && wrook.style.background==="black") {
+wrook.style.background="forestgreen";
+element.innerHTML="wrook";
+element.setattribute("src", "wrook.png");}
+else if (element.innerHTML==="White Pawn" && wbishop.style.background==="black") {
+wbishop.style.background="forestgreen";
+element.innerHTML="wbishop";
+element.setattribute("src", "wbishop.png");}
+else if (element.innerHTML==="White Pawn" && wknight.style.background==="black") {
+wknight.style.background="forestgreen";
+element.innerHTML="wknight";
+element.setattribute(src, wknight.png);}
 else if (element.style.background==="darkcyan" && wpawn.style.background==="black") {
 element.setattribute(src, wpawn.png);
 wpawn.style.background="forestgreen";}
