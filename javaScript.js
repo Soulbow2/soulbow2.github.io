@@ -403,6 +403,25 @@ else if (element.style.background==="darkcyan" && element.innerHTML==="White Paw
 element.setattribute("src", "blank.png");
 wpawn.style.background="black";}
 
+else if (element.style.background==="darkcyan" && element.innerHTML==="White King") {
+element.setattribute("src", "blank.png");
+wking.style.background="black";}
+
+else if (element.style.background==="darkcyan" && element.innerHTML==="White Queen") {
+element.setattribute("src", "blank.png");
+wqueen.style.background="black";}
+
+else if (element.style.background==="darkcyan" && element.innerHTML==="White Rook") {
+element.setattribute("src", "blank.png");
+wrook.style.background="black";}
+
+else if (element.style.background==="darkcyan" && element.innerHTML==="White Knight") {
+element.setattribute("src", "blank.png");
+wknight.style.background="black";}
+
+else if (element.style.background==="darkcyan" && element.innerHTML==="White Bishop") {
+element.setattribute("src", "blank.png");
+wbishop.style.background="black";}
   
 else if (element.style.background==="plum" && wpawn.style.background==="black") {
 element.setattribute(src, wpawn.png);
