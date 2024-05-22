@@ -364,7 +364,10 @@ element.setattribute("src", "wknight.png");}
   
 else if (element.style.background==="darkcyan" && wpawn.style.background==="black") {
 element.setattribute("src", "wpawn.png");
-wpawn.style.background="forestgreen";}
+wpawn.style.background="forestgreen";
+element.innerHTML="White Pawm";}
+
+  
 else if (element.style.background==="darkcyan" && wking.style.background==="black") {
 element.setattribute(src, wking.png);
 wking.style.background="forestgreen";}
