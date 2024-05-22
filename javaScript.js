@@ -157,137 +157,199 @@ tile62.innerHTML="White Bishop";
 tile63.innerHTML="White Knight";
 tile64.innerHTML="White Rook";}
 
-function boardSetMetallic() {
-tile1.style.background="silver";
-tile2.style.background="gold";
-tile3.style.background="silver";
-tile4.style.background="gold";
-tile5.style.background="silver";
-tile6.style.background="gold";
-tile7.style.background="silver";
-tile8.style.background="gold";
-tile9.style.background="gold";
-tile10.style.background="silver";
-tile11.style.background="gold";
-tile12.style.background="silver";
-tile13.style.background="gold";
-tile14.style.background="silver";
-tile15.style.background="gold";
-tile16.style.background="silver";
-tile17.style.background="silver";
-tile18.style.background="gold";
-tile19.style.background="silver";
-tile20.style.background="gold";
-tile21.style.background="silver";
-tile22.style.background="gold";
-tile23.style.background="silver";
-tile24.style.background="gold";
-tile25.style.background="gold";
-tile26.style.background="silver";
-tile27.style.background="gold";
-tile28.style.background="silver";
-tile29.style.background="gold";
-tile30.style.background="silver";
-tile31.style.background="gold";
-tile32.style.background="silver";
-tile33.style.background="silver";
-tile34.style.background="gold";
-tile35.style.background="silver";
-tile36.style.background="gold";
-tile37.style.background="silver";
-tile38.style.background="gold";
-tile39.style.background="silver";
-tile40.style.background="gold";
-tile41.style.background="gold";
-tile42.style.background="silver";
-tile43.style.background="gold";
-tile44.style.background="silver";
-tile45.style.background="gold";
-tile46.style.background="silver";
-tile47.style.background="gold";
-tile48.style.background="silver";
-tile49.style.background="silver";
-tile50.style.background="gold";
-tile51.style.background="silver";
-tile52.style.background="gold";
-tile53.style.background="silver";
-tile54.style.background="gold";
-tile55.style.background="silver";
-tile56.style.background="gold";
-tile57.style.background="gold";
-tile58.style.background="silver";
-tile59.style.background="gold";
-tile60.style.background="silver";
-tile61.style.background="gold";
-tile62.style.background="silver";
-tile63.style.background="gold";
-tile64.style.background="silver";
-tile1.style.color="deeppink";
-tile2.style.color="deeppink";
-tile3.style.color="deeppink";
-tile4.style.color="deeppink";
-tile5.style.color="deeppink";
-tile6.style.color="deeppink";
-tile7.style.color="deeppink";
-tile8.style.color="deeppink";
-tile9.style.color="deeppink";
-tile10.style.color="deeppink";
-tile11.style.color="deeppink";
-tile12.style.color="deeppink";
-tile13.style.color="deeppink";
-tile14.style.color="deeppink";
-tile15.style.color="deeppink";
-tile16.style.color="deeppink";
-tile17.style.color="deeppink";
-tile18.style.color="deeppink";
-tile19.style.color="deeppink";
-tile20.style.color="deeppink";
-tile21.style.color="deeppink";
-tile22.style.color="deeppink";
-tile23.style.color="deeppink";
-tile24.style.color="deeppink";
-tile25.style.color="deeppink";
-tile26.style.color="deeppink";
-tile27.style.color="deeppink";
-tile28.style.color="deeppink";
-tile29.style.color="deeppink";
-tile30.style.color="deeppink";
-tile31.style.color="deeppink";
-tile32.style.color="deeppink";
-tile33.style.color="deeppink";
-tile34.style.color="deeppink";
-tile35.style.color="deeppink";
-tile36.style.color="deeppink";
-tile37.style.color="deeppink";
-tile38.style.color="deeppink";
-tile39.style.color="deeppink";
-tile40.style.color="deeppink";
-tile41.style.color="deeppink";
-tile42.style.color="deeppink";
-tile43.style.color="deeppink";
-tile44.style.color="deeppink";
-tile45.style.color="deeppink";
-tile46.style.color="deeppink";
-tile47.style.color="deeppink";
-tile48.style.color="deeppink";
-tile49.style.color="deeppink";
-tile50.style.color="deeppink";
-tile51.style.color="deeppink";
-tile52.style.color="deeppink";
-tile53.style.color="deeppink";
-tile54.style.color="deeppink";
-tile55.style.color="deeppink";
-tile56.style.color="deeppink";
-tile57.style.color="deeppink";
-tile58.style.color="deeppink";
-tile59.style.color="deeppink";
-tile60.style.color="deeppink";
-tile61.style.color="deeppink";
-tile62.style.color="deeppink";
-tile63.style.color="deeppink";
-tile64.style.color="deeppink";}
-
-function boardSetNormal() {
+function boardSetToggle() {
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink"}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink"}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink"}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink"}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink"}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink"}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink"}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink"}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink"}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink"}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink"}
+else if (tile.style.background==="darkcyan") {
+tile.style.background="gold";
+tile.style.color="deeppink";}
+else if (tile.style.background==="plum") {
+tile.style.background="silver";
+tile.style.color="deeppink";}
 tile1.style.background="plum";
 tile2.style.background="darkcyan";
 tile3.style.background="plum";
@@ -416,7 +478,6 @@ tile61.style.color="gold";
 tile62.style.color="gold";
 tile63.style.color="gold";
 tile64.style.color="gold";}
-
 
 function notation(element) {
 if(element.style.background==="red") {
