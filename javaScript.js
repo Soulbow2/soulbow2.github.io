@@ -677,7 +677,7 @@ bking.style.background="forestgreen";
 element.innerHTML="Black King";}
 else if (bqueen.style.background==="black") {
 bqueen.style.background="forestgreen";
-element.innerHTML="Black Queen;"}
+element.innerHTML="Black Queen";}
 else if (brook.style.background==="black") {
 brook.style.background="forestgreen";
 element.innerHTML="Black Rook";}
