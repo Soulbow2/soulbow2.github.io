@@ -158,7 +158,7 @@ tile63.innerHTML="White Knight";
 tile64.innerHTML="White Rook";}
 
 function boardSetToggle() {
-else if (tile.style.background==="plum") {
+if (tile.style.background==="plum") {
 tile.style.background="silver";
 tile.style.color="deeppink";}
 else if (tile.style.background==="darkcyan") {
@@ -350,7 +350,7 @@ tile.style.color="deeppink";}
 else if (tile.style.background==="plum") {
 tile.style.background="silver";
 tile.style.color="deeppink";}
-tile1.style.background="plum";
+else {tile1.style.background="plum";
 tile2.style.background="darkcyan";
 tile3.style.background="plum";
 tile4.style.background="darkcyan";
@@ -477,7 +477,7 @@ tile60.style.color="gold";
 tile61.style.color="gold";
 tile62.style.color="gold";
 tile63.style.color="gold";
-tile64.style.color="gold";}
+tile64.style.color="gold";}}
 
 function notation(element) {
 if(element.style.background==="red") {
