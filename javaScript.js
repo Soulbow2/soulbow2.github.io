@@ -217,7 +217,31 @@ element.style.background='red';}
 else {element.style.background="red";}}
 
 function selectTile(element) {
-if (element.innerHTML==="White Pawn" && wpawn.style.background==="black") {
+if (element.innerHTML==="White King" && wpawn.style.background==="black") {
+wpawn.style.background="forestgreen";
+element.innerHTML="wpawn";
+element.setattribute("src", "wpawn.png");}
+else if (element.innerHTML==="White King" && wking.style.background==="black") {
+wking.style.background="forestgreen";
+element.innerHTML="wking";
+element.setattribute("src", "wking.png");}
+else if (element.innerHTML==="White King" && wqueen.style.background==="black") {
+wqueen.style.background="forestgreen";
+element.innerHTML="wqueen";
+element.setattribute("src", "wqueen.png");}
+else if (element.innerHTML==="White King" && wrook.style.background==="black") {
+wrook.style.background="forestgreen";
+element.innerHTML="wrook";
+element.setattribute("src", "wrook.png");}
+else if (element.innerHTML==="White King" && wbishop.style.background==="black") {
+wbishop.style.background="forestgreen";
+element.innerHTML="wbishop";
+element.setattribute("src", "wbishop.png");}
+else if (element.innerHTML==="White King" && wknight.style.background==="black") {
+wknight.style.background="forestgreen";
+element.innerHTML="wknight";
+element.setattribute("src", "wknight.png");}
+else if (element.innerHTML==="White Pawn" && wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
 element.innerHTML="wpawn";
 element.setattribute("src", "wpawn.png");}
@@ -240,9 +264,9 @@ element.setattribute("src", "wbishop.png");}
 else if (element.innerHTML==="White Pawn" && wknight.style.background==="black") {
 wknight.style.background="forestgreen";
 element.innerHTML="wknight";
-element.setattribute(src, wknight.png);}
+element.setattribute("src", "wknight.png");}
 else if (element.style.background==="darkcyan" && wpawn.style.background==="black") {
-element.setattribute(src, wpawn.png);
+element.setattribute("src", "wpawn.png");
 wpawn.style.background="forestgreen";}
 else if (element.style.background==="darkcyan" && wking.style.background==="black") {
 element.setattribute(src, wking.png);
