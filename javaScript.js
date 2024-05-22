@@ -429,7 +429,7 @@ element.innerHTML="Black Queen";
 bqueen.style.background="forestgreen";}
 else if (element.style.background==="plum" && brook.style.background==="black") {
 element.innerHTML="Black Rook";
-brook.style.background="forestgreen";}}
+brook.style.background="forestgreen";}
 else if (element.style.background==="plum" && bknight.style.background==="black") {
 element.innerHTML="Black Knight";
 bknight.style.background="forestgreen";}
