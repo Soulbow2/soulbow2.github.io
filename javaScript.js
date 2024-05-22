@@ -141,22 +141,22 @@ tile45.innerHTML="";
 tile46.innerHTML="";
 tile47.innerHTML="";
 tile48.innerHTML="";
-tile49.setattribute(src, wpawn.png);
-tile50.setattribute(src, wpawn.png);
-tile51.setattribute(src, wpawn.png);
-tile52.setattribute(src, wpawn.png);
-tile53.setattribute(src, wpawn.png);
-tile54.setattribute(src, wpawn.png);
-tile55.setattribute(src, wpawn.png);
-tile56.setattribute(src, wpawn.png);
-tile57.setattribute(src, wrook.png);
-tile58.setattribute(src, wknight.png);
-tile59.setattribute(src, wbishop.png);
-tile60.setattribute(src, wking.png);
-tile61.setattribute(src, wqueen.png);
-tile62.setattribute(src, wbishop.png);
-tile63.setattribute(src, wknight.png);
-tile64.setattribute(src, wrook.png);}
+tile49.innerHTML="White Pawn";
+tile50.innerHTML="White Pawn";
+tile51.innerHTML="White Pawn";
+tile52.innerHTML="White Pawn";
+tile53.innerHTML="White Pawn";
+tile54.innerHTML="White Pawn";
+tile55.innerHTML="White Pawn";
+tile56.innerHTML="White Pawn";
+tile57.innerHTML="White Rook";
+tile58.innerHTML="White Knight";
+tile59.innerHTML="White Bishop";
+tile60.innerHTML="White Queen";
+tile61.innerHTML="White King";
+tile62.innerHTML="White Bishop";
+tile63.innerHTML="White Knight";
+tile64.innerHTML="White Rook";}
 
 function notation(element) {
 if(element.style.background==="red") {
