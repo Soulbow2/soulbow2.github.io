@@ -222,7 +222,7 @@ wpawn.style.background="forestgreen";
 element.innerHTML="wpawn";}
 else if (element.innerHTML==="White Bishop" && wking.style.background==="black") {
 wking.style.background="forestgreen";
-element.innerHTML="wking";
+element.innerHTML="wking";}
 else if (element.innerHTML==="White Bishop" && wqueen.style.background==="black") {
 wqueen.style.background="forestgreen";
 element.innerHTML="wqueen";}
