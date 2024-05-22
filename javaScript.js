@@ -1,4 +1,3 @@
-const btnReset=document.getElementById("btnReset");
 const tile1=document.getElementById("tile1");
 const tile2=document.getElementById("tile2");
 const tile3=document.getElementById("tile3");
@@ -157,6 +156,72 @@ tile61.innerHTML="White King";
 tile62.innerHTML="White Bishop";
 tile63.innerHTML="White Knight";
 tile64.innerHTML="White Rook";}
+
+function boardSetMetallic() {
+tile1.style.background="silver";
+tile2.style.background="gold";
+tile3.style.background="silver";
+tile4.style.background="gold";
+tile5.style.background="silver";
+tile6.style.background="gold";
+tile7.style.background="silver";
+tile8.style.background="gold";
+tile9.style.background="gold";
+tile10.style.background="silver";
+tile11.style.background="gold";
+tile12.style.background="silver";
+tile13.style.background="gold";
+tile14.style.background="silver";
+tile15.style.background="gold";
+tile16.style.background="silver";
+tile17.style.background="silver";
+tile18.style.background="gold";
+tile19.style.background="silver";
+tile20.style.background="gold";
+tile21.style.background="silver";
+tile22.style.background="gold";
+tile23.style.background="silver";
+tile24.style.background="gold";
+tile25.style.background="gold";
+tile26.style.background="silver";
+tile27.style.background="gold";
+tile28.style.background="silver";
+tile29.style.background="gold";
+tile30.style.background="silver";
+tile31.style.background="gold";
+tile32.style.background="silver";
+tile33.style.background="silver";
+tile34.style.background="gold";
+tile35.style.background="silver";
+tile36.style.background="gold";
+tile37.style.background="silver";
+tile38.style.background="gold";
+tile39.style.background="silver";
+tile40.style.background="gold";
+tile41.style.background="gold";
+tile42.style.background="silver";
+tile43.style.background="gold";
+tile44.style.background="silver";
+tile45.style.background="gold";
+tile46.style.background="silver";
+tile47.style.background="gold";
+tile48.style.background="silver";
+tile49.style.background="silver";
+tile50.style.background="gold";
+tile51.style.background="silver";
+tile52.style.background="gold";
+tile53.style.background="silver";
+tile54.style.background="gold";
+tile55.style.background="silver";
+tile56.style.background="gold";
+tile57.style.background="gold";
+tile58.style.background="silver";
+tile59.style.background="gold";
+tile60.style.background="silver";
+tile61.style.background="gold";
+tile62.style.background="silver";
+tile63.style.background="gold";
+tile64.style.background="silver";
 
 function notation(element) {
 if(element.style.background==="red") {
@@ -1036,7 +1101,3 @@ wrook.style.background="forestgreen";
 wknight.style.background="forestgreen";
 wbishop.style.background="forestgreen";}
 else {bbishop.style.background="forestgreen";}}
-
-btnReset.addEventListener("click", boardSet);
-
-
