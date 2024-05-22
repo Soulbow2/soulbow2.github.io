@@ -671,7 +671,7 @@ wbishop.style.background="forestgreen";
 element.innerHTML="White Bishop";}
 else if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
-element.innerHTML="White Pawn"}
+element.innerHTML="Black Pawn"}
 else if (bking.style.background==="black") {
 bking.style.background="forestgreen";
 element.innerHTML="Black King";}
