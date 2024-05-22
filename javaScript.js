@@ -665,7 +665,7 @@ wrook.style.background="forestgreen";
 element.innerHTML="White Rook";}
 else if (wknight.style.background==="black") {
 wknight.style.background="forestgreen";
-element.innerHTML="White Knigt";}
+element.innerHTML="White Knight";}
 else if (wbishop.style.background==="black") {
 wbishop.style.background="forestgreen";
 element.innerHTML="White Bishop";}
