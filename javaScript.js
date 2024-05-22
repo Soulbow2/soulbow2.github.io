@@ -397,8 +397,13 @@ bknight.style.background="forestgreen";}
 else if (element.style.background==="darkcyan" && bbishop.style.background==="black") {
 element.setattribute(src, bbishop.png);
 bbishop.style.background="forestgreen";}
-else if (element.style.background==="darkcyan") {
-element.setattribute(src, blank.png);}
+
+  
+else if (element.style.background==="darkcyan" && element.innerHTML==="White Pawn") {
+element.setattribute("src", "blank.png");
+wpawn.style.background="black";}
+
+  
 else if (element.style.background==="plum" && wpawn.style.background==="black") {
 element.setattribute(src, wpawn.png);
 wpawn.style.background="forestgreen";}
