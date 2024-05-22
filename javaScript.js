@@ -223,7 +223,7 @@ tile62.style.background="silver";
 tile63.style.background="gold";
 tile64.style.background="silver";}
 
-function boardSetMetallic() {
+function boardSetNormal() {
 tile1.style.background="plum";
 tile2.style.background="darkcyan";
 tile3.style.background="plum";
