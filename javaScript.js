@@ -329,8 +329,6 @@ element.innerHTML="wknight";}
 else if (element.style.background==="darkcyan" && wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
 element.innerHTML="White Pawn";}
-
-  
 else if (element.style.background==="darkcyan" && wking.style.background==="black") {
 wking.style.background="forestgreen";
 element.innerHTML="White King";}
@@ -363,7 +361,7 @@ bknight.style.background="forestgreen";
 element.innerHTML="Black Knight";}
 else if (element.style.background==="darkcyan" && bbishop.style.background==="black") {
 bbishop.style.background="forestgreen";
-element.innerHTML="Black Bishop';}
+element.innerHTML="Black Bishop";}
 
   
 else if (element.style.background==="darkcyan" && element.innerHTML==="White Pawn") {
