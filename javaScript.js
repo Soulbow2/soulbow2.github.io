@@ -327,6 +327,115 @@ else if (element.innerHTML==="Black Pawn" && bknight.style.background==="black")
 bknight.style.background="forestgreen";
 element.innerHTML="Black Knight";}
 
+else if (element.innerHTML==="Black Bishop" && wpawn.style.background==="black") {
+wpawn.style.background="forestgreen";
+element.innerHTML="White pawn";}
+else if (element.innerHTML==="Black Bishop" && wking.style.background==="black") {
+wking.style.background="forestgreen";
+element.innerHTML="White king";}
+else if (element.innerHTML==="Black Bishop" && wqueen.style.background==="black") {
+wqueen.style.background="forestgreen";
+element.innerHTML="White queen";}
+else if (element.innerHTML==="Black Bishop" && wrook.style.background==="black") {
+wrook.style.background="forestgreen";
+element.innerHTML="White rook";}
+else if (element.innerHTML==="Black Bishop" && wbishop.style.background==="black") {
+wbishop.style.background="forestgreen";
+element.innerHTML="White bishop";}
+else if (element.innerHTML==="Black Bishop" && wknight.style.background==="black") {
+wknight.style.background="forestgreen";
+element.innerHTML="White knight";}
+else if (element.innerHTML==="Black Knight" && wpawn.style.background==="black") {
+wpawn.style.background="forestgreen";
+element.innerHTML="White pawn";}
+else if (element.innerHTML==="Black Knight" && wking.style.background==="black") {
+wking.style.background="forestgreen";
+element.innerHTML="White king";}
+else if (element.innerHTML==="Black Knight" && wqueen.style.background==="black") {
+wqueen.style.background="forestgreen";
+element.innerHTML="White queen";}
+else if (element.innerHTML==="Black Knight" && wrook.style.background==="black") {
+wrook.style.background="forestgreen";
+element.innerHTML="White rook";}
+else if (element.innerHTML==="Black Knight" && wbishop.style.background==="black") {
+wbishop.style.background="forestgreen";
+element.innerHTML="White bishop";}
+else if (element.innerHTML==="Black Knight" && wknight.style.background==="black") {
+wknight.style.background="forestgreen";
+element.innerHTML="White knight";}
+else if (element.innerHTML==="White Rook" && wpawn.style.background==="black") {
+wpawn.style.background="forestgreen";
+element.innerHTML="White pawn";}
+else if (element.innerHTML==="Black Rook" && wking.style.background==="black") {
+wking.style.background="forestgreen";
+element.innerHTML="White king";}
+else if (element.innerHTML==="Black Rook" && wqueen.style.background==="black") {
+wqueen.style.background="forestgreen";
+element.innerHTML="White queen";}
+else if (element.innerHTML==="Black Rook" && wrook.style.background==="black") {
+wrook.style.background="forestgreen";
+element.innerHTML="White rook";}
+else if (element.innerHTML==="Black Rook" && wbishop.style.background==="black") {
+wbishop.style.background="forestgreen";
+element.innerHTML="White bishop";}
+else if (element.innerHTML==="Black Rook" && wknight.style.background==="black") {
+wknight.style.background="forestgreen";
+element.innerHTML="White knight";}
+else if (element.innerHTML==="Black Queen" && wpawn.style.background==="black") {
+wpawn.style.background="forestgreen";
+element.innerHTML="White pawn";}
+else if (element.innerHTML==="Black Queen" && wking.style.background==="black") {
+wking.style.background="forestgreen";
+element.innerHTML="White king";}
+else if (element.innerHTML==="Black Queen" && wqueen.style.background==="black") {
+wqueen.style.background="forestgreen";
+element.innerHTML="White queen";}
+else if (element.innerHTML==="Black Queen" && wrook.style.background==="black") {
+wrook.style.background="forestgreen";
+element.innerHTML="White rook";}
+else if (element.innerHTML==="Black Queen" && wbishop.style.background==="black") {
+wbishop.style.background="forestgreen";
+element.innerHTML="White bishop";}
+else if (element.innerHTML==="Black Queen" && wknight.style.background==="black") {
+wknight.style.background="forestgreen";
+element.innerHTML="White knight";}
+else if (element.innerHTML==="Black King" && wpawn.style.background==="black") {
+wpawn.style.background="forestgreen";
+element.innerHTML="White pawn";}
+else if (element.innerHTML==="Black King" && wking.style.background==="black") {
+wking.style.background="forestgreen";
+element.innerHTML="White king";}
+else if (element.innerHTML==="Black King" && wqueen.style.background==="black") {
+wqueen.style.background="forestgreen";
+element.innerHTML="White queen";}
+else if (element.innerHTML==="Black King" && wrook.style.background==="black") {
+wrook.style.background="forestgreen";
+element.innerHTML="White rook";}
+else if (element.innerHTML==="Black King" && wbishop.style.background==="black") {
+wbishop.style.background="forestgreen";
+element.innerHTML="White bishop";}
+else if (element.innerHTML==="Black King" && wknight.style.background==="black") {
+wknight.style.background="forestgreen";
+element.innerHTML="White knight";}
+else if (element.innerHTML==="Black Pawn" && wpawn.style.background==="black") {
+wpawn.style.background="forestgreen";
+element.innerHTML="White pawn";}
+else if (element.innerHTML==="Black Pawn" && wking.style.background==="black") {
+wking.style.background="forestgreen";
+element.innerHTML="White king";}
+else if (element.innerHTML==="Black Pawn" && wqueen.style.background==="black") {
+wqueen.style.background="forestgreen";
+element.innerHTML="White queen";}
+else if (element.innerHTML==="Black Pawn" && wrook.style.background==="black") {
+wrook.style.background="forestgreen";
+element.innerHTML="White rook";}
+else if (element.innerHTML==="Black Pawn" && wbishop.style.background==="black") {
+wbishop.style.background="forestgreen";
+element.innerHTML="White bishop";}
+else if (element.innerHTML==="Black Pawn" && wknight.style.background==="black") {
+wknight.style.background="forestgreen";
+element.innerHTML="White knight";}
+
   
 else if (element.innerHTML==="White Bishop" && wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
@@ -436,6 +545,116 @@ element.innerHTML="White bishop";}
 else if (element.innerHTML==="White Pawn" && wknight.style.background==="black") {
 wknight.style.background="forestgreen";
 element.innerHTML="White knight";}
+
+else if (element.innerHTML==="White Bishop" && bpawn.style.background==="black") {
+bpawn.style.background="forestgreen";
+element.innerHTML="Black Pawn";}
+else if (element.innerHTML==="White Bishop" && bking.style.background==="black") {
+bking.style.background="forestgreen";
+element.innerHTML="BLack King";}
+else if (element.innerHTML==="White Bishop" && bqueen.style.background==="black") {
+bqueen.style.background="forestgreen";
+element.innerHTML="Black Queen";}
+else if (element.innerHTML==="White Bishop" && brook.style.background==="black") {
+brook.style.background="forestgreen";
+element.innerHTML="BLack Rook";}
+else if (element.innerHTML==="White Bishop" && bbishop.style.background==="black") {
+bbishop.style.background="forestgreen";
+element.innerHTML="wbishop";}
+else if (element.innerHTML==="White Bishop" && bknight.style.background==="black") {
+bknight.style.background="forestgreen";
+element.innerHTML="Black Knight";}
+else if (element.innerHTML==="White Knight" && bpawn.style.background==="black") {
+bpawn.style.background="forestgreen";
+element.innerHTML="Black Pawn";}
+else if (element.innerHTML==="White Knight" && bking.style.background==="black") {
+bking.style.background="forestgreen";
+element.innerHTML="Black King";}
+else if (element.innerHTML==="White Knight" && bqueen.style.background==="black") {
+bqueen.style.background="forestgreen";
+element.innerHTML="Black Queen";}
+else if (element.innerHTML==="White Knight" && brook.style.background==="black") {
+brook.style.background="forestgreen";
+element.innerHTML="Black Rook";}
+else if (element.innerHTML==="White Knight" && bbishop.style.background==="black") {
+bbishop.style.background="forestgreen";
+element.innerHTML="Black Bishop";}
+else if (element.innerHTML==="White Knight" && bknight.style.background==="black") {
+bknight.style.background="forestgreen";
+element.innerHTML="Black Knight";}
+else if (element.innerHTML==="White Rook" && bpawn.style.background==="black") {
+bpawn.style.background="forestgreen";
+element.innerHTML="Black Pawn";}
+else if (element.innerHTML==="White Rook" && bking.style.background==="black") {
+bking.style.background="forestgreen";
+element.innerHTML="Black King";}
+else if (element.innerHTML==="White Rook" && bqueen.style.background==="black") {
+bqueen.style.background="forestgreen";
+element.innerHTML="Black Queen";}
+else if (element.innerHTML==="White Rook" && brook.style.background==="black") {
+brook.style.background="forestgreen";
+element.innerHTML="Black Rook";}
+else if (element.innerHTML==="White Rook" && bbishop.style.background==="black") {
+bbishop.style.background="forestgreen";
+element.innerHTML="Black Bishop";}
+else if (element.innerHTML==="White Rook" && bknight.style.background==="black") {
+bknight.style.background="forestgreen";
+element.innerHTML="Black Knight";}
+else if (element.innerHTML==="White Queen" && bpawn.style.background==="black") {
+bpawn.style.background="forestgreen";
+element.innerHTML="Black Pawn";}
+else if (element.innerHTML==="White Queen" && bking.style.background==="black") {
+bking.style.background="forestgreen";
+element.innerHTML="Black King";}
+else if (element.innerHTML==="White Queen" && bqueen.style.background==="black") {
+bqueen.style.background="forestgreen";
+element.innerHTML="Black Queen";}
+else if (element.innerHTML==="White Queen" && brook.style.background==="black") {
+brook.style.background="forestgreen";
+element.innerHTML="Black Rook";}
+else if (element.innerHTML==="White Queen" && bbishop.style.background==="black") {
+bbishop.style.background="forestgreen";
+element.innerHTML="Black Bishop";}
+else if (element.innerHTML==="White Queen" && bknight.style.background==="black") {
+bknight.style.background="forestgreen";
+element.innerHTML="Black Knight";}
+else if (element.innerHTML==="White King" && bpawn.style.background==="black") {
+bpawn.style.background="forestgreen";
+element.innerHTML="Black Pawn";}
+else if (element.innerHTML==="White King" && bking.style.background==="black") {
+wking.style.background="forestgreen";
+element.innerHTML="Black King";}
+else if (element.innerHTML==="White King" && bqueen.style.background==="black") {
+bqueen.style.background="forestgreen";
+element.innerHTML="Black Queen";}
+else if (element.innerHTML==="White King" && brook.style.background==="black") {
+brook.style.background="forestgreen";
+element.innerHTML="Black Rook";}
+else if (element.innerHTML==="White King" && bbishop.style.background==="black") {
+bbishop.style.background="forestgreen";
+element.innerHTML="Black Bishop";}
+else if (element.innerHTML==="White King" && bknight.style.background==="black") {
+bknight.style.background="forestgreen";
+element.innerHTML="Black Knight";}
+else if (element.innerHTML==="White Pawn" && bpawn.style.background==="black") {
+bpawn.style.background="forestgreen";
+element.innerHTML="Black Pawn";}
+else if (element.innerHTML==="White Pawn" && bking.style.background==="black") {
+bking.style.background="forestgreen";
+element.innerHTML="Black King";}
+else if (element.innerHTML==="White Pawn" && bqueen.style.background==="black") {
+bqueen.style.background="forestgreen";
+element.innerHTML="Black Queen";}
+else if (element.innerHTML==="White Pawn" && brook.style.background==="black") {
+brook.style.background="forestgreen";
+element.innerHTML="Black Rook";}
+else if (element.innerHTML==="White Pawn" && bbishop.style.background==="black") {
+bbishop.style.background="forestgreen";
+element.innerHTML="Black Bishop";}
+else if (element.innerHTML==="White Pawn" && bknight.style.background==="black") {
+bknight.style.background="forestgreen";
+element.innerHTML="Black Knight";}
+
   
 else if (element.style.background==="darkcyan" && wpawn.style.background==="black") {
 wpawn.style.background="forestgreen";
