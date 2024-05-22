@@ -293,7 +293,7 @@ else if (element.innerHTML==="Black King" && bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
 element.innerHTML="Black Pawn";}
 else if (element.innerHTML==="Black King" && bking.style.background==="black") {
-wking.style.background="forestgreen";
+bking.style.background="forestgreen";
 element.innerHTML="Black King";}
 else if (element.innerHTML==="Black King" && bqueen.style.background==="black") {
 bqueen.style.background="forestgreen";
