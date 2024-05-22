@@ -699,13 +699,13 @@ wqueen.style.background="black";
 element.innerHTML="";}
 else if (element.innerHTML==="White Rook") {
 wrook.style.background="black";
-element.innerHTML="F";}
+element.innerHTML="";}
 else if (element.innerHTML==="White Knight") {
 wknight.style.background="black";
 element.innerHTML="";}
 else if (element.innerHTML==="White Bishop") {
 wbishop.style.background="black";
-element.innerHtml="";}
+element.innerHTML="";}
 else if (element.innerHTML==="Black Pawn") {
 bpawn.style.background="black";
 element.innerHTML="";}
