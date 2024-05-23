@@ -7,6 +7,12 @@
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+<table style="width: 125px">
+<tr><td><p>Notation Log:</p></td></tr><tr>
+<td><<p id="notationDumpInput">input</p></td></tr>
+<tr><td><p>Piece Log:</p></td></tr>
+<tr><td><p id="pieceDumpInput">Input</p></td></tr>
+</table>
 <table style="background: linear-gradient(180deg, white, silver, black, silver)"><tr>
 <td><main id="one" onclick="notation(this)"><p style="font-size: 30px">1</p></main></td>
 <td><section style="opacity: 100%; heightL 40px; width: 40px; background: white"><p id="node1"> A1</p><p style="opacity: 100%; height: 40px; width: 40px; background: plum" onclick="selectTile(this)" id="tile1"></p></section></td>
@@ -113,11 +119,5 @@
 </td><td colspan="2">
 <button style="background: black; color: white; border-radius: 45px 45px 45px 45px; font-size: 8px" onclick="boardSetToggle()">Board Colours</button>
 </td></tr></table>
-<table style="width: 125px">
-<tr><td><p>Notation Log:</p></td></tr><tr>
-<td><td><p id="notationDumpInput">input</p></td><</tr>
-<tr><td><p>Piece Log:</p></td></tr>
-<tr><td><p id="pieceDumpInput">Input</p></td></tr>
-</table>
 <script src="/javaScript.js"></script>
 </body></html>
