@@ -137,7 +137,7 @@ else if
 (eight.style.background==="red") {eight.style.background="forestgreen"; element.style.background="red";}
 else 
 {element.style.background="red";}}
-function notationTwo() {
+function notationTwo(element) {
 if
 (element.style.background==="red") {element.style.background="forestgreen";}
 else if 
