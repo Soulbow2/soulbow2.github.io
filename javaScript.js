@@ -589,6 +589,9 @@ element.style.background="black";}
 else if (brook.style.background==="black") {
 brook.style.background="forestgreen";
 element.style.background="black";}
+else if (bknight.style.background==="black") {
+bknight.style.background="forestgreen";
+element.style.background="black";}
 else if (bbishop.style.background==="black") {
 bbishop.style.background="forestgreen";
 element.style.background="black";}
