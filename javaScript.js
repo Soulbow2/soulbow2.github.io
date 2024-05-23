@@ -90,8 +90,7 @@ const efive=document.getElementById("efive");
 const fsix=document.getElementById("fsix");
 const gseven=document.getElementById("gseven");
 const height=document.getElementById("height");
-const notationDumpInput=document.getElementById("notationDumpInput");
-const pieceDumpInput=document.getElementById("pieceDumpInput");
+const turn=document.getElementById("turnButton";
 
 function boardSet() {
 tile1.innerHTML="Black Rook";
@@ -559,280 +558,53 @@ else if (element.innerHTML==="Black Bishop") {
 bbishop.style.background="black";
 element.innerHTML="";}}
 
-function graveYard() {
-if (wking.style.background==="black") {
-wpawn.style.background="black";
-wking.style.background="forestgreen";}
-else if (wqueen.style.background==="black") {
-wpawn.style.background="black";
-wqueen.style.background="forestgreen";}
-else if (wrook.style.background==="black") {
-wpawn.style.background="black";
-wrook.style.background="forestgreen";}
-else if (wknight.style.background==="black") {
-wpawn.style.background="black";
-wknight.style.background="forestgreen";}
-else if (wbishop.style.background==="black") {
-wpawn.style.background="black";
-wbishop.style.background="forestgreen";}
-else if (wpawn.style.background==="forestgreen") {
-wpawn.style.background="black";
+function graveYard(element) {
+if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";}
-else if (wpawn.style.background==="black") {
-wpawn.style.background="forestgreen";
-wking.style.background="black";}
-else if (wqueen.style.background==="black") {
-wking.style.background="black";
-wqueen.style.background="forestgreen";}
-else if (wrook.style.background==="black") {
-wking.style.background="black";
-wrook.style.background="forestgreen";}
-else if (wknight.style.background==="black") {
-wking.style.background="black";
-wknight.style.background="forestgreen";}
-else if (wbishop.style.background==="black") {
-wking.style.background="black";
-wbishop.style.background="forestgreen";}
-else if (wking.style.background==="forestgreen") {
-wking.style.background="black";
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";}
-else if (wpawn.style.background==="black") {
-wpawn.style.background="forestgreen";
-wqueen.style.background="black";}
+element.style.background="black";}
 else if (wking.style.background==="black") {
 wking.style.background="forestgreen";
-wqueen.style.background="black";}
-else if (wrook.style.background==="black") {
-wqueen.style.background="black";
-wrook.style.background="forestgreen";}
-else if (wknight.style.background==="black") {
-wqueen.style.background="black";
-wknight.style.background="forestgreen";}
-else if (wbishop.style.background==="black") {
-wqueen.style.background="black";
-wbishop.style.background="forestgreen";}
-else if (wqueen.style.background==="forestgreen") {
-wqueen.style.background="black";
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";}
-else if (wpawn.style.background==="black") {
-wpawn.style.background="forestgreen";
-wrook.style.background="black";}
-else if (wking.style.background==="black") {
-wking.style.background="forestgreen";
-wrook.style.background="black";}
+element.style.background="black";}
 else if (wqueen.style.background==="black") {
 wqueen.style.background="forestgreen";
-wrook.style.background="black";}
-else if (wknight.style.background==="black") {
-wrook.style.background="black";
-wknight.style.background="forestgreen";}
-else if (wbishop.style.background==="black") {
-wrook.style.background="black";
-wbishop.style.background="forestgreen";}
-else if (wrook.style.background==="forestgreen") {
-wrook.style.background="black";
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";}
-else if (wpawn.style.background==="black") {
-wpawn.style.background="forestgreen";
-wknight.style.background="black";}
-else if (wking.style.background==="black") {
-wking.style.background="forestgreen";
-wknight.style.background="black";}
-else if (wqueen.style.background==="black") {
-wqueen.style.background="forestgreen";
-wknight.style.background="black";}
+element.style.background="black";}
 else if (wrook.style.background==="black") {
 wrook.style.background="forestgreen";
-wknight.style.background="black";}
+element.style.background="black";}
+else if (wknight.style.background==="black") {
+wknight.style.background="forestgreen";
+element.style.background="black";}
 else if (wbishop.style.background==="black") {
 wbishop.style.background="forestgreen";
-wknight.style.background="black";}
-else if (wknight.style.background==="forestgreen") {
-wknight.style.background="black";
+element.style.background="black";}
+else if (element.style.background==="forestgreen") {
 bpawn.style.background="forestgreen";
 bking.style.background="forestgreen";
 bqueen.style.background="forestgreen";
 brook.style.background="forestgreen";
 bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";}
-else if (wpawn.style.background==="black") {
-wpawn.style.background="forestgreen";
-wbishop.style.background="black";}
-else if (wking.style.background==="black") {
-wking.style.background="forestgreen";
-wbishop.style.background="black";}
-else if (wqueen.style.background==="black") {
-wqueen.style.background="forestgreen";
-wbishop.style.background="black";}
-else if (wrook.style.background==="black") {
-wrook.style.background="forestgreen";
-wbishop.style.background="black";}
-else if (wknight.style.background==="black") {
-wknight.style.background="forestgreen";
-wbishop.style.background="black";}
-else if (wbishop.style.background==="forestgreen") {
-wbishop.style.background="black";
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";}
-else if (bking.style.background==="black") {
-bpawn.style.background="black";
-bking.style.background="forestgreen";}
-else if (bqueen.style.background==="black") {
-bpawn.style.background="black";
-bqueen.style.background="forestgreen";}
-else if (brook.style.background==="black") {
-bpawn.style.background="black";
-brook.style.background="forestgreen";}
-else if (bknight.style.background==="black") {
-bpawn.style.background="black";
-bknight.style.background="forestgreen";}
-else if (bbishop.style.background==="black") {
-bpawn.style.background="black";
-bbishop.style.background="forestgreen";}
-else if (bpawn.style.background==="forestgreen") {
-bpawn.style.background="black";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
-else if (bpawn.style.background==="black") {
-bking.style.background="black";
-bpawn.style.background="forestgreen";}
-else if (bqueen.style.background==="black") {
-bking.style.background="black";
-bqueen.style.background="forestgreen";}
-else if (brook.style.background==="black") {
-bking.style.background="black";
-brook.style.background="forestgreen";}
-else if (bknight.style.background==="black") {
-bking.style.background="black";
-bknight.style.background="forestgreen";}
-else if (bbishop.style.background==="black") {
-bking.style.background="black";
-bbishop.style.background="forestgreen";}
-else if (bking.style.background==="forestgreen") {
-bking.style.background="black";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
-else if (bpawn.style.background==="black") {
-bqueen.style.background="black";
-bpawn.style.background="forestgreen";}
-else if (bking.style.background==="black") {
-bking.style.background="forestgreen";
-bqueen.style.background="black";}
-else if (brook.style.background==="black") {
-bqueen.style.background="black";
-brook.style.background="forestgreen";}
-else if (bknight.style.background==="black") {
-bqueen.style.background="black";
-bknight.style.background="forestgreen";}
-else if (bbishop.style.background==="black") {
-bqueen.style.background="black";
-bbishop.style.background="forestgreen";}
-else if (bqueen.style.background==="forestgreen") {
-bqueen.style.background="black";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
+bbishop.style.background="forestgreen";
+element.style.background="black";}
 else if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
-brook.style.background="black";}
+element.style.background="black";}
 else if (bking.style.background==="black") {
 bking.style.background="forestgreen";
-brook.style.background="black";}
+element.style.background="black";}
 else if (bqueen.style.background==="black") {
 bqueen.style.background="forestgreen";
-brook.style.background="black";}
-else if (bknight.style.background==="black") {
-brook.style.background="black";
-bknight.style.background="forestgreen";}
-else if (bbishop.style.background==="black") {
-brook.style.background="black";
-bbishop.style.background="forestgreen";}
-else if (brook.style.background==="forestgreen") {
-brook.style.background="black";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
-else if (bpawn.style.background==="black") {
-bpawn.style.background="forestgreen";
-bknight.style.background="black";}
-else if (bking.style.background==="black") {
-bking.style.background="forestgreen";
-bknight.style.background="black";}
-else if (bqueen.style.background==="black") {
-bqueen.style.background="forestgreen";
-bknight.style.background="black";}
-else if (brook.style.background==="black") {
-bknight.style.background="black";
-brook.style.background="forestgreen";}
-else if (bbishop.style.background==="black") {
-bknight.style.background="black";
-bbishop.style.background="forestgreen";}
-else if (bknight.style.background==="forestgreen") {
-bknight.style.background="black";
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}
-else if (bpawn.style.background==="black") {
-bpawn.style.background="forestgreen";
-bbishop.style.background="black";}
-else if (bking.style.background==="black") {
-bking.style.background="forestgreen";
-bbishop.style.background="black";}
-else if (bqueen.style.background==="black") {
-bqueen.style.background="forestgreen";
-bbishop.style.background="black";}
+element.style.background="black";}
 else if (brook.style.background==="black") {
 brook.style.background="forestgreen";
-bbishop.style.background="black";}
-else if (bknight.style.background==="black") {
-bknight.style.background="forestgreen";
-bbishop.style.background="black";}
-else if (bbishop.style.background==="forestgreen") {
-bbishop.style.background="black";
+element.style.background="black";}
+else if (bbishop.style.background==="black") {
+bbishop.style.background="forestgreen";
+element.style.background="black";}
+else if (element.style.background==="forestgreen") {
 wpawn.style.background="forestgreen";
 wking.style.background="forestgreen";
 wqueen.style.background="forestgreen";
 wrook.style.background="forestgreen";
 wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";}}
+wbishop.style.background="forestgreen";
+element.style.background="black";}}
