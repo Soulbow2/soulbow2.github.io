@@ -116,7 +116,7 @@ tile59.style.background="darkcyan"; tile59.style.color="black"; tile60.style.bac
 tile61.style.background="darkcyan"; tile61.style.color="black"; tile62.style.background="plum"; tile62.style.color="black";
 tile63.style.background="darkcyan"; tile63.style.color="black"; tile64.style.background="plum"; tile64.style.color="black";}}
 /* Notation Selector */
-function notation(element) {
+function notationOne(element) {
 if
 (element.style.background==="red") {element.style.background="forestgreen";}
 else if
@@ -135,8 +135,11 @@ else if
 (seven.style.background==="red") {seven.style.background="forestgreen"; element.style.background="red";}
 else if 
 (eight.style.background==="red") {eight.style.background="forestgreen"; element.style.background="red";}
-else if 
-(element.style.background==="forestgreen") {element.style.background="red";}
+else 
+{element.style.background="red";}}
+function notationTwo() {
+if
+(element.style.background==="red") {element.style.background="forestgreen";}
 else if 
 (aa.style.background==="red") {aa.style.background="forestgreen"; element.style.background="red";}
 else if 
