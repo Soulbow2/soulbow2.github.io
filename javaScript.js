@@ -479,7 +479,7 @@ else {element.style.background="red";}}
 
 function notationDump(element) {
 if (element.style.opacity==="100%") {
-notationDumpInput.value="notationDumpInput+ A1";}
+notationDumpInput.value="notationDumpInput.value+ A1";}
 
 
 function selectTile(element) {
