@@ -30,8 +30,8 @@ const tile61=document.getElementById("tile61"); const tile62=document.getElement
 /* Functions */
 /* Pieces To Default */
 function boardSet() {
-tile1.innerHTML="Black Rook"; tile2.innerHTML="Black Knight"; tile3.innerHTML="Black Bishop"; tile4.innerHTML="Black King";
-tile5.innerHTML="Black Queen"; tile6.innerHTML="Black Bishop"; tile7.innerHTML="Black Knight"; tile8.innerHTML="Black Rook";
+tile1.innerHTML="Black Rook"; tile2.innerHTML="Black Knight"; tile3.innerHTML="Black Bishop"; tile4.innerHTML="Black Queen";
+tile5.innerHTML="Black King"; tile6.innerHTML="Black Bishop"; tile7.innerHTML="Black Knight"; tile8.innerHTML="Black Rook";
 tile9.innerHTML="Black Pawn"; tile10.innerHTML="Black Pawn"; tile11.innerHTML="Black Pawn"; tile12.innerHTML="Black Pawn";
 tile13.innerHTML="Black Pawn"; tile14.innerHTML="Black Pawn"; tile15.innerHTML="Black Pawn"; tile16.innerHTML="Black Pawn";
 tile17.innerHTML=""; tile18.innerHTML=""; tile19.innerHTML=""; tile20.innerHTML="";
