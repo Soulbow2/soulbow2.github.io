@@ -105,7 +105,7 @@ tile25.style.background="darkcyan"; tile25.style.color="black"; tile26.style.bac
 tile27.style.background="darkcyan"; tile27.style.color="black"; tile28.style.background="plum"; tile28.style.color="black";
 tile29.style.background="darkcyan"; tile29.style.color="black"; tile30.style.background="plum"; tile30.style.color="black";
 tile31.style.background="darkcyan"; tile31.style.color="black"; tile32.style.background="plum"; tile32.style.color="black"; 
-tile33.style.background="plum"; til33e.style.color="black"; tile34.style.background="darkcyan"; tile34.style.color="black";
+tile33.style.background="plum"; tile33.style.color="black"; tile34.style.background="darkcyan"; tile34.style.color="black";
 tile35.style.background="plum"; tile35.style.color="black"; tile36.style.background="darkcyan"; tile36.style.color="black";
 tile37.style.background="plum"; tile37.style.color="black"; tile38.style.background="darkcyan"; tile38.style.color="black";
 tile39.style.background="plum"; tile39.style.color="black"; tile40.style.background="darkcyan"; tile40.style.color="black"; 
