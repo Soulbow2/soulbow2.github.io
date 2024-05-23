@@ -142,7 +142,7 @@ else if
 else if 
 (cc.style.background==="red") {cc.style.background="forestgreen"; element.style.background="red";}
 else if 
-(dd.style.background==="red") {dd.style.background="forestgreen"; element.style.background="red';}
+(dd.style.background==="red") {dd.style.background="forestgreen"; element.style.background="red";}
 else if 
 (ee.style.background==="red") {ee.style.background="forestgreen"; element.style.background="red";}
 else if
