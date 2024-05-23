@@ -8,6 +8,7 @@ const one=document.getElementById("one"); const two=document.getElementById("two
 const three=document.getElementById("three"); const four=document.getElementById("four");
 const five=document.getElementById("five"); const six=document.getElementById("six"); 
 const seven=document.getElementById("seven"); const eight=document.getElementById("eight");
+
 const a=document.getElementById("a"); const b=document.getElementById("b"); 
 const c=document.getElementById("c"); const d=document.getElementById("d");
 const e=document.getElementById("e"); const f=document.getElementById("f");
@@ -63,6 +64,7 @@ tile1.innerHTML="Black Rook"; tile2.innerHTML="Black Knight"; tile3.innerHTML="B
 tile5.innerHTML="Black Queen"; tile6.innerHTML="Black Bishop"; tile7.innerHTML="Black Knight"; tile8.innerHTML="Black Rook";
 tile9.innerHTML="Black Pawn"; tile10.innerHTML="Black Pawn"; tile11.innerHTML="Black Pawn"; tile12.innerHTML="Black Pawn";
 tile13.innerHTML="Black Pawn"; tile14.innerHTML="Black Pawn"; tile15.innerHTML="Black Pawn"; tile16.innerHTML="Black Pawn";
+  
 tile17.innerHTML=""; tile18.innerHTML=""; tile19.innerHTML=""; tile20.innerHTML="";
 tile21.innerHTML=""; tile22.innerHTML=""; tile23.innerHTML=""; tile24.innerHTML="";
 tile25.innerHTML=""; tile26.innerHTML=""; tile27.innerHTML=""; tile28.innerHTML="";
@@ -71,14 +73,17 @@ tile33.innerHTML=""; tile34.innerHTML=""; tile35.innerHTML=""; tile36.innerHTML=
 tile37.innerHTML=""; tile38.innerHTML=""; tile39.innerHTML=""; tile40.innerHTML="";
 tile41.innerHTML=""; tile42.innerHTML=""; tile43.innerHTML=""; tile44.innerHTML="";
 tile45.innerHTML=""; tile46.innerHTML=""; tile47.innerHTML=""; tile48.innerHTML="";
+  
 tile49.innerHTML="White Pawn"; tile50.innerHTML="White Pawn"; tile51.innerHTML="White Pawn"; tile52.innerHTML="White Pawn";
 tile53.innerHTML="White Pawn"; tile54.innerHTML="White Pawn"; tile55.innerHTML="White Pawn"; tile56.innerHTML="White Pawn";
 tile57.innerHTML="White Rook"; tile58.innerHTML="White Knight"; tile59.innerHTML="White Bishop"; tile60.innerHTML="White Queen";
-tile61.innerHTML="White King"; tile62.innerHTML="White Bishop"; tile63.innerHTML="White Knight"; tile64.innerHTML="White Rook";}
+tile61.innerHTML="White King"; tile62.innerHTML="White Bishop"; tile63.innerHTML="White Knight"; tile64.innerHTML="White Rook";
+}
 
 /* Colour Change */
 function boardSetToggle() {
-if (tile1.style.background==="plum") {
+if 
+(tile1.style.background==="plum") {
 tile1.style.background="silver"; tile1.style.color="deeppink";
 tile2.style.background="gold"; tile2.style.color="deeppink";
 tile3.style.background="silver"; tile3.style.color="deeppink";
@@ -143,7 +148,9 @@ tile61.style.background="gold"; tile61.style.color="deeppink";
 tile62.style.background="silver"; tile62.style.color="deeppink";
 tile63.style.background="gold"; tile63.style.color="deeppink";
 tile64.style.background="silver"; tile64.style.color="deeppink";}
-else {tile1.style.background="plum"; tile1.style.color="black";
+
+else {
+tile1.style.background="plum"; tile1.style.color="black";
 tile2.style.background="darkcyan"; tile2.style.color="black";
 tile3.style.background="plum"; tile3.style.color="black";
 tile4.style.background="darkcyan"; tile4.style.color="black";
@@ -206,63 +213,85 @@ tile60.style.background="plum"; tile60.style.color="black";
 tile61.style.background="darkcyan"; tile61.style.color="black";
 tile62.style.background="plum"; tile62.style.color="black";
 tile63.style.background="darkcyan"; tile63.style.color="black";
-tile64.style.background="plum"; tile64.style.color="black";}}
+tile64.style.background="plum"; tile64.style.color="black";}
+}
 
 /* Notation Selector */
 function notation(element) {
-if(element.style.background==="red") {
+if
+(element.style.background==="red") {
 element.style.background="forestgreen";}
-else if (one.style.background==="red") {
+else if
+(one.style.background==="red") {
 one.style.background="forestgreen";
 element.style.background="red";}
-else if (two.style.background==="red") {
+else if
+(two.style.background==="red") {
 two.style.background="forestgreen";
 element.style.background="red";}
-else if (three.style.background==="red") {
+else if 
+(three.style.background==="red") {
 three.style.background="forestgreen";
 element.style.background="red";}
-else if (four.style.background==="red") {
+else if 
+(four.style.background==="red") {
 four.style.background="forestgreen";
 element.style.background="red";}
-else if (five.style.background==="red") {
+else if 
+(five.style.background==="red") {
 five.style.background="forestgreen";
 element.style.background="red";}
-else if (six.style.background==="red") {
+else if 
+(six.style.background==="red") {
 six.style.background="forestgreen";
 element.style.background="red";}
-else if (seven.style.background==="red") {
+else if 
+(seven.style.background==="red") {
 seven.style.background="forestgreen";
 element.style.background="red";}
-else if (eight.style.background==="red") {
+else if 
+(eight.style.background==="red") {
 eight.style.background="forestgreen";
 element.style.background="red";}
-else if(element.style.background==="red") {
+  
+else if 
+(a.style.background==="red") {
+a.style.background="forestgreen";
+element.style.background='red';}
+else if 
+(b.style.background==="red") {
+b.style.background="forestgreen";
+element.style.background='red';}
+else if 
+(c.style.background==="red") {
+c.style.background="forestgreen";
+element.style.background='red';}
+else if 
+(d.style.background==="red") {
+d.style.background="forestgreen";
+element.style.background='red';}
+else if 
+(e.style.background==="red") {
+e.style.background="forestgreen";
+element.style.background='red';}
+else if
+(f.style.background==="red") {
+f.style.background="forestgreen";
+element.style.background='red';}
+else if 
+(g.style.background==="red") {
+g.style.background="forestgreen";
+element.style.background='red';}
+else if 
+(h.style.background==="red") {
+h.style.background="forestgreen";
+element.style.background='red';}
+else if
+(element.style.background==="red") {
 element.style.background="forestgreen";}
-else if (aone.style.background==="red") {
-aone.style.background="forestgreen";
-element.style.background='red';}
-else if (btwo.style.background==="red") {
-btwo.style.background="forestgreen";
-element.style.background='red';}
-else if (cthree.style.background==="red") {
-cthree.style.background="forestgreen";
-element.style.background='red';}
-else if (dfour.style.background==="red") {
-dfour.style.background="forestgreen";
-element.style.background='red';}
-else if (efive.style.background==="red") {
-efive.style.background="forestgreen";
-element.style.background='red';}
-else if (fsix.style.background==="red") {
-fsix.style.background="forestgreen";
-element.style.background='red';}
-else if (gseven.style.background==="red") {
-gseven.style.background="forestgreen";
-element.style.background='red';}
-else if (height.style.background==="red") {
-height.style.background="forestgreen";
-element.style.background='red';}
-else {element.style.background="red";}}
+else 
+{element.style.background="red";}
+}
 
 /* Piece Placement & GraveYard Automation */
 function selectTile(element) {
