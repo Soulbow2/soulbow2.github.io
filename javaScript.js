@@ -6,8 +6,8 @@ const turn=document.getElementById("turn");
 const one=document.getElementById("one"); const two=document.getElementById("two");  const three=document.getElementById("three"); const four=document.getElementById("four");
 const five=document.getElementById("five"); const six=document.getElementById("six");  const seven=document.getElementById("seven"); const eight=document.getElementById("eight");
 
-const a=document.getElementById("a"); const b=document.getElementById("b");  const c=document.getElementById("c"); const d=document.getElementById("d");
-const e=document.getElementById("e"); const f=document.getElementById("f"); const g=document.getElementById("g"); const h=document.getElementById("h");
+const aa=document.getElementById("aa"); const bb=document.getElementById("bb");  const cc=document.getElementById("cc"); const dd=document.getElementById("dd");
+const ee=document.getElementById("ee"); const ff=document.getElementById("ff"); const gg=document.getElementById("gg"); const hh=document.getElementById("hh");
 
 /* GraveYard Id's */
 const whitePawn=document.getElementById("whitePawn"); const blackPawn=document.getElementById("blackPawn"); const whiteKing=document.getElementById("whiteKing"); const blackKing=document.getElementById("blackKing");
@@ -143,21 +143,21 @@ else if
 else if 
 (eight.style.background==="red") {eight.style.background="forestgreen"; element.style.background="red";}
 else if 
-(a.style.background==="red") {a.style.background="forestgreen"; element.style.background='red';}
+(aa.style.background==="red") {aa.style.background="forestgreen"; element.style.background="red";}
 else if 
-(b.style.background==="red") {b.style.background="forestgreen"; element.style.background='red';}
+(bb.style.background==="red") {bb.style.background="forestgreen"; element.style.background="red";}
 else if 
-(c.style.background==="red") {c.style.background="forestgreen"; element.style.background='red';}
+(cc.style.background==="red") {cc.style.background="forestgreen"; element.style.background="red";}
 else if 
-(d.style.background==="red") {d.style.background="forestgreen"; element.style.background='red';}
+(dd.style.background==="red") {dd.style.background="forestgreen"; element.style.background="red';}
 else if 
-(e.style.background==="red") {e.style.background="forestgreen"; element.style.background='red';}
+(ee.style.background==="red") {ee.style.background="forestgreen"; element.style.background="red";}
 else if
-(f.style.background==="red") {f.style.background="forestgreen"; element.style.background='red';}
+(ff.style.background==="red") {ff.style.background="forestgreen"; element.style.background="red";}
 else if 
-(g.style.background==="red") {g.style.background="forestgreen"; element.style.background='red';}
+(g.style.background==="red") {g.style.background="forestgreen"; element.style.background="red";}
 else if 
-(h.style.background==="red") {h.style.background="forestgreen"; element.style.background='red';}
+(hh.style.background==="red") {hh.style.background="forestgreen"; element.style.background="red";}
 else if
 (element.style.background==="red") {element.style.background="forestgreen";}
 else 
