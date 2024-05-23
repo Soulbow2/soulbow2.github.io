@@ -577,14 +577,6 @@ element.style.background="black";}
 else if (wbishop.style.background==="black") {
 wbishop.style.background="forestgreen";
 element.style.background="black";}
-else if (element.style.background==="forestgreen") {
-bpawn.style.background="forestgreen";
-bking.style.background="forestgreen";
-bqueen.style.background="forestgreen";
-brook.style.background="forestgreen";
-bknight.style.background="forestgreen";
-bbishop.style.background="forestgreen";
-element.style.background="black";}
 else if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
 element.style.background="black";}
@@ -600,11 +592,4 @@ element.style.background="black";}
 else if (bbishop.style.background==="black") {
 bbishop.style.background="forestgreen";
 element.style.background="black";}
-else if (element.style.background==="forestgreen") {
-wpawn.style.background="forestgreen";
-wking.style.background="forestgreen";
-wqueen.style.background="forestgreen";
-wrook.style.background="forestgreen";
-wknight.style.background="forestgreen";
-wbishop.style.background="forestgreen";
-element.style.background="black";}}
+else {element.style.background="black";}}
