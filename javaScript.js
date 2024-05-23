@@ -101,7 +101,7 @@ tile17.style.background="plum"; tile17.style.color="black"; tile18.style.backgro
 tile19.style.background="plum"; tile19.style.color="black"; tile20.style.background="darkcyan"; tile20.style.color="black";
 tile21.style.background="plum"; tile21.style.color="black"; tile22.style.background="darkcyan"; tile22.style.color="black";
 tile23.style.background="plum"; tile23.style.color="black"; tile24.style.background="darkcyan"; tile24.style.color="black";
-tile25.style.background="darkcyan"; tile25.style.color="black"; tile26.style.background="plum"; til26e.style.color="black";
+tile25.style.background="darkcyan"; tile25.style.color="black"; tile26.style.background="plum"; tile26.style.color="black";
 tile27.style.background="darkcyan"; tile27.style.color="black"; tile28.style.background="plum"; tile28.style.color="black";
 tile29.style.background="darkcyan"; tile29.style.color="black"; tile30.style.background="plum"; tile30.style.color="black";
 tile31.style.background="darkcyan"; tile31.style.color="black"; tile32.style.background="plum"; tile32.style.color="black"; 
