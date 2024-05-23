@@ -90,7 +90,7 @@ const efive=document.getElementById("efive");
 const fsix=document.getElementById("fsix");
 const gseven=document.getElementById("gseven");
 const height=document.getElementById("height");
-const turn=document.getElementById("turnButton";
+const turn=document.getElementById("turnButton");
 
 function boardSet() {
 tile1.innerHTML="Black Rook";
