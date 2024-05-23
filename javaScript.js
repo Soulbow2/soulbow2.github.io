@@ -148,7 +148,7 @@ else if
 else if
 (ff.style.background==="red") {ff.style.background="forestgreen"; element.style.background="red";}
 else if 
-(g.style.background==="red") {g.style.background="forestgreen"; element.style.background="red";}
+(gg.style.background==="red") {gg.style.background="forestgreen"; element.style.background="red";}
 else if 
 (hh.style.background==="red") {hh.style.background="forestgreen"; element.style.background="red";}
 else if
