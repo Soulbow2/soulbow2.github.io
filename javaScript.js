@@ -15,22 +15,22 @@ const whiteQueen=document.getElementById("whiteQueen"); const blackQueen=documen
 const whiteKnight=document.getElementById("whiteKnight"); const blackKnight=document.getElementById("blackKnight"); const whiteBishop=document.getElementById("whiteBishop"); const blackBishop=document.getElementById("blackBishop");
 
 /* Tiles 1-64 */
-const tile1=document.getElementById("1"); const tile2=document.getElementById("2"); const tile3=document.getElementById("3"); const tile4=document.getElementById("4");
-const tile5=document.getElementById("5"); const tile6=document.getElementById("6"); const tile7=document.getElementById("7"); const tile8=document.getElementById("8");
-const tile9=document.getElementById("9"); const tile10=document.getElementById("10");  const tile11=document.getElementById("11"); const tile12=document.getElementById("12");
-const tile13=document.getElementById("13"); const tile14=document.getElementById("14"); const tile15=document.getElementById("15"); const tile16=document.getElementById("16");
-const tile17=document.getElementById("17"); const tile18=document.getElementById("18"); const tile19=document.getElementById("19"); const tile20=document.getElementById("20");
-const tile21=document.getElementById("21"); const tile22=document.getElementById("22"); const tile23=document.getElementById("23"); const tile24=document.getElementById("24");
-const tile25=document.getElementById("25"); const tile26=document.getElementById("26"); const tile27=document.getElementById("27"); const tile28=document.getElementById("28");
-const tile29=document.getElementById("29"); const tile30=document.getElementById("30"); const tile31=document.getElementById("31"); const tile32=document.getElementById("32");
-const tile33=document.getElementById("33"); const tile34=document.getElementById("34"); const tile35=document.getElementById("35"); const tile36=document.getElementById("36");
-const tile37=document.getElementById("37"); const tile38=document.getElementById("38"); const tile39=document.getElementById("39"); const tile40=document.getElementById("40");
-const tile41=document.getElementById("41"); const tile42=document.getElementById("42"); const tile43=document.getElementById("43"); const tile44=document.getElementById("44");
-const tile45=document.getElementById("45"); const tile46=document.getElementById("46"); const tile47=document.getElementById("47"); const tile48=document.getElementById("48");
-const tile49=document.getElementById("49"); const tile50=document.getElementById("50"); const tile51=document.getElementById("51"); const tile52=document.getElementById("52");
-const tile53=document.getElementById("53"); const tile54=document.getElementById("54"); const tile55=document.getElementById("55"); const tile56=document.getElementById("56");
-const tile57=document.getElementById("57"); const tile58=document.getElementById("58"); const tile59=document.getElementById("59"); const tile60=document.getElementById("60");
-const tile61=document.getElementById("61"); const tile62=document.getElementById("62"); const tile63=document.getElementById("63"); const tile64=document.getElementById("64");
+const tile1=document.getElementById("tile1"); const tile2=document.getElementById("tile2"); const tile3=document.getElementById("tile3"); const tile4=document.getElementById("tile4");
+const tile5=document.getElementById("tile5"); const tile6=document.getElementById("tile6"); const tile7=document.getElementById("tile7"); const tile8=document.getElementById("tile8");
+const tile9=document.getElementById("tile9"); const tile10=document.getElementById("tile10");  const tile11=document.getElementById("tile11"); const tile12=document.getElementById("tile12");
+const tile13=document.getElementById("tile13"); const tile14=document.getElementById("tile14"); const tile15=document.getElementById("tile15"); const tile16=document.getElementById("tile16");
+const tile17=document.getElementById("tile17"); const tile18=document.getElementById("tile18"); const tile19=document.getElementById("tile19"); const tile20=document.getElementById("tile20");
+const tile21=document.getElementById("tile21"); const tile22=document.getElementById("tile22"); const tile23=document.getElementById("tile23"); const tile24=document.getElementById("tile24");
+const tile25=document.getElementById("tile25"); const tile26=document.getElementById("tile26"); const tile27=document.getElementById("tile27"); const tile28=document.getElementById("tile28");
+const tile29=document.getElementById("tile29"); const tile30=document.getElementById("tile30"); const tile31=document.getElementById("tile31"); const tile32=document.getElementById("tile32");
+const tile33=document.getElementById("tile33"); const tile34=document.getElementById("tile34"); const tile35=document.getElementById("tile35"); const tile36=document.getElementById("tile36");
+const tile37=document.getElementById("tile37"); const tile38=document.getElementById("tile38"); const tile39=document.getElementById("tile39"); const tile40=document.getElementById("tile40");
+const tile41=document.getElementById("tile41"); const tile42=document.getElementById("tile42"); const tile43=document.getElementById("tile43"); const tile44=document.getElementById("tile44");
+const tile45=document.getElementById("tile45"); const tile46=document.getElementById("tile46"); const tile47=document.getElementById("tile47"); const tile48=document.getElementById("tile48");
+const tile49=document.getElementById("tile49"); const tile50=document.getElementById("tile50"); const tile51=document.getElementById("tile51"); const tile52=document.getElementById("tile52");
+const tile53=document.getElementById("tile53"); const tile54=document.getElementById("tile54"); const tile55=document.getElementById("tile55"); const tile56=document.getElementById("tile56");
+const tile57=document.getElementById("tile57"); const tile58=document.getElementById("tile58"); const tile59=document.getElementById("tile59"); const tile60=document.getElementById("tile60");
+const tile61=document.getElementById("tile61"); const tile62=document.getElementById("tile62"); const tile63=document.getElementById("tile63"); const tile64=document.getElementById("tile64");
 
 /* Functions */
 /* Pieces To Default */
