@@ -1,4 +1,9 @@
+<!-- Turn Indicator //-->
+
 const turn=document.getElementById("turn");
+
+<!-- Board Side & Bottom Notation //-->
+
 const one=document.getElementById("one");
 const two=document.getElementById("two");
 const three=document.getElementById("three");
@@ -15,6 +20,9 @@ const e=document.getElementById("e");
 const f=document.getElementById("f");
 const g=document.getElementById("g");
 const h=document.getElementById("h");
+
+<!-- GraveYard Selection //-->
+
 const whitePawn=document.getElementById("whitePawn");
 const whiteKing=document.getElementById("whiteKing");
 const whiteQueen=document.getElementById("whiteQueen");
@@ -27,6 +35,9 @@ const blackQueen=document.getElementById("blackQueen");
 const blackRook=document.getElementById("blackRook");
 const blackKnight=document.getElementById("blackKnight");
 const blackBishop=document.getElementById("blackBishop");
+
+<!-- Board Tiles 1-64 //-->
+
 const tile1=document.getElementById("1");
 const tile2=document.getElementById("2");
 const tile3=document.getElementById("3");
@@ -91,6 +102,8 @@ const tile61=document.getElementById("61");
 const tile62=document.getElementById("62");
 const tile63=document.getElementById("63");
 const tile64=document.getElementById("64");
+
+<!-- Pieces To Default positions //-->
 
 function boardSet() {
 tile1.innerHTML="Black Rook";
@@ -157,6 +170,8 @@ tile61.innerHTML="White King";
 tile62.innerHTML="White Bishop";
 tile63.innerHTML="White Knight";
 tile64.innerHTML="White Rook";}
+
+<!-- Board Colour Change //-->
 
 function boardSetToggle() {
 if (tile1.style.background==="plum") {
@@ -289,6 +304,8 @@ tile62.style.background="plum"; tile62.style.color="black";
 tile63.style.background="darkcyan"; tile63.style.color="black";
 tile64.style.background="plum"; tile64.style.color="black";}}
 
+<!-- Notation Selector //-->
+
 function notation(element) {
 if(element.style.background==="red") {
 element.style.background="forestgreen";}
@@ -343,6 +360,8 @@ else if (height.style.background==="red") {
 height.style.background="forestgreen";
 element.style.background='red';}
 else {element.style.background="red";}}
+
+<!-- Place A Piece & GraveYard Select From Board Grid //-->
 
 function selectTile(element) {
 if (wpawn.style.background==="black") {
@@ -429,6 +448,8 @@ element.innerHTML="";}
 else if (element.innerHTML==="Black Bishop") {
 bbishop.style.background="black";
 element.innerHTML="";}}
+
+<!-- Select GraveYard For Board Placement //-->
 
 function graveYard(element) {
 if (element.style.background==="black") {
