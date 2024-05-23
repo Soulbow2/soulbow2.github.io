@@ -90,6 +90,8 @@ const efive=document.getElementById("efive");
 const fsix=document.getElementById("fsix");
 const gseven=document.getElementById("gseven");
 const height=document.getElementById("height");
+const notationDumpInput=document.getElementById("notationDumpInput");
+const pieceDumpInput=document.getElementById("pieceDumpInput");
 
 function boardSet() {
 tile1.innerHTML="Black Rook";
@@ -473,6 +475,12 @@ else if (height.style.background==="red") {
 height.style.background="forestgreen";
 element.style.background='red';}
 else {element.style.background="red";}}
+
+
+function notationDump(element) {
+if (element.style.opacity==="100%") {
+notationDumpInput.value="notationDumpInput+ A1";}
+
 
 function selectTile(element) {
 if (element.innerHTML==="BLack Bishop" && bpawn.style.background==="black") {
