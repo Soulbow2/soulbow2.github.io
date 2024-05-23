@@ -135,6 +135,8 @@ else if
 (seven.style.background==="red") {seven.style.background="forestgreen"; element.style.background="red";}
 else if 
 (eight.style.background==="red") {eight.style.background="forestgreen"; element.style.background="red";}
+else if
+(element.style.background==="red") {element.style.background="forestgreen";}
 else if 
 (aa.style.background==="red") {aa.style.background="forestgreen"; element.style.background="red";}
 else if 
@@ -151,8 +153,6 @@ else if
 (gg.style.background==="red") {gg.style.background="forestgreen"; element.style.background="red";}
 else if 
 (hh.style.background==="red") {hh.style.background="forestgreen"; element.style.background="red";}
-else if
-(element.style.background==="red") {element.style.background="forestgreen";}
 else 
 {element.style.background="red";}}
 /* Piece Placement & GraveYard Automation & Turn Indicator */
