@@ -559,7 +559,9 @@ bbishop.style.background="black";
 element.innerHTML="";}}
 
 function graveYard(element) {
-if (bpawn.style.background==="black") {
+if (element.style.background==="black") {
+element.style.background="forestgreen";}
+else if (bpawn.style.background==="black") {
 bpawn.style.background="forestgreen";
 element.style.background="black";}
 else if (wking.style.background==="black") {
