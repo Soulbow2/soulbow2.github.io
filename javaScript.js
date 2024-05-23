@@ -115,7 +115,7 @@ tile57.style.background="darkcyan"; tile57.style.color="black"; tile58.style.bac
 tile59.style.background="darkcyan"; tile59.style.color="black"; tile60.style.background="plum"; tile60.style.color="black";
 tile61.style.background="darkcyan"; tile61.style.color="black"; tile62.style.background="plum"; tile62.style.color="black";
 tile63.style.background="darkcyan"; tile63.style.color="black"; tile64.style.background="plum"; tile64.style.color="black";}}
-/* Notation Selector */
+/* Notation Selectors */
 function notationOne(element) {
 if
 (element.style.background==="red") {element.style.background="forestgreen";}
