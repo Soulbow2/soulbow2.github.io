@@ -105,70 +105,22 @@ const tile64=document.getElementById("64");
 
 /* Pieces To Default */
 function boardSet() {
-tile1.innerHTML="Black Rook";
-tile2.innerHTML="Black Knight";
-tile3.innerHTML="Black Bishop";
-tile4.innerHTML="Black King";
-tile5.innerHTML="Black Queen";
-tile6.innerHTML="Black Bishop";
-tile7.innerHTML="Black Knight";
-tile8.innerHTML="Black Rook";
-tile9.innerHTML="Black Pawn";
-tile10.innerHTML="Black Pawn";
-tile11.innerHTML="Black Pawn";
-tile12.innerHTML="Black Pawn";
-tile13.innerHTML="Black Pawn";
-tile14.innerHTML="Black Pawn";
-tile15.innerHTML="Black Pawn";
-tile16.innerHTML="Black Pawn";
-tile17.innerHTML="";
-tile18.innerHTML="";
-tile19.innerHTML="";
-tile20.innerHTML="";
-tile21.innerHTML="";
-tile22.innerHTML="";
-tile23.innerHTML="";
-tile24.innerHTML="";
-tile25.innerHTML="";
-tile26.innerHTML="";
-tile27.innerHTML="";
-tile28.innerHTML="";
-tile29.innerHTML="";
-tile30.innerHTML="";
-tile31.innerHTML="";
-tile32.innerHTML="";
-tile33.innerHTML="";
-tile34.innerHTML="";
-tile35.innerHTML="";
-tile36.innerHTML="";
-tile37.innerHTML="";
-tile38.innerHTML="";
-tile39.innerHTML="";
-tile40.innerHTML="";
-tile41.innerHTML="";
-tile42.innerHTML="";
-tile43.innerHTML="";
-tile44.innerHTML="";
-tile45.innerHTML="";
-tile46.innerHTML="";
-tile47.innerHTML="";
-tile48.innerHTML="";
-tile49.innerHTML="White Pawn";
-tile50.innerHTML="White Pawn";
-tile51.innerHTML="White Pawn";
-tile52.innerHTML="White Pawn";
-tile53.innerHTML="White Pawn";
-tile54.innerHTML="White Pawn";
-tile55.innerHTML="White Pawn";
-tile56.innerHTML="White Pawn";
-tile57.innerHTML="White Rook";
-tile58.innerHTML="White Knight";
-tile59.innerHTML="White Bishop";
-tile60.innerHTML="White Queen";
-tile61.innerHTML="White King";
-tile62.innerHTML="White Bishop";
-tile63.innerHTML="White Knight";
-tile64.innerHTML="White Rook";}
+tile1.innerHTML="Black Rook"; tile2.innerHTML="Black Knight"; tile3.innerHTML="Black Bishop"; tile4.innerHTML="Black King";
+tile5.innerHTML="Black Queen"; tile6.innerHTML="Black Bishop"; tile7.innerHTML="Black Knight"; tile8.innerHTML="Black Rook";
+tile9.innerHTML="Black Pawn"; tile10.innerHTML="Black Pawn"; tile11.innerHTML="Black Pawn"; tile12.innerHTML="Black Pawn";
+tile13.innerHTML="Black Pawn"; tile14.innerHTML="Black Pawn"; tile15.innerHTML="Black Pawn"; tile16.innerHTML="Black Pawn";
+tile17.innerHTML=""; tile18.innerHTML=""; tile19.innerHTML=""; tile20.innerHTML="";
+tile21.innerHTML=""; tile22.innerHTML=""; tile23.innerHTML=""; tile24.innerHTML="";
+tile25.innerHTML=""; tile26.innerHTML=""; tile27.innerHTML=""; tile28.innerHTML="";
+tile29.innerHTML=""; tile30.innerHTML=""; tile31.innerHTML=""; tile32.innerHTML="";
+tile33.innerHTML=""; tile34.innerHTML=""; tile35.innerHTML=""; tile36.innerHTML="";
+tile37.innerHTML=""; tile38.innerHTML=""; tile39.innerHTML=""; tile40.innerHTML="";
+tile41.innerHTML=""; tile42.innerHTML=""; tile43.innerHTML=""; tile44.innerHTML="";
+tile45.innerHTML=""; tile46.innerHTML=""; tile47.innerHTML=""; tile48.innerHTML="";
+tile49.innerHTML="White Pawn"; tile50.innerHTML="White Pawn"; tile51.innerHTML="White Pawn"; tile52.innerHTML="White Pawn";
+tile53.innerHTML="White Pawn"; tile54.innerHTML="White Pawn"; tile55.innerHTML="White Pawn"; tile56.innerHTML="White Pawn";
+tile57.innerHTML="White Rook"; tile58.innerHTML="White Knight"; tile59.innerHTML="White Bishop"; tile60.innerHTML="White Queen";
+tile61.innerHTML="White King"; tile62.innerHTML="White Bishop"; tile63.innerHTML="White Knight"; tile64.innerHTML="White Rook";}
 
 /* Colour Change */
 function boardSetToggle() {
