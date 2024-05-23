@@ -158,10 +158,10 @@ tile63.innerHTML="White Knight";
 tile64.innerHTML="White Rook";}
 
 function boardSetToggle() {
-if (tile.style.background==="plum") {
+if (tile1.style.background==="plum") {
 tile1.style.background="silver";
 tile1.style.color="deeppink";
-til2e.style.background="gold";
+tile2.style.background="gold";
 tile2.style.color="deeppink";
 tile3.style.background="silver";
 tile3.style.color="deeppink";
