@@ -1,19 +1,15 @@
 /* Const Lists */
 /*- Turn Indicator */
 const turn=document.getElementById("turn");
-
 /* Board Side & Bottom Notation */
 const one=document.getElementById("one"); const two=document.getElementById("two");  const three=document.getElementById("three"); const four=document.getElementById("four");
 const five=document.getElementById("five"); const six=document.getElementById("six");  const seven=document.getElementById("seven"); const eight=document.getElementById("eight");
-
 const aa=document.getElementById("aa"); const bb=document.getElementById("bb");  const cc=document.getElementById("cc"); const dd=document.getElementById("dd");
 const ee=document.getElementById("ee"); const ff=document.getElementById("ff"); const gg=document.getElementById("gg"); const hh=document.getElementById("hh");
-
 /* GraveYard Id's */
 const whitePawn=document.getElementById("whitePawn"); const blackPawn=document.getElementById("blackPawn"); const whiteKing=document.getElementById("whiteKing"); const blackKing=document.getElementById("blackKing");
 const whiteQueen=document.getElementById("whiteQueen"); const blackQueen=document.getElementById("blackQueen"); const whiteRook=document.getElementById("whiteRook"); const blackRook=document.getElementById("blackRook");
 const whiteKnight=document.getElementById("whiteKnight"); const blackKnight=document.getElementById("blackKnight"); const whiteBishop=document.getElementById("whiteBishop"); const blackBishop=document.getElementById("blackBishop");
-
 /* Tiles 1-64 */
 const tile1=document.getElementById("tile1"); const tile2=document.getElementById("tile2"); const tile3=document.getElementById("tile3"); const tile4=document.getElementById("tile4");
 const tile5=document.getElementById("tile5"); const tile6=document.getElementById("tile6"); const tile7=document.getElementById("tile7"); const tile8=document.getElementById("tile8");
@@ -31,7 +27,6 @@ const tile49=document.getElementById("tile49"); const tile50=document.getElement
 const tile53=document.getElementById("tile53"); const tile54=document.getElementById("tile54"); const tile55=document.getElementById("tile55"); const tile56=document.getElementById("tile56");
 const tile57=document.getElementById("tile57"); const tile58=document.getElementById("tile58"); const tile59=document.getElementById("tile59"); const tile60=document.getElementById("tile60");
 const tile61=document.getElementById("tile61"); const tile62=document.getElementById("tile62"); const tile63=document.getElementById("tile63"); const tile64=document.getElementById("tile64");
-
 /* Functions */
 /* Pieces To Default */
 function boardSet() {
@@ -51,7 +46,6 @@ tile49.innerHTML="White Pawn"; tile50.innerHTML="White Pawn"; tile51.innerHTML="
 tile53.innerHTML="White Pawn"; tile54.innerHTML="White Pawn"; tile55.innerHTML="White Pawn"; tile56.innerHTML="White Pawn";
 tile57.innerHTML="White Rook"; tile58.innerHTML="White Knight"; tile59.innerHTML="White Bishop"; tile60.innerHTML="White Queen";
 tile61.innerHTML="White King"; tile62.innerHTML="White Bishop"; tile63.innerHTML="White Knight"; tile64.innerHTML="White Rook";}
-
 /* Colour Change */
 function boardSetToggle() {
 if 
@@ -121,7 +115,6 @@ tile57.style.background="darkcyan"; tile57.style.color="black"; tile58.style.bac
 tile59.style.background="darkcyan"; tile59.style.color="black"; tile60.style.background="plum"; tile60.style.color="black";
 tile61.style.background="darkcyan"; tile61.style.color="black"; tile62.style.background="plum"; tile62.style.color="black";
 tile63.style.background="darkcyan"; tile63.style.color="black"; tile64.style.background="plum"; tile64.style.color="black";}}
-
 /* Notation Selector */
 function notation(element) {
 if
@@ -162,7 +155,6 @@ else if
 (element.style.background==="red") {element.style.background="forestgreen";}
 else 
 {element.style.background="red";}}
-
 /* Piece Placement & GraveYard Automation & Turn Indicator */
 function selectTile(element) {
 if 
@@ -213,7 +205,6 @@ else if
 (element.innerHTML==="Black Knight") {blackKnight.style.background="black"; element.innerHTML="";}
 else if 
 (element.innerHTML==="Black Bishop") {blackBishop.style.background="black"; element.innerHTML="";}}
-
 /* GraveYard Select */
 function graveYard(element) {
 if
@@ -244,5 +235,4 @@ else if
 (blackBishop.style.background==="black") {blackBishop.style.background="forestgreen"; element.style.background="black";}
 else 
 {element.style.background="black";}}
-
 /* End Of JAvaScript */
