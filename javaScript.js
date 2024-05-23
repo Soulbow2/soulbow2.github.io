@@ -486,3 +486,5 @@ else if (bbishop.style.background==="black") {
 bbishop.style.background="forestgreen";
 element.style.background="black";}
 else {element.style.background="black";}}
+
+/* End Of JAvaScript */
