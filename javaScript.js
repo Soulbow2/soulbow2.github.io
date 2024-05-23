@@ -296,39 +296,39 @@ else
 /* Piece Placement & GraveYard Automation & Turn Indicator */
 function selectTile(element) {
 if 
-(wpawn.style.background==="black") {
-wpawn.style.background="forestgreen";
+(whitePawn.style.background==="black") {
+whitePawn.style.background="forestgreen";
 element.innerHTML="White Pawn";
 turn.innerHTML="Blacks Turn";}
 else if 
-(wking.style.background==="black") {
-wking.style.background="forestgreen";
+(whiteKing.style.background==="black") {
+whiteKing.style.background="forestgreen";
 element.innerHTML="White King";
 turn.innerHTML="Blacks Turn";}
 else if 
-(wqueen.style.background==="black") {
-wqueen.style.background="forestgreen";
+(whiteQueen.style.background==="black") {
+whiteQueen.style.background="forestgreen";
 element.innerHTML="White Queen";
 turn.innerHTML="Blacks Turn";}
 else if 
-(wrook.style.background==="black") {
-wrook.style.background="forestgreen";
+(whiteRook.style.background==="black") {
+whiteRook.style.background="forestgreen";
 element.innerHTML="White Rook";
 turn.innerHTML="Blacks Turn";}
 else if
-(wknight.style.background==="black") {
-wknight.style.background="forestgreen";
+(whiteKnight.style.background==="black") {
+whiteKnight.style.background="forestgreen";
 element.innerHTML="White Knight";
 turn.innerHTML="Blacks Turn";}
 else if 
-(wbishop.style.background==="black") {
-wbishop.style.background="forestgreen";
+(whiteBishop.style.background==="black") {
+whiteBishop.style.background="forestgreen";
 element.innerHTML="White Bishop";
 turn.innerHTML="Blacks Turn";}
   
 else if
-(bpawn.style.background==="black") {
-bpawn.style.background="forestgreen";
+(blackPawn.style.background==="black") {
+blackPawn.style.background="forestgreen";
 element.innerHTML="Black Pawn";
 turn.innerHTML="Whites Turn";}
 else if
@@ -342,40 +342,40 @@ bqueen.style.background="forestgreen";
 element.innerHTML="Black Queen";
 turn.innerHTML="Whites Turn";}
 else if 
-(brook.style.background==="black") {
-brook.style.background="forestgreen";
+(blackRook.style.background==="black") {
+blackRook.style.background="forestgreen";
 element.innerHTML="Black Rook";
 turn.innerHTML="Whites Turn";}
 else if 
-(bknight.style.background==="black") {
-bknight.style.background="forestgreen";
+(blackKnight.style.background==="black") {
+blackKnight.style.background="forestgreen";
 element.innerHTML="Black Knight";
 turn.innerHTML="Whites Turn";}
 else if
-(bbishop.style.background==="black") {
-bbishop.style.background="forestgreen";
+(blackBishop.style.background==="black") {
+blackBishop.style.background="forestgreen";
 element.innerHTML="Black Bishop";
 turn.innerHTML="Whites Turn";}
   
 else if
 (element.innerHTML==="White Pawn") {
-wpawn.style.background="black";
+whitePawn.style.background="black";
 element.innerHTML="";}
 else if 
 (element.innerHTML==="White King") {
-wking.style.background="black";
+whiteKing.style.background="black";
 element.innerHTML="";}
 else if
 (element.innerHTML==="White Queen") {
-wqueen.style.background="black";
+whiteQueen.style.background="black";
 element.innerHTML="";}
 else if 
 (element.innerHTML==="White Rook") {
-wrook.style.background="black";
+whiteRook.style.background="black";
 element.innerHTML="";}
 else if 
 (element.innerHTML==="White Knight") {
-wknight.style.background="black";
+whiteKnight.style.background="black";
 element.innerHTML="";}
 else if 
 (element.innerHTML==="White Bishop") {
@@ -383,15 +383,15 @@ wbishop.style.background="black";
 element.innerHTML="";}
 else if 
 (element.innerHTML==="Black Pawn") {
-bpawn.style.background="black";
+blackPawn.style.background="black";
 element.innerHTML="";}
 else if
 (element.innerHTML==="Black King") {
-bking.style.background="black";
+blackKing.style.background="black";
 element.innerHTML="";}
 else if
 (element.innerHTML==="Black Queen") {
-bqueen.style.background="black";
+blackQueen.style.background="black";
 element.innerHTML="";}
 else if 
 (element.innerHTML==="Black Rook") {
@@ -399,11 +399,11 @@ brook.style.background="black";
 element.innerHTML="";}
 else if 
 (element.innerHTML==="Black Knight") {
-bknight.style.background="black";
+blackKnight.style.background="black";
 element.innerHTML="";}
 else if 
 (element.innerHTML==="Black Bishop") {
-bbishop.style.background="black";
+blackBishop.style.background="black";
 element.innerHTML="";}
 }
 
@@ -417,49 +417,49 @@ else if
 bpawn.style.background="forestgreen";
 element.style.background="black";}
 else if
-(wking.style.background==="black") {
-wking.style.background="forestgreen";
+(whiteKing.style.background==="black") {
+whiteKing.style.background="forestgreen";
 element.style.background="black";}
 else if
 (wqueen.style.background==="black") {
 wqueen.style.background="forestgreen";
 element.style.background="black";}
 else if 
-(wrook.style.background==="black") {
-wrook.style.background="forestgreen";
+(whiteRook.style.background==="black") {
+whiteRook.style.background="forestgreen";
 element.style.background="black";}
 else if 
-(wknight.style.background==="black") {
-wknight.style.background="forestgreen";
+(whiteKnight.style.background==="black") {
+whiteKnight.style.background="forestgreen";
 element.style.background="black";}
 else if
-(wbishop.style.background==="black") {
-wbishop.style.background="forestgreen";
+(whiteBishop.style.background==="black") {
+whiteBishop.style.background="forestgreen";
 element.style.background="black";}
   
 else if 
-(bpawn.style.background==="black") {
-bpawn.style.background="forestgreen";
+(blackPawn.style.background==="black") {
+blackPAwn.style.background="forestgreen";
 element.style.background="black";}
 else if 
-(bking.style.background==="black") {
-bking.style.background="forestgreen";
+(blackKing.style.background==="black") {
+blackKing.style.background="forestgreen";
 element.style.background="black";}
 else if 
-(bqueen.style.background==="black") {
-bqueen.style.background="forestgreen";
+(blackQueen.style.background==="black") {
+blackQueen.style.background="forestgreen";
 element.style.background="black";}
 else if 
-(brook.style.background==="black") {
-brook.style.background="forestgreen";
+(blackRook.style.background==="black") {
+blackRook.style.background="forestgreen";
 element.style.background="black";}
 else if 
-(bknight.style.background==="black") {
-bknight.style.background="forestgreen";
+(blackKnight.style.background==="black") {
+blackKnight.style.background="forestgreen";
 element.style.background="black";}
 else if 
-(bbishop.style.background==="black") {
-bbishop.style.background="forestgreen";
+(blackBishop.style.background==="black") {
+blackBishop.style.background="forestgreen";
 element.style.background="black";}
 else 
 {element.style.background="black";}
