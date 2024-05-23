@@ -9,7 +9,7 @@ body {
 table{height: 370px; width: 370px; border: solid 4px black;}
 main {height: 40px; width: 40px; background: forestgreen;}
 section {height: 40px; width: 40px; background: darkcyan;}
-footer {height: 120px; width: 30px; background: forestgreen;}
+footer {height: 30px; width: 40px; background: forestgreen;}
 p {font-size: 7px; color: black; text-align: center; margin: 0 0 0 0;}
 h5 {font-size: 8px; colour: silver; text-align: center;}
 img {height: 40px; width: 40px;}
