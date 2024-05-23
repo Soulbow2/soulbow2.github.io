@@ -180,9 +180,9 @@ else if
 else if
 (blackPawn.style.background==="black") {blackPawn.style.background="forestgreen"; element.innerHTML="Black Pawn"; turn.innerHTML="Whites Turn";}
 else if
-(bking.style.background==="black") {blackKing.style.background="forestgreen"; element.innerHTML="Black King"; turn.innerHTML="Whites Turn";}
+(blackKing.style.background==="black") {blackKing.style.background="forestgreen"; element.innerHTML="Black King"; turn.innerHTML="Whites Turn";}
 else if
-(bqueen.style.background==="black") {bqueen.style.background="forestgreen"; element.innerHTML="Black Queen"; turn.innerHTML="Whites Turn";}
+(blackQueen.style.background==="black") {blackQueen.style.background="forestgreen"; element.innerHTML="Black Queen"; turn.innerHTML="Whites Turn";}
 else if 
 (blackRook.style.background==="black") {blackRook.style.background="forestgreen"; element.innerHTML="Black Rook"; turn.innerHTML="Whites Turn";}
 else if 
@@ -223,7 +223,7 @@ else if
 else if
 (whiteKing.style.background==="black") {whiteKing.style.background="forestgreen"; element.style.background="black";}
 else if
-(wqueen.style.background==="black") {whiteQueen.style.background="forestgreen"; element.style.background="black";}
+(whiteQueen.style.background==="black") {whiteQueen.style.background="forestgreen"; element.style.background="black";}
 else if 
 (whiteRook.style.background==="black") {whiteRook.style.background="forestgreen"; element.style.background="black";}
 else if 
