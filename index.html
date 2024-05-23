@@ -97,17 +97,25 @@
 <td><main id="fsix" onclick="notation(this)"><p style="font-size: 30px">F</p></main></td>
 <td><main id="gseven" onclick="notation(this)"><p style="font-size: 30px">G</p></main></td>
 <td><main id="height" onclick="notation(this)"><p style="font-size: 30px">H</p></main></td>
-</tr></table>
-<table style="background: linear-gradient(180deg, yellow, red, yellow, silver); width: 80px"><thead><tr>
-<th colspan="6"><h1>GraveYard</h1></th>  
-</tr></thead><tr>
-<td></td><td><footer id="wking" onclick="graveYard(this)"><h5>White King</h5></footer></td><td></td><td><footer id="bking" onclick="graveYard(this)"><h5>Black King</h5></footer></td></tr><tr>
-<td></td><td><footer id="wqueen" onclick="graveYard(this)"><h5>White Queen</h5></footer></td><td></td><td><footer id="bqueen" onclick="graveYard(this)"><h5>Black Queen</h5></footer></td></tr><tr>
-<td></td><td><footer id="wrook" onclick="graveYard(this)"><h5>White Rook</h5></footer></td><td></td><td><footer id="brook" onclick="graveYard(this)"><h5>Black Rook</h5></footer></td></tr><tr>
-<td></td><td><footer id="wbishop" onclick="graveYard(this)"><h5>White Bishop</h5></footer></td><td></td><td><footer id="bbishop" onclick="graveYard(this)"><h5>Black Bishop</h5></footer></td></tr><tr>
-<td></td><td><footer id="wknight" onclick="graveYard(this)"><h5>White Knight</h5></footer></td><td></td><td><footer id="bknight" onclick="graveYard(this)"><h5>Black Knight</h5></footer></td></tr><tr>
-<td></td><td><footer id="wpawn" onclick="graveYard(this)"><h5>White Pawn</h5></footer></td><td></td><td><footer id="bpawn" onclick="graveYard(this)"><h5>Black Pawn</h5></footer></td></tr>
-<td></td><tr><td colspan="6"><p style="font-size: 17px" color: white; margin: 5px 5px 5px 12px" id="turnButton">White's Turn</p></td>
+</tr>
+</table>
+
+<table style="background: linear-gradient(180deg, yellow, red, yellow, silver); width: 80px">
+<thead>
+<tr>
+<th colspan="6"><h1>GraveYard</h1></th>  </tr></thead>
+<tr>
+<td></td>
+<td><footer id="whiteKing" onclick="graveYard(this)"><h5>White King</h5></footer></td><td></td><td><footer id="blackKing" onclick="graveYard(this)"><h5>Black King</h5></footer></td>
+</tr><tr>
+<td></td>
+<td><footer id="whiteQueen" onclick="graveYard(this)"><h5>White Queen</h5></footer></td><td></td><td><footer id="blackQueen" onclick="graveYard(this)"><h5>Black Queen</h5></footer></td>
+</tr><tr>
+<td></td><td><footer id="whiteRook" onclick="graveYard(this)"><h5>White Rook</h5></footer></td><td></td><td><footer id="blackRook" onclick="graveYard(this)"><h5>Black Rook</h5></footer></td></tr><tr>
+<td></td><td><footer id="whiteBishop" onclick="graveYard(this)"><h5>White Bishop</h5></footer></td><td></td><td><footer id="blackBishop" onclick="graveYard(this)"><h5>Black Bishop</h5></footer></td></tr><tr>
+<td></td><td><footer id="whiteKnight" onclick="graveYard(this)"><h5>White Knight</h5></footer></td><td></td><td><footer id="blackKnight" onclick="graveYard(this)"><h5>Black Knight</h5></footer></td></tr><tr>
+<td></td><td><footer id="whitePawn" onclick="graveYard(this)"><h5>White Pawn</h5></footer></td><td></td><td><footer id="blackPawn" onclick="graveYard(this)"><h5>Black Pawn</h5></footer></td></tr>
+<td></td><tr><td colspan="6"><p style="font-size: 17px" color: white; margin: 5px 5px 5px 12px" id="turn">White's Turn</p></td>
 </tr><tr><td colspan="2">
 <button style="background: black; color: white; border-radius: 45px 45px 45px 45px; font-size: 8px" onclick="boardSet()">Reset Board</button>
 </td><td colspan="2">
