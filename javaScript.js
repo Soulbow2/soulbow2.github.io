@@ -479,9 +479,9 @@ else {element.style.background="red";}}
 
 function notationDump(element) {
 if (element.style.opacity==="100%") {
-let notationDumpInput.textContent=notationDumpInput.textContent+" A1";}
+notationDumpInput.textContent="notationDumpInput.textContent+ A1";}
 else if (element.style.opacity==="99%") {
-let notationDumpInput.textContent=notationDumpInput.textContent+" A2";}}
+notationDumpInput.textContent="notationDumpInput.textContent+ A2";}}
 
 function selectTile(element) {
 if (element.innerHTML==="BLack Bishop" && bpawn.style.background==="black") {
