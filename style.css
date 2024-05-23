@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: arial;}
-table{height: 370px; width: 370px; border: solid 4px darkgrey;}
+table{height: 370px; width: 370px; border: solid 4px black;}
 main {height: 40px; width: 40px; background: forestgreen;}
 section {height: 40px; width: 40px; background: darkcyan;}
 footer {height: 120px; width: 80px; background: forestgreen;}
