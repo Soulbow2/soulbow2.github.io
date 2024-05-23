@@ -159,197 +159,134 @@ tile64.innerHTML="White Rook";}
 
 function boardSetToggle() {
 if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink"}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink"}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink"}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink"}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink"}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink"}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink"}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink"}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink"}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink"}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink"}
-else if (tile.style.background==="darkcyan") {
-tile.style.background="gold";
-tile.style.color="deeppink";}
-else if (tile.style.background==="plum") {
-tile.style.background="silver";
-tile.style.color="deeppink";}
+tile1.style.background="silver";
+tile1.style.color="deeppink";
+til2e.style.background="gold";
+tile2.style.color="deeppink";
+tile3.style.background="silver";
+tile3.style.color="deeppink";
+tile4.style.background="gold";
+tile4.style.color="deeppink";
+tile5.style.background="silver";
+tile5.style.color="deeppink";
+til6e.style.background="gold";
+tile6.style.color="deeppink";
+tile7.style.background="silver";
+tile7.style.color="deeppink";
+tile8.style.background="gold";
+tile8.style.color="deeppink";
+tile9.style.background="gold";
+tile9.style.color="deeppink";
+tile10.style.background="silver";
+tile10.style.color="deeppink";
+tile11.style.background="gold";
+tile11.style.color="deeppink";
+tile12.style.background="silver";
+tile12.style.color="deeppink";
+tile13.style.background="gold";
+tile13.style.color="deeppink";
+tile14.style.background="silver";
+tile14.style.color="deeppink";
+tile15.style.background="gold";
+tile15.style.color="deeppink";
+tile16.style.background="silver";
+tile16.style.color="deeppink"
+tile17.style.background="silver";
+tile17.style.color="deeppink";
+tile18.style.background="gold";
+tile18.style.color="deeppink";
+tile19.style.background="silver";
+tile19.style.color="deeppink";
+tile20.style.background="gold";
+tile20.style.color="deeppink";
+tile21.style.background="silver";
+tile21.style.color="deeppink";
+tile22.style.background="gold";
+tile22.style.color="deeppink";
+tile23.style.background="silver";
+tile23.style.color="deeppink";
+tile24.style.background="gold";
+tile24.style.color="deeppink";
+til25e.style.background="gold";
+tile25.style.color="deeppink";
+tile26.style.background="silver";
+tile26.style.color="deeppink";
+tile27.style.background="gold";
+tile27.style.color="deeppink";
+tile28.style.background="silver";
+tile28.style.color="deeppink";
+tile29.style.background="gold";
+tile29.style.color="deeppink";
+tile30.style.background="silver";
+tile30.style.color="deeppink";
+tile31.style.background="gold";
+tile31.style.color="deeppink";
+tile32.style.background="silver";
+tile32.style.color="deeppink"
+tile33.style.background="silver";
+tile33.style.color="deeppink";
+tile34.style.background="gold";
+tile34.style.color="deeppink";
+tile35.style.background="silver";
+tile35.style.color="deeppink";
+tile36.style.background="gold";
+tile36.style.color="deeppink";
+tile37.style.background="silver";
+tile37.style.color="deeppink";
+tile38.style.background="gold";
+tile38.style.color="deeppink";
+tile39.style.background="silver";
+tile39.style.color="deeppink";
+til40e.style.background="gold";
+tile40.style.color="deeppink";
+tile41.style.background="gold";
+tile41.style.color="deeppink";
+tile42.style.background="silver";
+tile42.style.color="deeppink";
+tile43.style.background="gold";
+tile43.style.color="deeppink";
+tile44.style.background="silver";
+tile44.style.color="deeppink";
+tile45.style.background="gold";
+tile45.style.color="deeppink";
+tile46.style.background="silver";
+tile46.style.color="deeppink";
+tile47.style.background="gold";
+tile47.style.color="deeppink";
+tile48.style.background="silver";
+tile48.style.color="deeppink";
+tile49.style.background="silver";
+tile49.style.color="deeppink";
+tile50.style.background="gold";
+tile50.style.color="deeppink";
+tile51.style.background="silver";
+tile51.style.color="deeppink";
+tile52.style.background="gold";
+tile52.style.color="deeppink";
+tile53.style.background="silver";
+tile53.style.color="deeppink";
+tile54.style.background="gold";
+tile54.style.color="deeppink";
+tile55.style.background="silver";
+tile55.style.color="deeppink";
+tile56.style.background="gold";
+tile56.style.color="deeppink";
+tile57.style.background="gold";
+tile57.style.color="deeppink";
+tile58.style.background="silver";
+tile58.style.color="deeppink";
+tile59.style.background="gold";
+tile59.style.color="deeppink";
+tile60.style.background="silver";
+tile60.style.color="deeppink";
+tile61.style.background="gold";
+tile61.style.color="deeppink";
+tile62.style.background="silver";
+tile62.style.color="deeppink";
+tile63.style.background="gold";
+tile63.style.color="deeppink";
+tile64.style.background="silver";
+tile64.style.color="deeppink";}
 else {tile1.style.background="plum";
 tile2.style.background="darkcyan";
 tile3.style.background="plum";
