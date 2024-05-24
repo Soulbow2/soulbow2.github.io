@@ -3,22 +3,15 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-family: cursive;}
-
 table{border: solid 4px black;}
-
 p {font-size: 7px;
 text-align: center; }
-
 h1 {font-size: 20px;}
-
 h5 {font-size: 8px; color: gold; 
 text-align: center;}
-
 main {background: forestgreen;}
-
 section {height: 40px;
 width: 40px;}
-
 footer {height: 30px;
 width: 40px; 
 background: forestgreen;}
