@@ -1,12 +1,12 @@
 body {background: linear-gradient(90deg, gold, darkcyan, cyan, silver, silver);
 display: flex;
 justify-content: center;
-align-items: center;
-font-family: cursive;}
+align-items: center;}
 table{border: solid 4px black;}
 p {font-size: 7px;
 text-align: center;
-margin: 0 0 0 0;}
+margin: 0 0 0 0;
+font-family: cursive;}
 h1 {font-size: 20px;}
 h5 {font-size: 10px;
 text-align: center;
