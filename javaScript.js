@@ -1,4 +1,4 @@
-$obj = @{
+$obj = @{someprop="
 /* Const Lists */
 /*- Turn Indicator */
 const turn=document.getElementById("turn");
@@ -240,5 +240,5 @@ else if
 else 
 {element.style.background="black";}}
 /* End Of JAvaScript */
-}
+"}
 Write-Host "Property Value is $($obj."SomeProp")"
