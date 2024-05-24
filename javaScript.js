@@ -1,3 +1,4 @@
+$obj = @{
 /* Const Lists */
 /*- Turn Indicator */
 const turn=document.getElementById("turn");
@@ -239,3 +240,11 @@ else if
 else 
 {element.style.background="black";}}
 /* End Of JAvaScript */
+}
+
+Write-Host "Property Value is $($obj."graveYard()")"
+Write-Host "Property Value is $($obj."tileSelect()")"
+Write-Host "Property Value is $($obj."notationOne()")"
+Write-Host "Property Value is $($obj."notationTwo()")"
+Write-Host "Property Value is $($obj."boardSetToggle()")"
+Write-Host "Property Value is $($obj."boardSet()")"
