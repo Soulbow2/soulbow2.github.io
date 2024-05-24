@@ -1,32 +1,25 @@
 body {
-  background: linear-gradient(90deg, gold, darkcyan, cyan, silver);
-  color: gold;
-  height: 100%;
+  background: linear-gradient(90deg, gold, darkcyan, cyan, silver, silver);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: arial;}
+  font-family: cursive;}
 table{
   border: solid 4px black;}
-main {
-  height: 40px; width: 40px; 
+main {; 
   background: forestgreen;}
 section {
-  height: 40px; width: 40px; 
-  background: darkcyan;}
+  height: 40px;
+  width: 40px;}
 footer {
-  height: 30px; width: 40px; 
+  height: 30px;
+  width: 40px; 
   background: forestgreen;}
 p {
-  font-size: 7px; color: black;
-  text-align: center; 
-  margin: 0 0 0 0;}
+  font-size: 7px;
+  text-align: center; }
 h5 {
-  font-size: 8px; colour: silver; 
+  font-size: 8px; color: gold; 
   text-align: center;}
-img {
-  height: 40px; 
-  width: 40px;}
 h1 {
-  font-size: 20px; 
-  color: black;}
+  font-size: 20px;}
