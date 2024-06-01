@@ -11,18 +11,18 @@ node.innHTML="2";}}
 function selectTileThree(element) {
 if 
 (element.style.background==="white") {
-node.innHTML="1";}}
+node.innHTML="3";}}
 function selectTileFour(element) {
 if 
 (element.style.background==="white") {
-node.innHTML="1";}}
+node.innHTML="4";}}
 function selectTileFive(element) {
 if 
 (element.style.background==="white") {
-node.innHTML="1";}}
-function selectTileFive(element) {
+node.innHTML="5";}}
+function selectTileSix(element) {
 if 
 (element.style.background==="white") {
-node.innHTML="1";}}
+node.innHTML="6";}}
 
 
