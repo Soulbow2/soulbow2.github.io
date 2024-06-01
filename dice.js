@@ -3,20 +3,20 @@ const node=document.getElementById("node");
 function selectTile(element) {
 if 
 (element.style.background==="white") {
-node.innhtml="1";}
+node.innHTML="1";}
 else if { 
 (element.style.background==="silver") {
-node.innhtml="2";}
+node.innHTML="2";}
 else if { 
 (element.style.background==="grey") {
-node.innhtml="3";}
+node.innHTML="3";}
 else if { 
 (element.style.background==="lightgrey") {
-node.innhtml="4";}
+node.innerHTML="4";}
 else if { 
 (element.style.background==="lightcyan") {
-node.innhtml="5";}
+node.innerHTML="5";}
 else if { 
 (element.style.background==="lightgreen") {
-node.innhtml="6";}
+node.innerHTML="6";}
 }
