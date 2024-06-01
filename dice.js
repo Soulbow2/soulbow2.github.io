@@ -1,3 +1,5 @@
+const node=document.getElementById("node");
+
 function selectTile(element) {
 if 
 (element.style.background==="white") {
