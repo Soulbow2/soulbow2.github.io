@@ -1,15 +1,15 @@
 function selectTileOne() {
-document.getElementById("node").innHTML="1";}
+document.getElementById("node").innerHTML="1";}
 function selectTileTwo() {
 document.getElementById("node").innerHTML="2";}
 function selectTileThree() {
-document.getElementById("node").innHTML="3";}
+document.getElementById("node").innerHTML="3";}
 function selectTileFour() {
-document.getElementById("node").innHTML="4";}
+document.getElementById("node").innerHTML="4";}
 function selectTileFive() {
-document.getElementById("node").innHTML="5";}
+document.getElementById("node").innerHTML="5";}
 function selectTileSix() {
-document.getElementById("node").innHTML="6";}
+document.getElementById("node").innerHTML="6";}
 
 document.getElementById("a1").addEventListener("click", selectTileOne);
 document.getElementById("b1").addEventListener("click", selectTileTwo);
