@@ -80,7 +80,7 @@ document.getElementById("f11").addEventListener("click", selectTileSix);
 document.getElementById("a12").addEventListener("click", selectTileOne);
 document.getElementById("b12").addEventListener("click", selectTileTwo);
 document.getElementById("c12").addEventListener("click", selectTileThree);
-document.getElementById("d12).addEventListener("click", selectTileFour);
+document.getElementById("d12").addEventListener("click", selectTileFour);
 document.getElementById("e12").addEventListener("click", selectTileFive);
 document.getElementById("f12").addEventListener("click", selectTileSix);
 document.getElementById("a13").addEventListener("click", selectTileOne);
