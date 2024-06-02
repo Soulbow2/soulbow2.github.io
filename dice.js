@@ -1,16 +1,14 @@
-const node=document.getElementById("node");
-
 function selectTileOne() {
-node.innHTML="1";}
+document.getElementById("node").innHTML="1";}
 function selectTileTwo() {
-node.innerHTML="2";}
+document.getElementById("node").innerHTML="2";}
 function selectTileThree() {
-node.innHTML="3";}
+document.getElementById("node").innHTML="3";}
 function selectTileFour() {
-node.innHTML="4";}
+document.getElementById("node").innHTML="4";}
 function selectTileFive() {
-node.innHTML="5";}
+document.getElementById("node").innHTML="5";}
 function selectTileSix() {
-node.innHTML="6";}
+document.getElementById("node").innHTML="6";}
 
 
