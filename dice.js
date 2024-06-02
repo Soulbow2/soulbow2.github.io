@@ -1,16 +1,16 @@
 const node=document.getElementById("node");
 
-function selectTileOne(element) {
+function selectTileOne() {
 node.innHTML="1";}
-function selectTileTwo(element) {
+function selectTileTwo() {
 nice.innerHTML="2";}
-function selectTileThree(element) {
+function selectTileThree() {
 node.innHTML="3";}
-function selectTileFour(element) {
+function selectTileFour() {
 node.innHTML="4";}
-function selectTileFive(element) {
+function selectTileFive() {
 node.innHTML="5";}
-function selectTileSix(element) {
+function selectTileSix() {
 node.innHTML="6";}
 
 
