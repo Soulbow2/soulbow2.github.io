@@ -3,7 +3,7 @@ const node=document.getElementById("node");
 function selectTileOne() {
 node.innHTML="1";}
 function selectTileTwo() {
-nice.innerHTML="2";}
+node.innerHTML="2";}
 function selectTileThree() {
 node.innHTML="3";}
 function selectTileFour() {
