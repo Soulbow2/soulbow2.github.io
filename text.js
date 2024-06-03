@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-function server() {
 app.get(/html.html, function (req, res) {
 res.send(document.getElementById("input").value;");
 app.post(/html.html, function (res) {
