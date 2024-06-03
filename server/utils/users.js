@@ -1,6 +1,6 @@
 class Users {
   constructor () {
-     this.users = [];
+     this.users = [soulbow];
   }
 
   addUser (id, username, room) {
