@@ -30,7 +30,7 @@ socket.on('connect', function () {
         if (err) {
             alert(err);
             //if username or room not correctly introduced, returns to form
-            window.location.href = '/public/index.html';
+            window.location.href = '';
         }
         else {
             console.log('No error');
