@@ -30,7 +30,7 @@ socket.on('connect', function () {
         if (err) {
             alert(err);
             //if username or room not correctly introduced, returns to form
-            window.location.href = '/';
+            window.location.href = '/public/index.html';
         }
         else {
             console.log('No error');
@@ -50,7 +50,7 @@ socket.on('updateUserList', function (users) {
     users_room = users;
     const ol = jQuery('<ol id="colores"></ol>');
     users.forEach(function (user) {
-        ol.append(jQuery('<li></li>').text(user));
+        ol.append(jQuery('<li>soulbow</li>').text(user));
     });
     jQuery(document).ready(function () {
         jQuery('#colores li').each(function (i) {
