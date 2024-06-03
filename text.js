@@ -1,9 +1,8 @@
 var express = require('express');
 var app = express();
 
-app.post(/:, function (req, res) {
-res.get();
+app.get(/:, function (req, res) {
+res.send();
 })
 
-const PORT = process.env.PORT || 3000
-app.listen(PORT)
+app.listen(3000)
