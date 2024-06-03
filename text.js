@@ -1,9 +1,9 @@
 var express = require('express');
 var app = express();
-
-app.get(/index.html, function (req, res) {
-  res.send('Hello World!');
-});
+function server() {
+app.post(/html.html, method=post, function (req, res) {
+res.send("document.getElementById("element").value= document.getElementById("input").value;");
+});}
 
 var port = process.env.PORT || 3000;
 
