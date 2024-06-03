@@ -3,6 +3,8 @@ var app = express();
 
 const element="document.getElementById("element");
 
+// GET https://example.com/user/1
+
 app.get(/:userid/html, function (req, res) {
 res.post(req.params.userid) // element
 })
