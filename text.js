@@ -1,13 +1,9 @@
-const http = require("http");
+ar express = require('express');
+var app = express();
 
-const hostname = "127.0.0.1";
-const port = 8000;
+app.get(/post/html, function (req, res) {
+res.post(document.getElementById("element").innerHTML= document.getElementById("input").value;
+);}
 
-const server = http.createServer(function (req, res) {
-res.writeHead(200, { "Content-Type": "text/plain" });
-res.send("Hello World");
-});
-
-server.listen(port, hostname, function () {
-console.log(`Server running at http://${hostname}:${port}/`);
-});
+const PORT = process.env.PORT || 3000
+app.listen(PORT)
