@@ -1,29 +1,10 @@
-const express = require('express');
-const res = require('express/lib/response');
-const app = express();
-const port = process.env.PORT || 127.0. 0.1.;
+var express = require('express');
+var app = express();
 
-app.use(express.urlencoded({extended: false}));
-
-app.listen(port,()=>{
-    console.log(`Listening on port ${port}`);
+app.get('/', function (req, res) {
+  res.send('Hello World!');
 });
 
-app.get('/',(req,res)=>{
-    res.sendFile(__dirname + "/public/index.html");
-});
+var port = process.env.PORT || 3000;
 
-app.get('/about',(req,res)=>{
-    res.json({page: 'about'});
-});
-
-app.get('/contact',(req,res)=>{
-    res.send(__dirname);
-});
-
-app.post("/login",(req,res)=>{
-    const {username, password} = req.body;
-    console.log(username, password);
-    if(username === 'user1' && password === '1234') res.send(`Welcome ${username}`)
-    else res.send('LOGIN FAILED');
-});
+app.listen(port);
