@@ -50,7 +50,7 @@ socket.on('updateUserList', function (users) {
     users_room = users;
     const ol = jQuery('<ol id="colores"></ol>');
     users.forEach(function (user) {
-        ol.append(jQuery('<li>soulbow</li>').text(user));
+        ol.append(jQuery('<li></li>').text(user));
     });
     jQuery(document).ready(function () {
         jQuery('#colores li').each(function (i) {
