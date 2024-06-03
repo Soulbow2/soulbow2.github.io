@@ -16,7 +16,7 @@ const server = http.createServer(app);
 const io = socketIO(server);
 const users = new Users();
 const publicPath = path.join(__dirname, '../public');
-const port = process.env.PORT || 9080;
+const port = process.env.PORT || soulbow.github.io/public/chat.html:9080;
 app.use(express.static(publicPath));
 io.on('connection', (socket) => {
     console.log('New user connected');
