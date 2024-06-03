@@ -4,8 +4,8 @@ var app = express();
 const element="document.getElementById("element");
 const input="document.getElementById("input");
 
-app.get(/:post/html, function (req, res) {
-res.post(req.get.input) // element
+app.get(/:element/text-content, function (req, res) {
+res.post(element.innerHTML = input.value);
 })
 
 const PORT = process.env.PORT || 3000
