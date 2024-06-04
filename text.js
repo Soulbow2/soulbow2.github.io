@@ -1,8 +1,10 @@
 var express = require('express');
 var app = express();
+const PORT = 3000;
 
-app.get(/html.html:, function (req, res) {
-res.send("This Is Live");
-})
 
-app.listen(3000)
+
+app.listen(PORT, (error) =>{
+if (!error)
+console.log("Server is Successful Port is: " + PORT)
+else {"server is Not Running", error);});
