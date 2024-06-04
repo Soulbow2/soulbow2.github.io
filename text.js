@@ -2,12 +2,14 @@ var express = require('express');
 var app = express();
 const PORT = 3000;
 
-app.get('/', (req, res)=>{
+app.get('/html.html', (req, res)=>{
 res.status(200);
-res.send("This is Live Input");
+res.set('Content-Type', 'text/html');
+res.send("<h1>This is Live Input</h1>");
 });
 
 app.listen(PORT, (error) =>{
 if (!error)
 console.log("Server is Successful Port is: " + PORT)
-else {"server is Not Running", error);});
+else console.log"server is Not Running", error);
+});
