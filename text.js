@@ -3,9 +3,9 @@ var app = express();
 const PORT = 3000;
 
 app.get('/html.html', (req, res)=>{
-res.status(200);
+
 res.set('Content-Type', 'text/html');
-res.send("<h1>This is Live Input</h1>");
+res.status(200).send("<h1>This is Live Input</h1>");
 });
 
 app.listen(PORT, (error) =>{
