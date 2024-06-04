@@ -2,7 +2,10 @@ var express = require('express');
 var app = express();
 const PORT = 3000;
 
-
+app.get('/', (req, res)=>{
+res.status(200);
+res.send("This is Live Input");
+});
 
 app.listen(PORT, (error) =>{
 if (!error)
