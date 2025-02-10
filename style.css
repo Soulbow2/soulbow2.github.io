@@ -1,0 +1,11 @@
+body {background: linear-gradient(90deg, pink, lightpink, plum, purple, violet);}
+table {border-collapse: collapse; border: solid 3px;}
+td {height: 38px; width: 38px; opacity: 95%;}
+section {height: 100%; width: 100%;}
+main {height: 100%; width: 100%; background: forestgreen;}
+footer {height: 100%; width: 100%; background: skyblue;}
+p {font-size: 12px; margin:0 0 0 0; text-align: center;}
+h2 {font-size: 18px; margin:0 0 0 0; text-align: center; color: red;}
+h1 {font-size: 22px; font-family: cursive; text-align: center; background: goldenrod; margin: 0 0 0 0; padding-top: 10px; color: red;}
+h6 {font-size: 14px; font-family: cursive; text-align: center; background: goldenrod; margin: 0 0 0 0; padding-top: 10px; padding-bottom: 10px; color: red;}
+.grid {display: flex; justify-content: center; padding-top: 20px; padding-bottom: 100%; background: linear-gradient(180deg, goldenrod, silver, goldenrod, goldenrod, silver, goldenrod, goldenrod, silver, goldenrod, goldenrod, silver, goldenrod, goldenrod, silver, goldenrod, goldenrod, silver, goldenrod); opacity: 75%;} 
