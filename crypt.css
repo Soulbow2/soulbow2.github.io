@@ -1,0 +1,7 @@
+body {background: black;}
+table {background: linear-gradient(90deg, deeppink, deeppink, deeppink, orange, orange, green, green, red, red, red); opacity: 75%;}
+section {background: silver; height: 44px; width: 31px; border: solid 2px;}
+main {background: orange; height: 44px; width: 31px; border: solid 2px; font-size: 12px; text-align: center;}
+h1 {font-size: 14px;}
+p {font-size: 14px; font-weight: bold; text-align: center; margin: 5px 0px 5px 0px;}
+td {font-size: 14px; text-align: center; font-weight: bold;}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="crypt.css">
+</head>
+<body>
+<table style="width: 350px; height: 420px">
+<tr>
+<td><main id="">Get $250</main></td>
+<td><main id="">The Crypt</main></td>
+<td><main onclick="property(this)">Cost $60</main></td>
+<td><main onclick="property(this)">Cost $60</main></td>
+<td><main onclick="draw()">Draw Card</main></td>
+<td><main onclick="property(this)">Cost $100</main></td>
+<td><main onclick="property(this)">Cost $100</main></td>
+<td><main onclick="property(this)">Cost $100</main></td>
+<td><main id="">Drunk Tank</main></td>
+<td><main id="">Lose $100</main></td>
+</tr><tr>
+<td><main id="">The Crypt</main></td>
+<td><section><p onclick="p1One(this)" id="one1">red</p>
+<p onclick="p2One(this)" id="two1">blue</p></section></td>
+<td><section><p onclick="p1Two(this)" id="one2"></p><p onclick="p2Two(this)" id="two2"></p></section></td>
+<td><section><p onclick="p1Three(this)" id="one3"></p><p onclick="p2Three(this)" id="two3"></p></section></td>
+<td><section><p onclick="p1Four(this)" id="one4"></p><p onclick="p2Four9this)" id="two4"></p></section></td>
+<td><section><p onclick="p1Five(this)" id="one5"></p><p onclick="p2Five(this)" id="two5"></p></section></td>
+<td><section><p onclick="p1Six(this)" id="one6"></p><p onclick="p2Six(this)" id="two6"></p></section></td>
+<td><section><p onclick="p1Seven(this)" id="one7"></p><p onclick="p2Seven(this)" id="two7"></p></section></td>
+<td><section><p onclick="p1Eight(this)" id="one8"></p><p onclick="p2Eight(this)" id="two8"></p></section></td>
+<td><main id="">Drunk Tank</main></td>
+</tr><tr>
+<td><main onclick="property(this)">Cost $250</main></td>
+<td><section><p onclick="p1Thirtytwo(this)" id="one32"></p><p onclick="p2Thirtytwo(this)" id="two32"></p></section></td>
+<td style="width: 20px; height: 100%; background: darkslategrey; color: deeppink" id="walletOne" onclick="wallet(this)">$1000</td>
+<td style="width: 20px; height: 36px; background: darkslategrey; color: deeppink" onclick="walletChange(this)">+$10</td>
+<td style="width: 20px; height: 100%; background: darkslategrey; color: deeppink" id="walletTwo" onclick="wallet(this)">$1000</td>
+<td></td>
+<td></td>
+<td></td>
+<td><section><p onclick="p1Nine(this)" id="one9"></p><p onclick="p2Nine(this)" id="two9"></p></section></td>
+<td><main onclick="property(this)">Cost $120</main></td>
+</tr><tr>
+<td><main onclick="property(this)">Cost $250</main></td>
+<td><section><p onclick="p1Thirtyone(this)" id="one31"></p><p onclick="p2Thirtyone(this)" id="two31"></p></section></td>
+<td>Red</td>
+<td></td>
+<td>Blue</td>
+<td></td>
+<td></td>
+<td></td>
+<td><section><p onclick="p1Ten(this)" id="one10"></p><p onclick="p2Ten(this)" id="two10"></p></section></td>
+<td><main onclick="property(this)">Cost $120</main></td>
+</tr><tr>
+<td><main id="">Lose $150</main></td>
+<td><section><p onclick="p1Thirty(this)" id="one30"></p><p onclick="p2Thirty(this)" id="two30"></p></section></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><section><p onclick="p1Eleven(this)" id="one11"></p><p onclick="p2Eleven(this)" id="two11"></p></section></td>
+<td><main onclick="property(this)">Cost $120</main></td>
+</tr><tr>
+<td><main onclick="draw()">Draw Card</main></td>
+<td><section><p onclick="p1Twentynine(this)" id="one29"></p><p onclick="p2Twentynine(this)" id="two29"></p></section></td>
+<td></td>
+<td></td>
+<td>
+<table style="display: flex; align-items: center; justify-content: center; background: linear-gradient(90deg, orange, white, white, white, white, white, white, white, white, orange); border-collapse: collapse;  opacity: 100%; height: 36px; width: 30px">
+<tr>
+<td id="a1" style="background: white"></td> <td id="c1" style="background: white"></td>
+<td id="b1" style="background: white"></td> <td id="e1" style="background: white"></td>
+<td id="d1" style="background: white"></td> <td id="f1" style="background: white"></td>
+<td id="f24" style="background: white"></td> <td id="b24" style="background: white"></td>
+<td id="c24" style="background: white"></td> <td id="e24" style="background: white"></td>
+<td id="d24" style="background: white"></td> <td id="a24" style="background: white"></td>
+</tr><tr>
+<td id="f2" style="background: white"></td> <td id="c2" style="background: white"></td>
+<td id="b2" style="background: white"></td> <td id="e2" style="background: white"></td>
+<td id="d2" style="background: white"></td> <td id="a2" style="background: white"></td>
+<td id="a3" style="background: white"></td> <td id="b3" style="background: white"></td>
+<td id="c3" style="background: white"></td> <td id="d3" style="background: white"></td>
+<td id="e3" style="background: white"></td> <td id="f3" style="background: white"></td>
+</tr><tr>
+<td id="a4" style="background: white"></td> <td id="b4" style="background: white"></td>
+<td id="c4" style="background: white"></td> <td id="d4" style="background: white"></td>
+<td id="e4" style="background: white"></td> <td id="f4" style="background: white"></td>
+<td id="f5" style="background: white"></td> <td id="c5" style="background: white"></td>
+<td id="b5" style="background: white"></td> <td id="e5" style="background: white"></td>
+<td id="d5" style="background: white"></td> <td id="a5" style="background: white"></td>
+</tr><tr>
+<td id="f6" style="background: white"></td> <td id="c6" style="background: white"></td>
+<td id="b6" style="background: white"></td> <td id="e6" style="background: white"></td>
+<td id="d6" style="background: white"></td> <td id="a6" style="background: white"></td>
+<td id="a7" style="background: white"></td> <td id="b7" style="background: white"></td>
+<td id="c7" style="background: white"></td> <td id="d7" style="background: white"></td>
+<td id="e7" style="background: white"></td> <td id="f7" style="background: white"></td>
+</tr><tr>
+<td id="a8" style="background: white"></td> <td id="b8" style="background: white"></td>
+<td id="c8" style="background: white"></td> <td id="d8" style="background: white"></td>
+<td id="e8" style="background: white"></td> <td id="f8" style="background: white"></td>
+<td id="f9" style="background: white"></td> <td id="c9" style="background: white"></td>
+<td id="b9" style="background: white"></td> <td id="e9" style="background: white"></td>
+<td id="d9" style="background: white"></td> <td id="a9" style="background: white"></td>
+</tr><tr>
+<td id="f10" style="background: white"></td> <td id="c10" style="background: white"></td>
+<td id="b10" style="background: white"></td> <td id="e10" style="background: white"></td> 
+<td id="d10" style="background: white"></td> <td id="a10" style="background: white"></td> 
+<td id="a11" style="background: white"></td> <td id="b11" style="background: white"></td> 
+<td id="c11" style="background: white"></td> <td id="d11" style="background: white"></td> 
+<td id="e11" style="background: white"></td> <td id="f11" style="background: white"></td>
+</tr><tr>
+<td id="a12" style="background: white"></td> <td id="b12" style="background: white"></td>
+<td id="c12" style="background: white"></td> <td id="d12" style="background: white"></td>
+<td id="e12" style="background: white"></td> <td id="f12" style="background: white"></td>
+<td id="f13" style="background: white"></td> <td id="c13" style="background: white"></td>
+<td id="b13" style="background: white"></td> <td id="e13" style="background: white"></td>
+<td id="d13" style="background: white"></td> <td id="a13" style="background: white"></td>
+</tr>
+<tr>
+<td id="f14" style="background: white"></td> <td id="c14" style="background: white"></td>
+<td id="b14" style="background: white"></td> <td id="e14" style="background: white"></td>
+<td id="d14" style="background: white"></td> <td id="a14" style="background: white"></td>
+<td id="a15" style="background: white"></td> <td id="b15" style="background: white"></td>
+<td id="c15" style="background: white"></td> <td id="d15" style="background: white"></td>
+<td id="e15" style="background: white"></td> <td id="f15" style="background: white"></td>
+</tr><tr>
+<td id="a16" style="background: white"></td> <td id="b16" style="background: white"></td>
+<td id="c16" style="background: white"></td> <td id="d16" style="background: white"></td>
+<td id="e16" style="background: white"></td> <td id="f16" style="background: white"></td>
+<td id="f17" style="background: white"></td> <td id="c17" style="background: white"></td>
+<td id="b17" style="background: white"></td> <td id="e17" style="background: white"></td>
+<td id="d17" style="background: white"></td> <td id="a17" style="background: white"></td>
+</tr><tr>
+<td id="f18" style="background: white"></td> <td id="c18" style="background: white"></td>
+<td id="b18" style="background: white"></td> <td id="e18" style="background: white"></td>
+<td id="d18" style="background: white"></td> <td id="a18" style="background: white"></td> 
+<td id="a19" style="background: white"></td> <td id="b19" style="background: white"></td> 
+<td id="c19" style="background: white"></td> <td id="d19" style="background: white"></td>
+<td id="e19" style="background: white"></td> <td id="f19" style="background: white"></td>
+</tr><tr>
+<td id="a20" style="background: white"></td> <td id="b20" style="background: white"></td>
+<td id="c20" style="background: white"></td> <td id="d20" style="background: white"></td>
+<td id="e20" style="background: white"></td> <td id="f20" style="background: white"></td>
+<td id="f21" style="background: white"></td> <td id="c21" style="background: white"></td>
+<td id="b21" style="background: white"></td> <td id="e21" style="background: white"></td>
+<td id="d21" style="background: white"></td> <td id="a21" style="background: white"></td>
+</tr><tr>
+<td id="f22" style="background: white"></td> <td id="c22" style="background: white"></td>
+<td id="b22" style="background: white"></td> <td id="e22" style="background: white"></td>
+<td id="d22" style="background: white"></td> <td id="a22" style="background: white"></td>
+<td id="a23" style="background: white"></td> <td id="b23" style="background: white"></td>
+<td id="c23" style="background: white"></td> <td id="d23" style="background: white"></td>
+<td id="e23" style="background: white"></td> <td id="f23" style="background: white"></td>
+</tr>
+<tr>
+<td id="a40" style="background: white"></td> <td id="b40" style="background: white"></td>
+<td id="c40" style="background: white"></td> <td id="d40" style="background: white"></td>
+<td id="e40" style="background: white"></td> <td id="f40" style="background: white"></td>
+<td id="f25" style="background: white"></td> <td id="c25" style="background: white"></td>
+<td id="b25" style="background: white"></td> <td id="e25" style="background: white"></td>
+<td id="d25" style="background: white"></td> <td id="a25" style="background: white"></td>
+</tr><tr>
+<td id="f26" style="background: white"></td> <td id="c26" style="background: white"></td>
+<td id="b26" style="background: white"></td> <td id="e26" style="background: white"></td> 
+<td id="d26" style="background: white"></td> <td id="a26" style="background: white"></td> 
+<td id="a27" style="background: white"></td> <td id="b27" style="background: white"></td>
+<td id="c27" style="background: white"></td> <td id="d27" style="background: white"></td>
+<td id="e27" style="background: white"></td> <td id="f27" style="background: white"></td>
+</tr>
+<tr>
+<td id="a28" style="background: white"></td> <td id="b28" style="background: white"></td>
+<td id="c28" style="background: white"></td> <td id="d28" style="background: white"></td>
+<td id="e28" style="background: white"></td> <td id="f28" style="background: white"></td>
+<td id="f29" style="background: white"></td> <td id="c29" style="background: white"></td>
+<td id="b29" style="background: white"></td> <td id="e29" style="background: white"></td>
+<td id="d29" style="background: white"></td> <td id="a29" style="background: white"></td>
+</tr><tr>
+<td id="f30" style="background: white"></td> <td id="c30" style="background: white"></td>
+<td id="b30" style="background: white"></td> <td id="e30" style="background: white"></td> 
+<td id="d30" style="background: white"></td> <td id="a30" style="background: white"></td>
+<td id="a31" style="background: white"></td> <td id="b31" style="background: white"></td>
+<td id="c31" style="background: white"></td> <td id="d31" style="background: white"></td>
+<td id="e31" style="background: white"></td> <td id="f31" style="background: white"></td>
+</tr>
+<tr>
+<td id="a32" style="background: white"></td> <td id="b32" style="background: white"></td>
+<td id="c32" style="background: white"></td> <td id="d32" style="background: white"></td>
+<td id="e32" style="background: white"></td> <td id="f32" style="background: white"></td>
+<td id="f33" style="background: white"></td> <td id="c33" style="background: white"></td>
+<td id="b33" style="background: white"></td> <td id="e33" style="background: white"></td>
+<td id="d33" style="background: white"></td> <td id="a33" style="background: white"></td>
+</tr><tr>
+<td id="f34" style="background: white"></td> <td id="c34" style="background: white"></td>
+<td id="b34" style="background: white"></td> <td id="e34" style="background: white"></td>
+<td id="d34" style="background: white"></td> <td id="a34" style="background: white"></td>
+<td id="a35" style="background: white"></td> <td id="b35" style="background: white"></td>
+<td id="c35" style="background: white"></td> <td id="d35" style="background: white"></td>
+<td id="e35" style="background: white"></td> <td id="f35" style="background: white"></td>
+</tr>
+</table>
+</td>
+<td><p id="diceValue"></p></td>
+<td></td>
+<td></td>
+<td><section><p onclick="p1Twelve(this)" id="one12"></p><p onclick="p2Twelve(this)" id="two12"></p></section></td>
+<td><main onclick="draw()">Draw Card</main></td>
+</tr><tr>
+<td><main>Go To Crypt</main></td>
+<td><section><p onclick="p1Twentyeight(this)" id="one28"></p><p onclick="p2Twentyeight(this)" id="two28"></p></section></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><section><p onclick="p1Thirteen(this)" id="one13"></p><p onclick="p2Thirteen(this)" id="two13"></p></section></td>
+<td><main>Go To Crypt</main></td>
+</tr><tr>
+<td><main onclick="property(this)">Cost $200</td>
+<td><section><p onclick="p1Twentyseven(this)" id="one27"></p><p onclick="p2Twentyseven(this)" id="two27"></p></section></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p id="card"></p></td>
+<td></td>
+<td></td>
+<td><section><p onclick="p1Fourteen(this)" id="one14"></p><p onclick="p2Fourteen(this)" id="two14"></p></section></td>
+<td><main onclick="property(this)">Cost $140</main</main></td>
+</tr><tr>
+<td><main onclick="property(this)">Cost $200</main></td>
+<td><section><p onclick="p1Twentysix(this)" id="one26"></p><p onclick="p2Twentysix(this)" id="two26"></p></section></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><section><p onclick="p1Fifteen(this)" id="one15"></p><p onclick="p2Fifteen(this)" id="two15"></p></section></td>
+<td><main onclick="property(this)">Cost $140</main</main></td>
+</tr><tr>
+<td><main onclick="property(this)">Cost $200</main></td>
+<td><section><p onclick="p1Twentyfive(this)" id="one25"></p><p onclick="p2Twentyfive" id="two25"></p></section></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><P style="color: red" id="node">Turn</P></td>
+<td><section><p onclick="p1Sixteen(this)" id="one16"></p><p onclick="p2Sixteen(this)" id="two16"></p></section></td>
+<td><main onclick="property(this)">Cost $140</main</main></td>
+</tr><tr>
+<td><main id="">Take Hit</main></td>
+<td><section><p onclick="p1Twentyfour(this)" id="one24"></p><p onclick="p2Twentyfour(this)" id="two24"></p></section></td>
+<td><section><p onclick="p1Twentythree(this)" id="one23"></p><p onclick="p2Twentythree(this)" id="two23"></p></section></td>
+<td><section><p onclick="p1Twentytwo(this)" id="one22"></p><p onclick="p2Twentytwo(this)" id="two22"></p></section></td>
+<td><section><p onclick="p1Twentyone(this)" id="one21"></p><p onclick="p2Twentyone(this)" id="two21"></p></section></td>
+<td><section><p onclick="p1Twenty(this)" id="one20"></p><p onclick="p2Twenty(this)" id="two20"></p></section></td>
+<td><section><p onclick="p1Nineteen(this)" id="one19"></p><p onclick="p2Nineteen(this)" id="two19"></p></section></td>
+<td><section><p onclick="p1Eighteen(this)" id="one18"></p><p onclick="p2Eighteen(this)" id="two18"></p></section></td>
+<td><section><p onclick="p1Seventeen(this)" id="one17"></p><p onclick="p2Seventeen(this)" id="two17"></p></section></td>
+<td><main id="">Rob Bank</main></td>
+</tr><tr>
+<td><main id="">Your Drunk</main></td>
+<td><main id="">Go To Tank</main></td>
+<td><main onclick="property(this)">Cost $180</main></td>
+<td><main onclick="property(this)">Cost $180</main></td>
+<td><main onclick="property(this)">Cost $180</main></td>
+<td><main onclick="draw()">Draw Card</main></td>
+<td><main onclick="property(this)">Cost $160</main></td>
+<td><main onclick="property(this)">Cost $160</main></td>
+<td><main id="">Rob Bank</main></td>
+<td><main id="">Plus $500</main></td>
+</tr>
+</table>
+<script src="crypt.js"></script>
+</body>
+</html>
