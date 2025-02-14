@@ -1,0 +1,16 @@
+body {background: linear-gradient(90deg, gold, darkcyan, cyan, silver, silver);
+display: flex;
+align-items: center;}
+table{border: solid 4px black;}
+p {font-size: 7px;
+text-align: center;
+margin: 0 0 0 0;}
+h5 {font-size: 9px;
+text-align: center;
+color: gold;}
+main {background: forestgreen;
+height: 35px;
+width: 35px;}
+footer {height: 35px;
+width: 35px; 
+background: forestgreen;}

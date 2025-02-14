@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta https-equiv="x-ua-compatible" content="ie=edge">
+<link rel="stylesheet" href="/chess/chess.css">
+</head>
+<body> 
+<table style="background: linear-gradient(180deg, white, silver, white, silver); opacity: 70%">
+<tr>
+<td colspan="9"><h1 style="color: red; font-size: 16px; text-align: center">SoulChess</h1></td>
+</tr><tr>
+<td><main id="one" onclick="notationOne(this)"><p style="font-size: 14px">1</p></main></td>
+<td><section style="opacity: 100%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 100%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile1"></p></section></td>
+<td><section style="opacity: 99%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 99%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile2"></p></section></td>
+<td><section style="opacity: 98%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 98%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile3"></p></section></td>
+<td><section style="opacity: 97%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 97%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile4"></p></section></td>
+<td><section style="opacity: 96%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 96%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile5"></p></section></td>
+<td><section style="opacity: 95%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 95%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile6"></p></section></td>
+<td><section style="opacity: 94%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 94%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile7"></p></section></td>
+<td><section style="opacity: 93%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 93%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile8"></p></section></td>
+</tr><tr>
+<td><main id="two" onclick="notationOne(this)"><p style="font-size: 14px">2</p></main></td>
+<td><section style="opacity: 92%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 92%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile9"></p></section></td>
+<td><section style="opacity: 91%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 91%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile10"></p></section></td>
+<td><section style="opacity: 90%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 90%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile11"></p</section></td>
+<td><section style="opacity: 89%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 89%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile12"></p></section></td>
+<td><section style="opacity: 88%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 88%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile13"></p></section></td>
+<td><section style="opacity: 87%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 87%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile14"></p></section></td>
+<td><section style="opacity: 86%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 86%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile15"></p></section></td>
+<td><section style="opacity: 85%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 85%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile16"></p></section></td>
+</tr><tr>
+<td><main id="three" onclick="notationOne(this)"><p style="font-size: 14px">3</p></main></td>
+<td><section style="opacity: 84%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 84%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile17"></p></section></td>
+<td><section style="opacity: 83%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 83%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile18"></p></section></td>
+<td><section style="opacity: 82%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 82%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile19"></p></section></td>
+<td><section style="opacity: 81%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 81%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile20"></p></section></td>
+<td><section style="opacity: 80%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 80%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile21"></p></section></td>
+<td><section style="opacity: 79%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 79%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile22"></p></section></td>
+<td><section style="opacity: 78%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 78%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile23"></p></section></td>
+<td><section style="opacity: 77%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 77%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile24"></p></section></td>
+</tr><tr>
+<td><main id="four" onclick="notationOne(this)"><p style="font-size: 14px">4</p></main></td>
+<td><section style="opacity: 76%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 76%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile25"></p></section></td>
+<td><section style="opacity: 75%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 75%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile26"></p></section></td>
+<td><section style="opacity: 74%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 74%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile27"></p></section></td>
+<td><section style="opacity: 73%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 73%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile28"></p></section></td>
+<td><section style="opacity: 72%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 72%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile29"></p></section></td>
+<td><section style="opacity: 71%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 71%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile30"></p></section></td>
+<td><section style="opacity: 70%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 70%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile31"></p></section></td>
+<td><section style="opacity: 69%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 69%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile32"></p></section></td>
+</tr><tr>
+<td><main id="five" onclick="notationOne(this)"><p style="font-size: 14px">5</p></main></td>
+<td><section style="opacity: 69%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 66%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile33"></p></section></td>
+<td><section style="opacity: 70%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 70%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile34"></p></section></td>
+<td><section style="opacity: 71%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 71%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile35"></p></section></td>
+<td><section style="opacity: 72%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 72%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile36"></p></section></td>
+<td><section style="opacity: 73%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 73%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile37"></p></section></td>
+<td><section style="opacity: 74%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 74%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile38"></p></section></td>
+<td><section style="opacity: 75%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 75%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile39"></p></section></td>
+<td><section style="opacity: 76%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 76%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile40"></p></section></td>
+</tr><tr>
+<td><main id="six" onclick="notationOne(this)"><p style="font-size: 14px">6</p></main></td>
+<td><section style="opacity: 77%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 77%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile41"></p></section></td>
+<td><section style="opacity: 78%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 78%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile42"></p></section></td>
+<td><section style="opacity: 79%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 79%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile43"></p></section></td>
+<td><section style="opacity: 80%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 80%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile44"></p></section></td>
+<td><section style="opacity: 81%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 81%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile45"></p></section></td>
+<td><section style="opacity: 82%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 82%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile46"></p></section></td>
+<td><section style="opacity: 83%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 83%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile47"></p></section></td>
+<td><section style="opacity: 84%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 84%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile48"></p></section></td>
+</tr><tr>
+<td><main id="seven" onclick="notationOne(this)"><p style="font-size: 14px">7</p></main></td>
+<td><section style="opacity: 85%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 85%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile49"></p></section></td>
+<td><section style="opacity: 86%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 86%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile50"></p></section></td>
+<td><section style="opacity: 87%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 87%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile51"></p></section></td>
+<td><section style="opacity: 88%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 88%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile52"></p></section></td>
+<td><section style="opacity: 89%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 89%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile53"></p></section></td>
+<td><section style="opacity: 90%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 90%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile54"</p></section></td>
+<td><section style="opacity: 91%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 91%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile55"></p></section></td>
+<td><section style="opacity: 92%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 92%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile56"></p></section></td>
+</tr><tr>
+<td><main id="eight" onclick="notationOne(this)"><p style="font-size: 14px">8</p></main></td>
+<td><section style="opacity: 93%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 93%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile57"></p></section></td>
+<td><section style="opacity: 94%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 94%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile58"></p></section></td>
+<td><section style="opacity: 95%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 95%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile59"></p></section></td>
+<td><section style="opacity: 96%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 96%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile60"></p></section></td>
+<td><section style="opacity: 97%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 97%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile61"></p></p></section></td>
+<td><section style="opacity: 98%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 98%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile62"></p></section></td>
+<td><section style="opacity: 99%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 99%; height: 33px; width: 33px; background: darkcyan" onclick="selectTile(this)" id="tile63"></p></section></td>
+<td><section style="opacity: 100%; height: 35px; width: 35px; background: white"><p style="font-size: 9px; opacity: 100%; height: 33px; width: 33px; background: plum" onclick="selectTile(this)" id="tile64"></p></section></td>
+</tr><tr>
+<td><main style="background: black"></main></td>
+<td><main id="aa" onclick="notationTwo(this)"><p style="font-size: 14px">A</p></main></td>
+<td><main id="bb" onclick="notationTwo(this)"><p style="font-size: 14px">B</p></main></td>
+<td><main id="cc" onclick="notationTwo(this)"><p style="font-size: 14px">C</p></main></td>
+<td><main id="dd" onclick="notationTwo(this)"><p style="font-size: 14px">D</p></main></td>
+<td><main id="ee" onclick="notationTwo(this)"><p style="font-size: 14px">E</p></main></td>
+<td><main id="ff" onclick="notationTwo(this)"><p style="font-size: 14px">F</p></main></td>
+<td><main id="gg" onclick="notationTwo(this)"><p style="font-size: 14px">G</p></main></td>
+<td><main id="hh" onclick="notationTwo(this)"><p style="font-size: 14px">H</p></main></td>
+</tr><tr>
+<td><footer id="whiteKing" onclick="graveYard(this)"><h5>White King</h5></footer></td><td><footer id="blackKing" onclick="graveYard(this)"><h5>Black King</h5></footer></td>
+<td><footer id="whiteQueen" onclick="graveYard(this)"><h5>White Queen</h5></footer></td><td><footer id="blackQueen" onclick="graveYard(this)"><h5>Black Queen</h5></footer></td>
+<td><footer id="whiteRook" onclick="graveYard(this)"><h5>White Rook</h5></footer></td><td><footer id="blackRook" onclick="graveYard(this)"><h5>Black Rook</h5></footer></td>
+<td colspan="2"><button style="background: black; color: white; border-radius: 45px 45px 45px 45px; font-size: 8px" onclick="boardSetToggle()">Board Colours</button></td>
+<tr></tr>
+<td><footer id="whiteBishop" onclick="graveYard(this)"><h5>White Bishop</h5></footer></td><td><footer id="blackBishop" onclick="graveYard(this)"><h5>Black Bishop</h5></footer></td>
+<td><footer id="whiteKnight" onclick="graveYard(this)"><h5>White Knight</h5></footer></td><td><footer id="blackKnight" onclick="graveYard(this)"><h5>Black Knight</h5></footer></td>
+<td><footer id="whitePawn" onclick="graveYard(this)"><h5>White Pawn</h5></footer></td><td><footer id="blackPawn" onclick="graveYard(this)"><h5>Black Pawn</h5></footer></td>
+<td colspan="2"><button style="background: black; color: white; border-radius: 45px 45px 45px 45px; font-size: 8px" onclick="boardSet()">Reset Board</button></td>
+</tr><tr>
+<td colspan="6"><p style="font-size: 17px; margin: 5px 5px 5px 12px" id="turn">White's Turn</p></td>
+</tr><tr>
+<td colspan="6"><p style="font-size: 9px">Writen By Dylan Smith</p></td>
+</tr>
+</table>
+<br>
+<script src="/chess/chess.js"></script>
+</body>
+</html>
