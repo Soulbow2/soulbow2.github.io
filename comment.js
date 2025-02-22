@@ -7,10 +7,8 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
-
-function post() {
+  console.log(`
 let textOutput= document.getElementById("outputText");
 const textInput =document.getElementById("inputText");
-textOutput.innerHTML= textOutput.innerHTML + " " + textInput.value;}
+textOutput.innerHTML= textOutput.innerHTML + " " + textInput.value; ${port}`)
+})
