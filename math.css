@@ -1,0 +1,13 @@
+body{background:linear-gradient(90deg, red, pink, deeppink, deeppink, deeppink);}
+.container {
+  display:grid;
+  grid-template: 40px 40px 40px/ 40px 40px 40px;}
+p {text-align:center; font-size: 12px;}
+section {height:30px;width:30px; border:solid 2px; background:forestgreen;}
+.master {
+display:flex;
+align-items:center;}
+button {width: 50px; height:20px; margin: 5px 5px 5px 5px;}
+.shrink {width: 25px;}
+main {height:5px;}
+.containerFour{ display: flex;}
