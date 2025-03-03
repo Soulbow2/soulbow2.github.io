@@ -6,8 +6,14 @@ p {text-align:center; font-size: 12px;}
 section {height:30px;width:30px; border:solid 2px; background:forestgreen;}
 .master {
 display:flex;
-align-items:center;}
+align-items:center;
+margin-top:60px;
+}
 button {width: 50px; height:20px; margin: 5px 5px 5px 5px;}
 .shrink {width: 25px;}
 main {height:5px;}
 .containerFour{ display: flex;}
+div {border:solid 2px;width:200px;}
+h1 {border: solid 2px;}
+header{border:solid 12px; width:200px;}
+h2 {margin:0 0 0 125px; padding: 0 0 0 0; font-size: 17px;position:absolute;}
