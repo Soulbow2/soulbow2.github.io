@@ -15,5 +15,4 @@ main {height:5px;}
 .containerFour{ display: flex;}
 div {border:solid 2px red;width:200px;}
 header{border:solid 12px red; width:200px;background:linear-gradient(90deg, red, pink, deeppink, deeppink, deeppink);}
-h2 {margin:22px 0 0 65px; padding: 0 0 0 0; font-size: 17px;position:absolute; font-style: italic;}
-h1 {font-size: 20px;}
+h2 {margin:30px 0 0 50px; padding: 0 0 0 0; font-size: 17px;position:absolute; font-style: italic;}
