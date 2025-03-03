@@ -1,9 +1,9 @@
-body{background:black;}
+body {background:black;}
 .container {
   display:grid;
   grid-template: 40px 40px 40px/ 40px 40px 40px;}
 p {text-align:center; font-size: 12px;}
-section {height:30px;width:30px; border:solid 2px; background:forestgreen;}
+section {height:30px;width:30px; border:solid 2px red; background:forestgreen;}
 .master {
 background:linear-gradient(90deg, red, pink, deeppink, deeppink, deeppink);
 display:flex;
@@ -11,10 +11,8 @@ align-items:center;
 margin-top:60px;
 }
 button {width: 50px; height:20px; margin: 5px 5px 5px 5px;}
-.shrink {width: 25px;}
 main {height:5px;}
 .containerFour{ display: flex;}
-div {border:solid 2px;width:200px;}
-h1 {border: solid 2px;}
-header{border:solid 12px; width:200px;}
+div {border:solid 2px red;width:200px;}
+header{border:solid 12px red; width:200px;background:linear-gradient(90deg, red, pink, deeppink, deeppink, deeppink);}
 h2 {margin:30px 0 0 65px; padding: 0 0 0 0; font-size: 17px;position:absolute; font-style: italic;}
