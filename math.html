@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +17,7 @@
 </span>
 <div class="master">
 <div class="container one">
-<section onclick="valueOne()"><p>1</p></section>
+<section id="click"><p id="place1">1</p></section>
 <section onclick="valueTwo()"><p>2</p></section>
 <section onclick="valueThree()"><p>3</p></section>
 <section onclick="valueFour()"><p>4</p></section>
@@ -38,6 +37,13 @@
 <br>
 <button style="background:red" onclick="calculate()">Equals</button>
 </div></div></header>
+
+<p style="background:red">Select/Tap The Number: </p>
+<p style="background:red"><em style="background:red; font-size: 40px" id="node" onclick="timesTablesNode(this)">1</em><em> (Times Table)</em></p>
+<br>
+<button onclick="timesTables()" id="btn">1</button><button style="margin-left:10px" onclick="blank()">Reset</button>
+<p style="background:red">Achive A Pre Determined Number!</p>
+<p style="background:red">Hit The Number Button To Mulltiple...</p>
 <script src="math.js"></script>
 </body>
 </html>
