@@ -2,7 +2,92 @@ const output=document.getElementById("output");
 const first=document.getElementById("first");
 const second=document.getElementById("second");
 const third=document.getElementById("third");
+const node=document.getElementById("node");
 
+function blank() {
+btn.innerHTML="1";
+}
+
+function timesTables() {
+const btn = document.getElementById("btn").innerHTML;
+const array=[btn];
+if (node.innerHTML==="0"){
+const arrayList=array.map(element => element * 0);
+array.pop();
+array.push(arrayList);
+document.getElementById("btn").innerHTML=array;}
+else if (node.innerHTML==="1"){
+const arrayList=array.map(element => element * 1);
+array.pop();
+array.push(arrayList);
+document.getElementById("btn").innerHTML=array;}
+else if (node.innerHTML==="2"){
+const arrayList=array.map(element => element * 2);
+array.pop();
+array.push(arrayList);
+document.getElementById("btn").innerHTML=array;}
+else if (node.innerHTML==="3"){
+const arrayList=array.map(element => element * 3);
+array.pop();
+array.push(arrayList);
+document.getElementById("btn").innerHTML=array;}
+else if (node.innerHTML==="4"){
+const arrayList=array.map(element => element * 4);
+array.pop();
+array.push(arrayList);
+document.getElementById("btn").innerHTML=array;}
+else if (node.innerHTML==="5"){
+const arrayList=array.map(element => element * 5);
+array.pop();
+array.push(arrayList);
+document.getElementById("btn").innerHTML=array;}
+else if (node.innerHTML==="6"){
+const arrayList=array.map(element => element * 6);
+array.pop();
+array.push(arrayList);
+document.getElementById("btn").innerHTML=array;}
+else if (node.innerHTML==="7"){
+const arrayList=array.map(element => element * 7);
+array.pop();
+array.push(arrayList);
+document.getElementById("btn").innerHTML=array;}
+else if (node.innerHTML==="8"){
+const arrayList=array.map(element => element * 8);
+array.pop();
+array.push(arrayList);
+document.getElementById("btn").innerHTML=array;} 
+else if (node.innerHTML==="9"){
+const arrayList=array.map(element => element * 9);
+array.pop();
+array.push(arrayList);
+document.getElementById("btn").innerHTML=array;}
+else if (node.innerHTML==="10"){
+const arrayList=array.map(element => element * 10);
+array.pop();
+array.push(arrayList);
+document.getElementById("btn").innerHTML=array;}}
+
+function timesTablesNode(element) {
+if (element.innerHTML==="1") {
+element.innerHTML="2";}
+else if (element.innerHTML==="2") {
+element.innerHTML="3";}
+else if (element.innerHTML==="3") {
+element.innerHTML="4";}
+else if (element.innerHTML==="4") {
+element.innerHTML="5";}
+else if (element.innerHTML==="5") {
+element.innerHTML="6";}
+else if (element.innerHTML==="6") {
+element.innerHTML="7";}
+else if (element.innerHTML==="7") {
+element.innerHTML="8";}
+else if (element.innerHTML==="8") {
+element.innerHTML="9";}
+else if (element.innerHTML==="9") {
+element.innerHTML="10";}
+else if (element.innerHTML==="10") {
+element.innerHTML="1";}}
 function calculate(){
 let array = [1];
 let arrayTwo = [2];
