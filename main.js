@@ -1700,6 +1700,9 @@ else {black.style.background="green";}}
 
 
 function reset() {
+node2.innerHTML="";
+node.innerHTML="move";
+black.style.background="green";
 document.getElementById("id1").style.background="red";
 document.getElementById("id1").style.border="solid black";
 document.getElementById("id2").style.background="red";
