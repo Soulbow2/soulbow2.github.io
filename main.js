@@ -1651,7 +1651,7 @@ break;}
 switch(true) {
 case twentysix.style.background=="skyblue" && node2.innerHTML!="new":
 twentysix.style.background="deeppink";
-twentysiz.style.border="solid deeppink";
+twentysix.style.border="solid deeppink";
 node.innerHTML="move";
 break;}
 switch(true) {
